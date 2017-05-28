@@ -1,0 +1,1 @@
+cmd_/home/tsp/tlinux/mylinux/Tools/1-Driver/4_WaitQueues/4/mysched.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/tsp/tlinux/mylinux/Tools/1-Driver/4_WaitQueues/4/mysched.ko /home/tsp/tlinux/mylinux/Tools/1-Driver/4_WaitQueues/4/mysched.o /home/tsp/tlinux/mylinux/Tools/1-Driver/4_WaitQueues/4/mysched.mod.o

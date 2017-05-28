@@ -1,0 +1,2 @@
+/home/tsp/tlinux/mylinux/Tools/ChDrivers/7.async_notifications/1/drv1/chr_drv_async.ko
+/home/tsp/tlinux/mylinux/Tools/ChDrivers/7.async_notifications/1/drv1/chr_drv_async.o

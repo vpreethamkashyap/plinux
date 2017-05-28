@@ -1,0 +1,1 @@
+cmd_/root/ElkiTemplates/Sources/Driver/WaitQueues/mysched.ko := arm-linux-gnueabihf-ld -EL -r  -T /root/ElkiTemplates/Kernel/linux-3.12.9/scripts/module-common.lds --build-id  -o /root/ElkiTemplates/Sources/Driver/WaitQueues/mysched.ko /root/ElkiTemplates/Sources/Driver/WaitQueues/mysched.o /root/ElkiTemplates/Sources/Driver/WaitQueues/mysched.mod.o

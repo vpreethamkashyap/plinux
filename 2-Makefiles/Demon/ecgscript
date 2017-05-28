@@ -1,0 +1,16 @@
+set term png size 600,400
+set output "../plot/ecgplot.png"
+set multiplot layout 2,1 
+set tmargin 1
+set grid
+#set title "Channel 1"
+#unset xtics
+#unset ytics
+#set grid noxtics noytics
+plot '../data/FirstDump_2' with lines notitle
+#set title "Channel 2"
+#unset xtics
+#unset ytics
+plot '../data/SecDump_2' with lines notitle
+unset multiplot
+

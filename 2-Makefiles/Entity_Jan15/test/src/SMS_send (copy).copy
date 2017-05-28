@@ -1,0 +1,595 @@
+#include"../inc/Header.h"
+
+#define GSM_BLOCK_READ
+#define ENABLE_TIMEOUT
+#define OK_RESPONSE_TIMEOUT_SEC 1
+
+extern int GSM_fd;
+extern char GsmSerialPortName[64];
+
+char CharArr;
+char SmsFormat[5]  = "text";
+unsigned char GsmRxBuffer[255];
+unsigned char GsmTxBuffer[512];
+unsigned char MobileNumber[16];
+
+int SmsSwitch=0;
+int TestStartTime =0;
+long PrevSecVal = 0;
+
+struct timeval start;
+
+int SendSms(void);
+int OpenSmsPort(void);
+int CallTimeOut(void);
+int SendAtCommand(int);
+int SelectSmsFormat(int);
+int GetSignalStrength(int);
+void SendCommandDelay(int);
+void SendSmsUser(void);
+void TestGSMBoard(void);
+
+
+/********************************************************************************************************
+**
+**	Function Name		: 	TestGSMBoard
+** 	Description 		:	 	Tests the GSM Board
+**
+*********************************************************************************************************/
+
+void TestGSMBoard(void)
+{
+	strcpy(GsmTxBuffer,"Wellth GSM Test");
+	strcpy(MobileNumber,"9591151205");
+	strcpy(GsmSerialPortName,"/dev/ttyUSB0");
+			
+	printf("SMS to---------- %s", MobileNumber);
+	printf("SMS is --\n %s", GsmTxBuffer);
+	
+	SmsSwitch = 0;
+	while(1)
+	{
+		switch(SmsSwitch)
+		{
+			case 0:
+				// open the sms port
+				if(OpenSmsPort())
+				{
+					return;
+				}
+				SmsSwitch = SmsSwitch +1; 
+			break;
+			
+			case 1:
+				// send the AT command
+				printf("send the AT command \n");
+				if(SendAtCommand(3))
+				{
+					printf("Erorrrrrrr\n");
+					return;
+				}
+				SmsSwitch = SmsSwitch +2; 
+			break;
+				
+			case 2:
+				// get the signal strength
+				printf("Get the signal strength\n");
+				if(GetSignalStrength(3))
+				{
+					return;
+				}
+				SmsSwitch = SmsSwitch +1; 
+			break;
+								
+			case 3:
+				// select the SMS SmsFormat
+				printf("Select the SMS SmsFormat\n");
+				if(SelectSmsFormat(3))
+				{
+					return;
+				}
+				SmsSwitch = SmsSwitch +1; 
+			break;
+			
+			case 4:
+				printf("Send SMS To user\n");
+				// send sms to User
+				if(SendSms())
+				{
+					return;
+				}	
+				SmsSwitch = SmsSwitch +1; 
+			break;
+			
+			case 5:
+				// Close the serial port
+				nu_SerialComPort_Close (GSM_fd);
+				return;
+		}		
+	}
+	return;  
+}
+
+/********************************************************************************************************
+**
+**	Function Name		: 	SendSmsUser
+** 	Description 		:	 	Send the SMS to USER
+**
+*********************************************************************************************************/
+void SendSmsToUser(void)
+{
+	FILE	*sms_fp,*fp;
+	
+	// This below file opening read sms from file	
+	sms_fp = fopen(SMS_SEND_FILE, "r"); 	
+	if(sms_fp == NULL)
+	{
+		printf("Sms file can't open");
+	} 
+	else 
+	{
+		fread(GsmTxBuffer, sizeof(GsmTxBuffer), 1, sms_fp);
+		fclose(sms_fp);
+	}
+
+	// This below file opening get the user mobile MobileNumber
+	fp = fopen (IN_ENTERY_FILE, "r"); 
+	if(fp<0)
+	{
+		printf(" System is not able to open file \n");
+	}
+	else
+	{
+		fread(MobileNumber,sizeof(MobileNumber),1,fp);
+		fclose(fp);		
+	}
+	
+	printf("SMS to---------- %s", MobileNumber);
+	printf("SMS is --\n %s", GsmTxBuffer);
+	
+	switch(SmsSwitch)
+	{
+		case 0:
+			// open the sms port
+			if(OpenSmsPort())
+			{
+				//return;
+			}
+			SmsSwitch = SmsSwitch +1;
+		case 1:
+			// send the AT command
+			if(SendAtCommand(3))
+			{
+				//return;
+			}
+			SmsSwitch = SmsSwitch +1;
+		case 2:
+			// get the signal strength
+			if(GetSignalStrength(3))
+			{
+				//return;
+			}
+			SmsSwitch = SmsSwitch +1;
+		case 3:
+			// select the SMS SmsFormat
+			if(SelectSmsFormat(3))
+			{
+				//return;
+			}
+			SmsSwitch = SmsSwitch +1;			
+		case 4:
+			// send sms to User
+			if(SendSms())
+			{
+				//return;
+			}	
+		case 5:
+			// Close the serial port
+			nu_SerialComPort_Close (GSM_fd);
+	}		
+	return;     
+}
+
+/********************************************************************************************************
+**
+**	Function Name		: 	OpenSmsPort
+** 	Description 		:	 	opens the GSM serial port
+**
+*********************************************************************************************************/
+int OpenSmsPort(void)
+{
+	//GSM_fd = ArgOpenSerialPort( GsmSerialPortName, 115200);
+	GSM_fd = ArgOpenSerialPort( "/dev/ttyUSB0" , 9600);
+	if(GSM_fd < 0) 
+	{
+		printf("System not able to open GSM serial port  \n");
+		return 1;
+	}
+	else
+	{
+		printf("System able to open GSM serial port  \n");
+	}
+	return 0;
+}
+
+
+/********************************************************************************************************
+**
+**	Function Name		: 	SendAtCommand
+** 	Description 		:	 	Send the AT command 
+**
+******************************************************************************************************** */
+
+int SendAtCommand(int MaxTries)
+{ 
+	int BytesWritten = 0;
+	int NoOfTries = 0;
+	
+	PrevSecVal = 0;
+	TestStartTime = 0;	
+	
+	#ifdef GSM_BLOCK_READ	
+		for(NoOfTries=0; NoOfTries < MaxTries; NoOfTries++)
+		{
+			//Write command to GSM PORT	
+			if ( (BytesWritten = serial_port_write(GSM_fd, "AT\r\n") >=2)
+			{
+				printf("byte written= %d\n", BytesWritten);
+				SendCommandDelay(1);
+			}
+
+			memset(GsmRxBuffer, 0, sizeof(GsmRxBuffer));
+			timeout_SerialComPort_BlockRead (GSM_fd, GsmRxBuffer, 8);
+			printf("GsmRxBuffer %s \n", GsmRxBuffer);
+			if(strncmp(GsmRxBuffer, "AT", 2) == 0)
+			{
+				memset(GsmRxBuffer, 0, sizeof(GsmRxBuffer));
+				timeout_SerialComPort_BlockRead (GSM_fd, GsmRxBuffer, 4);
+				printf("%s", GsmRxBuffer);
+				if(strncmp(GsmRxBuffer, "OK", 2) == 0)
+				{
+					printf("AT Command Ok \n");
+					return 0;
+				} 
+			} 
+		}
+		printf("AT Command Error");
+		return 1;				
+	#else	
+		while(1)
+		{
+			if( read(GSM_fd, &CharArr, 1) > 0)
+			{
+				printf("%c", CharArr);
+				if(CharArr == 'O')
+				{
+					nu_SerialComPort_BlockRead (GSM_fd, GsmRxBuffer, 3);
+					printf("response= %s\n", GsmRxBuffer);
+					break;
+				}
+				if(!CallTimeOut())
+				{
+					break;
+				}
+			}
+		}
+		return 0;
+	#endif
+}
+
+
+/********************************************************************************************************
+**
+**	Function Name		: 	GetSignalStrength
+** 	Description 		:	 	Get the Signal Strength
+**
+******************************************************************************************************** */
+
+int GetSignalStrength(int MaxTries)
+{
+	int index = 0, i = 0;
+	int nbytes,BytesWritten;
+	int NoOfTries=0, SigStrength;
+	char SigStrengthStr[4], *ptr;
+	
+	return 0;
+	PrevSecVal = 0;
+	TestStartTime = 0;
+	
+	#ifdef GSM_BLOCK_READ
+	
+		for(NoOfTries=0; NoOfTries<MaxTries; NoOfTries++)
+		{
+			tcflush (GSM_fd, TCIOFLUSH);
+			
+			//Write command to GSM PORT
+			if ( (BytesWritten = serial_port_write(GSM_fd, "AT+CSQ\r\n")) >= 8)
+			{
+				printf("byte written= %d\n", BytesWritten);
+			}
+			else
+			{
+				return 1;
+			}
+			
+			memset(GsmRxBuffer, 0, sizeof(GsmRxBuffer));
+			timeout_SerialComPort_BlockRead (GSM_fd, GsmRxBuffer, 8);
+			printf("%s", GsmRxBuffer);
+
+			memset(GsmRxBuffer, 0, sizeof(GsmRxBuffer));
+			timeout_SerialComPort_BlockRead (GSM_fd, GsmRxBuffer, 14);
+
+			if( strncmp(GsmRxBuffer, "+CSQ", 4) == 0)
+			{
+				printf("%s", GsmRxBuffer);
+				ptr = strchr(&GsmRxBuffer[6], ',');
+				*ptr = '\0';
+				ptr = &GsmRxBuffer[6];
+				printf("%s\n", ptr);
+				SigStrength = atoi(ptr);
+				memset(GsmRxBuffer, 0, sizeof(GsmRxBuffer));
+				timeout_SerialComPort_BlockRead (GSM_fd, GsmRxBuffer, 3);
+				printf("%s", GsmRxBuffer);
+				memset(GsmRxBuffer, 0, sizeof(GsmRxBuffer));
+				timeout_SerialComPort_BlockRead (GSM_fd, GsmRxBuffer, 5);
+				printf("%s", GsmRxBuffer);
+				if( strncmp(GsmRxBuffer, "OK", 2) == 0 )
+				{
+					return 0;
+				} 
+			}
+			return 1;
+		}				
+	#else		
+		while(1)
+		{
+			if( read(GSM_fd, &CharArr, 1) > 0)
+			{
+				GsmRxBuffer[index++] = CharArr;
+				printf("%c\n", CharArr);
+			}
+			if(CharArr == 'O')
+			{
+				printf("entered in ");
+				nu_SerialComPort_BlockRead (GSM_fd, GsmRxBuffer, 3);
+				while(i < index) 
+				{
+					printf("%c -- index %d", GsmRxBuffer[i], index);
+					i++;
+				}
+				printf("response= %s\n", GsmRxBuffer);
+				break;
+			}
+			if(!CallTimeOut())
+			{
+				break;
+			}
+		}		
+	#endif
+}
+
+/********************************************************************************************************
+**
+**	Function Name		: 	SelectSmsFormat
+**  Description 		:	 	Set the sms transmit mode
+**
+*********************************************************************************************************/
+int SelectSmsFormat	(int MaxTries)
+{
+	int BytesWritten = 0;
+	int NoOfTries=0;
+
+	PrevSecVal = 0;
+	TestStartTime = 0;
+	
+	SendCommandDelay(1);
+	memset(GsmTxBuffer, 0, sizeof(GsmTxBuffer));
+	
+	if(SmsFormat[0] == 't' || SmsFormat[0] == 'T')
+		strcpy(GsmTxBuffer, "AT+CMGF=1\r\n");
+	else if(SmsFormat[0] == 'p' || SmsFormat[0] == 'P')
+		strcpy(GsmTxBuffer, "AT+CMGF=0\r\n");
+	else
+		strcpy(GsmTxBuffer, "AT+CMGF=1\r\n");
+	
+	tcflush (GSM_fd, TCIOFLUSH);
+
+	#ifdef GSM_BLOCK_READ	
+		for(NoOfTries=0; NoOfTries < MaxTries; NoOfTries++)
+		{
+			//Write command to GSM PORT
+			if ( (BytesWritten = serial_port_write(GSM_fd, GsmTxBuffer)) >= 11)
+			{
+				printf("AT+CMGF=1 byte written= %d\n", BytesWritten);
+				SendCommandDelay(20);
+			}
+			else
+			{
+				return 0;
+			}
+			memset(GsmRxBuffer, 0, sizeof(GsmRxBuffer));
+			timeout_SerialComPort_BlockRead (GSM_fd, GsmRxBuffer, 8);
+			printf("GsmRxBuffer %s \n", GsmRxBuffer);
+			if(strncmp(GsmRxBuffer, "AT+CMGF=1", 8) == 0)
+			{
+				memset(GsmRxBuffer, 0, sizeof(GsmRxBuffer));
+				timeout_SerialComPort_BlockRead (GSM_fd, GsmRxBuffer, 4);
+				printf("%s", GsmRxBuffer);
+			} 
+			if(strncmp(GsmRxBuffer, "OK", 2) == 0)
+			{
+				printf("AT+CMGF=1 Command Ok");
+				return 0;
+			}
+		}
+		printf("AT+CMGF=1 Command Error");
+		return 1;				
+	#else	
+		while(1)
+		{
+			if( read(GSM_fd, &CharArr, 1) > 0)
+			{
+				printf("%c", CharArr);			
+				if(CharArr == 'O')
+				{
+					nu_SerialComPort_BlockRead (GSM_fd, GsmRxBuffer, 3);
+					printf("response= %s\n", GsmRxBuffer);
+					printf("AT+CMGF=1 ok \n");
+					break;
+				}
+				if(!CallTimeOut())
+				{
+					printf("AT+CMGF=1 Error \n");
+					break;
+				}
+			}
+		}
+	#endif
+}
+
+/********************************************************************************************************
+**
+**	Function Name		: 	SendSms
+** 	Description 		:	 	Transmits Buffer To User
+**
+*********************************************************************************************************/
+int SendSms(void)
+{
+	int Len;
+	int BytesWritten = 0;	
+	
+	#if 0
+	sprintf(GsmTxBuffer, "AT+CMGS=\"%s\"\r\n", MobileNumber);
+
+	//Write command to GSM PORT
+	if ( (BytesWritten = serial_port_write(GSM_fd, GsmTxBuffer)) >= 25)
+		printf("byte written= %d\n", BytesWritten);
+	else
+		return 0;
+
+	while(delay--);
+	
+	printf("%s\n",GsmTxBuffer);
+	strcpy(GsmTxBuffer, GsmTxBuffer);
+	Len = strlen(GsmTxBuffer);
+	GsmTxBuffer[Len] = 0x1A;
+
+	//Write command to GSM PORT
+	if ( (BytesWritten = serial_port_write(GSM_fd, GsmTxBuffer)) >= Len)
+		printf("byte written= %d\n", BytesWritten);
+	else
+		return 0;
+
+	while(1)
+	{
+		if(read(GSM_fd, &CharArr, 1) > 0)
+		{
+			printf("%c", CharArr);
+			if(CharArr == 'O')
+			{
+				timeout_SerialComPort_BlockRead (GSM_fd, GsmRxBuffer, 3);
+				printf("response= %s\n", GsmRxBuffer);
+				break;
+			}
+			if(!CallTimeOut())
+			{
+				break;
+			}
+		}
+	}
+	
+	#else
+		char Com1[] 		= "AT+CMGS=";
+		char DoubleCots[2]  = {0x22,0x00};
+		char Space[2]  		= {0x20,0x00};
+		char Com4[]  		= "ALL";
+	 
+		memset(GsmTxBuffer, 0, sizeof(GsmTxBuffer));
+		strcpy(GsmTxBuffer,Com1);
+		strcat(GsmTxBuffer,DoubleCots);
+		strcat(GsmTxBuffer,MobileNumber);
+		strcat(GsmTxBuffer,DoubleCots);
+		printf("%s\n",GsmTxBuffer);	
+		serial_port_write(GSM_fd,GsmTxBuffer);
+		
+		SendCommandDelay(100);
+
+		printf("x---------------x\n");	
+		SendCRLF();
+		
+		SendCommandDelay(100);
+
+
+		
+		memset(GsmTxBuffer,0,100);
+		strcpy(GsmTxBuffer,"Wellth");
+		serial_port_write(GSM_fd,GsmTxBuffer);
+		
+		SendCRLF();
+		SendCtrlZ();
+		SendCRLF();
+		SendCommandDelay(1);
+		printf("x---------------x\n");	
+		return 0;
+	#endif
+}
+
+void SendCRLF(void){
+	SendCStringiageReturn();
+	SendLineFeed();
+}
+
+/********** /r Enter *************/
+
+void SendCStringiageReturn(void)
+{	 
+	unsigned Buf[2]  = {0x0d,0};
+	serial_port_write(GSM_fd,Buf);	
+}
+
+/********** /n *************/
+
+void SendLineFeed(void)
+{    
+	unsigned Buf[2]  = {0x0A,0};
+	serial_port_write(GSM_fd,Buf);	
+}
+
+void SendCtrlZ(void)
+{ 
+	unsigned Buf[2]  = {0x1A,0};
+	serial_port_write(GSM_fd,Buf);	
+}
+
+void SendCommandDelay(int DelayCount)
+{
+	long int DelayTime = 100000;
+	while(DelayCount>0)
+	{
+		while(DelayTime--);
+		DelayCount--;
+		DelayTime = 100000;
+	}
+}
+/********************************************************************************************************
+**
+**	Function Name		: 	CallTimeOut
+** 	Description 		:	 	Time out option
+**
+*********************************************************************************************************/
+int CallTimeOut(void)
+{
+	#ifdef ENABLE_TIMEOUT
+		gettimeofday(&start, NULL);
+		if(PrevSecVal != start.tv_sec)
+		{
+			PrevSecVal = start.tv_sec;
+			TestStartTime++;
+		}
+		if(TestStartTime >= OK_RESPONSE_TIMEOUT_SEC)
+		{
+			return (0);
+		}
+		return 1;
+	#endif
+}

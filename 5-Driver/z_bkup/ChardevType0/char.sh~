@@ -1,0 +1,7 @@
+clear 
+make clean
+make
+gcc app.c -o app
+su -c "rmmod chr_drv_skel.ko"
+su -c "insmod chr_drv_skel.ko"
+su -c "./app"

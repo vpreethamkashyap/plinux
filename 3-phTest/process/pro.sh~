@@ -1,0 +1,20 @@
+#!/bin/bash
+# My First Script
+clear
+path=$(pwd)
+cd $path/
+echo $path 
+
+function pro()
+{
+	echo
+	echo
+}
+
+while :
+do
+	pro
+ 	 read proc
+	./process $proc
+done
+

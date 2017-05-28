@@ -1,0 +1,2 @@
+/home/tsp/tlinux/mylinux/Tools/6-Driver/j_Timing/7/busy_wait.ko
+/home/tsp/tlinux/mylinux/Tools/6-Driver/j_Timing/7/busy_wait.o

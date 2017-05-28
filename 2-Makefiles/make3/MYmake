@@ -1,0 +1,16 @@
+TARGET=prog
+OFLAG=-o
+CFLAG=-c
+CC=gcc
+ALL=$(TARGET)
+
+prog: prog.c add.o mean.o mul.o sub.o
+	gcc -o prog $^
+
+clean:
+
+	rm -f add/add.o 
+	rm -f mean/mean.o
+	rm -f mul/mul.o
+	rm -f sub/sub.o
+	rm -f prog

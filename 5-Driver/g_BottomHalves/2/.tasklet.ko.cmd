@@ -1,0 +1,1 @@
+cmd_/home/tsp/tlinux/mylinux/Tools/6-Driver/g_BottomHalves/2/tasklet.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/tsp/tlinux/mylinux/Tools/6-Driver/g_BottomHalves/2/tasklet.ko /home/tsp/tlinux/mylinux/Tools/6-Driver/g_BottomHalves/2/tasklet.o /home/tsp/tlinux/mylinux/Tools/6-Driver/g_BottomHalves/2/tasklet.mod.o

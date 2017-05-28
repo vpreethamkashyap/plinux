@@ -1,0 +1,22 @@
+1.	User has to understand mutex.c file from folder no 1
+	Only concept of kernel threads user has to understand here
+	two threads are 
+	no semaphore mutex spinlock
+	we have two threads due to no mutex 
+
+2.  User has to understand mutex1.c file from folder no 2
+	Only concept of kernel threads user has to understand
+	Mutex are used to remove the deadlock between threads
+	
+3.  User has to understood how to use semaphores in code
+	best part is here to understand to create proc entry
+
+4.  User has to understood how to use semaphores for R/W
+	operations in code
+	best part is here to understand to create proc entry
+	First do read then write
+
+5.  User can understand spin lock concept between two threads
+
+6.  User can understand spin lock concept between two threads
+	where one threads help other thread to finish

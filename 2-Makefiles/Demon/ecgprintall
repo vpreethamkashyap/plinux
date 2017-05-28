@@ -1,0 +1,55 @@
+set term pngcairo size 800,400  
+set output "../plot/ecgprint.png"
+set multiplot layout 6,1
+set tmargin 0
+set bmargin 0
+set lmargin 0
+set rmargin 0
+#set title "Channel 1"
+unset xtics
+unset ytics
+#set grid noxtics noytics
+set yrange [-256:256]
+#set xtics textcolor rgb "white"
+#set ytics textcolor rgb "white"
+#set xtics 25
+#set ytics 150
+#set mxtics 5
+#set mytics 30
+set noborder
+#set style line 11 lt 58 lw 1.5
+#set style line 12 lt 58 lw 0.5
+#set tics out nomirror scale 0,0.001
+#set grid linetype 58
+#set grid mxtics mytics linetype 58
+set grid xtics mxtics ytics mytics back lt 1 lc rgb "#ffc0c0" lw 1.0 , lc rgb "#ffc0c0" lw 0.5
+#set grid xtics linestyle 11
+#set grid ytics linestyle 11
+#hr=system("echo $hr")
+#set key left title "I"
+#set key inside title "HR   ".hr." bpm"
+set key right title "HR ".hr." bpm   I"
+#set key left title "I                                                                                  HR ".hr." bpm"
+#plot '../data/ecgprint_firstch00' with lines notitle lw 0.5 lc rgb "black"
+plot '../data/ecgprint_firstch00' with lines notitle lc rgb "black"
+#plot '../data/ecgprint_firstch01' with lines notitle lc rgb "black"
+#set title "Channel 2"
+#unset xtics
+#unset ytics
+set key right title "II"
+#plot '../data/ecgprint_secch00' with lines notitle lw 0.5  lc rgb "black"
+plot '../data/ecgprint_secch00' with lines notitle lc rgb "black"
+#plot '../data/ecgprint_secch01' with lines notitle lc rgb "black"
+set key right title "III"
+#plot '../data/ecgprint_thirdch00' with lines notitle lw 0.5 lc rgb "black"
+plot '../data/ecgprint_thirdch00' with lines notitle lc rgb "black"
+set key right title "aVR"
+#plot '../data/ecgprint_avrch00' with lines notitle lw 0.5 lc rgb "black"
+plot '../data/ecgprint_avrch00' with lines notitle lc rgb "black"
+set key right title "aVL"
+#plot '../data/ecgprint_avlch00' with lines notitle lw 0.5 lc rgb "black"
+plot '../data/ecgprint_avlch00' with lines notitle lc rgb "black"
+set key right title "aVF"
+#plot '../data/ecgprint_avfch00' with lines notitle lw 0.5 lc rgb "black"
+plot '../data/ecgprint_avfch00' with lines notitle lc rgb "black"
+unset multiplot

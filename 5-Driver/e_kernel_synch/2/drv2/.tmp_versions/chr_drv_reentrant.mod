@@ -1,0 +1,2 @@
+/home/tsp/tlinux/mylinux/Tools/ChDrivers/5.kernel_synch/2/drv2/chr_drv_reentrant.ko
+/home/tsp/tlinux/mylinux/Tools/ChDrivers/5.kernel_synch/2/drv2/chr_drv_reentrant.o

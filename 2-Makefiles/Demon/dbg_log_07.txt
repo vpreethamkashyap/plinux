@@ -1,0 +1,193 @@
+Demon Code has started the comparison of  Login information
+ ----> Line: Profile_Id,User_Id,Status,Gender,Date_Of_Birth,Picture,NickName,FullName,First_name,Last_Name,Email,Alternate_Email,Age,RFID,Mobile,Landline,Home_Address,City,PinCode,Emergency_ContactPhone,Current_Employer,Insurer,Language_Prefered,Created_By,Created_Time,Modified_By,Modified_Time,o,o,o
+ Readinput file 'BLI test'
+BLI Test Starts now 
+Demon Code has received the Hight = The Hight Value 0
+0
+The Weight Value 0
+The Gender Value Male
+The Age  Value 47
+BLI Test Starts now 
+
+
+__1__
+ loop case value is = 9 loop case value is = 10Enter Construct request slave no=1
+ Functioncode=5
+ StartAddress=12
+ NUmItems=0
+ Status Code 6
+MDB RESPONSE=6
+ loop case value is = 10Enter Construct request slave no=1
+ Functioncode=5
+ StartAddress=12
+ NUmItems=0
+ Status Code 6
+MDB RESPONSE=6
+ loop case value is = 10Enter Construct request slave no=1
+ Functioncode=5
+ StartAddress=12
+ NUmItems=0
+ Status Code 6
+MDB RESPONSE=6
+ loop case value is = 10Enter Construct request slave no=1
+ Functioncode=5
+ StartAddress=12
+ NUmItems=0
+ Status Code 6
+MDB RESPONSE=6
+ loop case value is = 10Enter Construct request slave no=1
+ Functioncode=5
+ StartAddress=12
+ NUmItems=0
+ Status Code 6
+MDB RESPONSE=6
+ loop case value is = 10Enter Construct request slave no=1
+ Functioncode=5
+ StartAddress=12
+ NUmItems=0
+ Status Code 6
+MDB RESPONSE=6
+ loop case value is = 10Enter Construct request slave no=1
+ Functioncode=5
+ StartAddress=12
+ NUmItems=0
+ Status Code 6
+MDB RESPONSE=6
+ loop case value is = 10Enter Construct request slave no=1
+ Functioncode=5
+ StartAddress=12
+ NUmItems=0
+ Status Code 6
+MDB RESPONSE=6
+ loop case value is = 10Enter Construct request slave no=1
+ Functioncode=5
+ StartAddress=12
+ NUmItems=0
+ Status Code 6
+MDB RESPONSE=6
+ loop case value is = 10Enter Construct request slave no=1
+ Functioncode=5
+ StartAddress=12
+ NUmItems=0
+ Status Code 6
+MDB RESPONSE=6
+ loop case value is = 10Enter Construct request slave no=1
+ Functioncode=5
+ StartAddress=12
+ NUmItems=0
+ Status Code 6
+MDB RESPONSE=6
+ loop case value is = 10Enter Construct request slave no=1
+ Functioncode=5
+ StartAddress=12
+ NUmItems=0
+ Status Code 6
+MDB RESPONSE=6
+ loop case value is = 10Enter Construct request slave no=1
+ Functioncode=5
+ StartAddress=12
+ NUmItems=0
+ Status Code 6
+MDB RESPONSE=6
+ loop case value is = 10Enter Construct request slave no=1
+ Functioncode=5
+ StartAddress=12
+ NUmItems=0
+ Status Code 6
+MDB RESPONSE=6
+ loop case value is = 10Enter Construct request slave no=1
+ Functioncode=5
+ StartAddress=12
+ NUmItems=0
+ Status Code 6
+MDB RESPONSE=6
+ loop case value is = 10Enter Construct request slave no=1
+ Functioncode=5
+ StartAddress=12
+ NUmItems=0
+ Status Code 6
+MDB RESPONSE=6
+ loop case value is = 10Enter Construct request slave no=1
+ Functioncode=5
+ StartAddress=12
+ NUmItems=0
+ Status Code 6
+MDB RESPONSE=6
+ loop case value is = 10Enter Construct request slave no=1
+ Functioncode=5
+ StartAddress=12
+ NUmItems=0
+ Status Code 6
+MDB RESPONSE=6
+ loop case value is = 10Enter Construct request slave no=1
+ Functioncode=5
+ StartAddress=12
+ NUmItems=0
+ Status Code 6
+MDB RESPONSE=6
+ loop case value is = 10Enter Construct request slave no=1
+ Functioncode=5
+ StartAddress=12
+ NUmItems=0
+ Status Code 6
+MDB RESPONSE=6
+ loop case value is = 10Enter Construct request slave no=1
+ Functioncode=5
+ StartAddress=12
+ NUmItems=0
+ Status Code 6
+MDB RESPONSE=6
+ loop case value is = 10Enter Construct request slave no=1
+ Functioncode=5
+ StartAddress=12
+ NUmItems=0
+ Status Code 6
+MDB RESPONSE=6
+ loop case value is = 10Enter Construct request slave no=1
+ Functioncode=5
+ StartAddress=12
+ NUmItems=0
+ Status Code 6
+MDB RESPONSE=6
+ loop case value is = 10Enter Construct request slave no=1
+ Functioncode=5
+ StartAddress=12
+ NUmItems=0
+ Status Code 6
+MDB RESPONSE=6
+ loop case value is = 10Enter Construct request slave no=1
+ Functioncode=5
+ StartAddress=12
+ NUmItems=0
+ Status Code 6
+MDB RESPONSE=6
+ loop case value is = 10Enter Construct request slave no=1
+ Functioncode=5
+ StartAddress=12
+ NUmItems=0
+ Status Code 6
+MDB RESPONSE=6
+ loop case value is = 10Enter Construct request slave no=1
+ Functioncode=5
+ StartAddress=12
+ NUmItems=0
+ Status Code 6
+MDB RESPONSE=6
+ loop case value is = 10Enter Construct request slave no=1
+ Functioncode=5
+ StartAddress=12
+ NUmItems=0
+ Status Code 6
+MDB RESPONSE=6
+ loop case value is = 10Enter Construct request slave no=1
+ Functioncode=5
+ StartAddress=12
+ NUmItems=0
+ Status Code 6
+MDB RESPONSE=6
+ loop case value is = 10Enter Construct request slave no=1
+ Functioncode=5
+ StartAddress=12
+ NUmItems=0
+^C
+

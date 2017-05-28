@@ -1,0 +1,1 @@
+cmd_/home/tsp/9_async_notifications/chr_drv_async.ko := ld -r -m elf_i386 -T /usr/src/linux-headers-3.2.0-60-generic-pae/scripts/module-common.lds --build-id  -o /home/tsp/9_async_notifications/chr_drv_async.ko /home/tsp/9_async_notifications/chr_drv_async.o /home/tsp/9_async_notifications/chr_drv_async.mod.o

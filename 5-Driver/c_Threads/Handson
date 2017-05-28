@@ -1,0 +1,29 @@
+1 
+	Goto folder 1
+	Here we are adding just thread but we cant stop this thread 
+	But there is no way that this thread can go to sleep state
+2 
+	Goto folder 2
+	Here we are adding just thread but we cant stop this thread 
+	Here thread can go to sleep state & wake up process added here
+	But there is no way to kill thread
+	
+3
+
+	Goto folder 3
+	Here we are adding just thread but we cant stop this thread 
+	Here thread can go to sleep state & wake up process added here
+	Here we have way to kill thread
+	
+4
+
+	Goto folder 4
+	Here two thread functions are replaced by one function just compare 
+	with 3rd folder code
+
+5
+
+	Goto folder 5
+	Here we are adding just thread but 
+	here automatically stop this thread 
+	

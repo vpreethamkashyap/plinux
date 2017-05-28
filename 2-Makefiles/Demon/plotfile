@@ -1,0 +1,15 @@
+#!/bin/sh
+split -d -nl/4 ../data/FirstDump_2 ../data/ecgplot_firstch
+split -d -nl/4 ../data/SecDump_2 ../data/ecgplot_secch
+split -d -nl/4 ../data/ThirdDump_2 ../data/ecgplot_thirdch
+split -d -nl/4 ../data/AvrDump_2 ../data/ecgplot_avrch
+split -d -nl/4 ../data/AvlDump_2 ../data/ecgplot_avlch
+split -d -nl/4 ../data/AvfDump_2 ../data/ecgplot_avfch
+split -d -nl/3 ../data/FirstDump_2 ../data/ecgprint_firstch
+split -d -nl/3 ../data/SecDump_2 ../data/ecgprint_secch
+split -d -nl/3 ../data/ThirdDump_2 ../data/ecgprint_thirdch
+split -d -nl/3 ../data/AvrDump_2 ../data/ecgprint_avrch
+split -d -nl/3 ../data/AvlDump_2 ../data/ecgprint_avlch
+split -d -nl/3 ../data/AvfDump_2 ../data/ecgprint_avfch
+gnuplot -e "hr=$1" ./ecgplotall
+gnuplot -e "hr=$1" ./ecgprintall

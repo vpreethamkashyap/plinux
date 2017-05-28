@@ -1,0 +1,1 @@
+cmd_/home/tsp/tlinux/mylinux/Tools/6-Driver/3_Threads/5/thread_stop.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/tsp/tlinux/mylinux/Tools/6-Driver/3_Threads/5/thread_stop.ko /home/tsp/tlinux/mylinux/Tools/6-Driver/3_Threads/5/thread_stop.o /home/tsp/tlinux/mylinux/Tools/6-Driver/3_Threads/5/thread_stop.mod.o

@@ -1,0 +1,1 @@
+cmd_/root/ElkiTemplates/Sources/Driver/Synchronization/spinlock.ko := arm-linux-gnueabihf-ld -EL -r  -T /root/ElkiTemplates/Kernel/linux-3.12.9/scripts/module-common.lds --build-id  -o /root/ElkiTemplates/Sources/Driver/Synchronization/spinlock.ko /root/ElkiTemplates/Sources/Driver/Synchronization/spinlock.o /root/ElkiTemplates/Sources/Driver/Synchronization/spinlock.mod.o

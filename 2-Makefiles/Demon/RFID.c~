@@ -1,0 +1,68 @@
+#include "Main.h"
+
+int fd, baud;
+char CharArr[12];
+
+char OpenSerialPort(void);
+
+char *SerialPortName[] = {	"/dev/ttyUSB0",
+							"/dev/ttyUSB1",
+							"/dev/ttyUSB2",
+							"/dev/ttyUSB3",
+							"/dev/ttyUSB4",
+							"/dev/ttyUSB5",
+							"/dev/ttyUSB6",
+							"/dev/ttyUSB7",
+							"/dev/ttyUSB8",
+							"/dev/ttyUSB9",    
+							"/dev/ttyS0",
+							"/dev/ttyS1",                                                           
+							"/dev/ttyS2",
+							"/dev/ttyS3",
+							"/dev/ttyS4",
+							"/dev/ttyS5",
+							"/dev/ttyS6",
+							"/dev/ttyS7",
+							"/dev/ttyS8",
+							"/dev/ttyS9"
+						};
+
+void main (){
+	    OpenSerialPort();
+		while(1){
+			memset(CharArr, 0, sizeof(CharArr));
+			nu_SerialComPort_BlockRead (fd, CharArr, 12);
+			printf("%s\n",CharArr);
+		}
+}
+
+
+char OpenSerialPort(void){
+	int SerialPortStatus = 0;
+    int i=0;
+    while(i<20){
+      	fd = nu_SerialComPort_Open(SerialPortName[i]);
+	    if(fd < 0) {
+        }
+	    else{
+ 	        printf("Able to open the SerialPort %s \n ",SerialPortName[i]);
+  	        SerialPortStatus = 1;
+            break;
+	    }
+	    i++;
+	    
+    }
+
+    if(SerialPortStatus != 0){
+        baud = 9600;    //atoi(argv[2]);
+    	if(nu_SerialComPort_Init(fd, baud) < 0 ){
+    		printf("baud not set");
+		    return 0;
+    	} 
+    }
+    else{
+            printf("Unable to open the SerialPort \n ");
+   		    return ;
+    }
+    return 1;
+}

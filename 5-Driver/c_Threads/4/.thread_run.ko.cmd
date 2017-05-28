@@ -1,0 +1,1 @@
+cmd_/home/tsp/tlinux/mylinux/Tools/1-Driver/3_Threads/4/thread_run.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/tsp/tlinux/mylinux/Tools/1-Driver/3_Threads/4/thread_run.ko /home/tsp/tlinux/mylinux/Tools/1-Driver/3_Threads/4/thread_run.o /home/tsp/tlinux/mylinux/Tools/1-Driver/3_Threads/4/thread_run.mod.o

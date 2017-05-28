@@ -1,0 +1,9 @@
+#My first script
+
+clear
+read var
+echo "if you want to make press y"
+if["$var" == "y"];then
+make clean all
+fi
+./entity

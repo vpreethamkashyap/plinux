@@ -1,0 +1,1 @@
+cmd_/home/tsp/tlinux/mylinux/Tools/6-Driver/4_WaitQueues/1/sched.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/tsp/tlinux/mylinux/Tools/6-Driver/4_WaitQueues/1/sched.ko /home/tsp/tlinux/mylinux/Tools/6-Driver/4_WaitQueues/1/sched.o /home/tsp/tlinux/mylinux/Tools/6-Driver/4_WaitQueues/1/sched.mod.o

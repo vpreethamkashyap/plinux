@@ -1,0 +1,376 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACKNOWLEDGE	MDB_Defs.h	81;"	d
+Age	Main.c	/^	char Age[10];$/;"	m	struct:__anon1	file:
+Age	Main.c	/^	char Age[8];$/;"	m	struct:__anon7	file:
+Age	Main.c	/^int Age = 0;$/;"	v
+AppendCrc	MDB.c	/^void AppendCrc(MDB_REQ_ADU *pMbReqAdu){$/;"	f
+ArgOpenSerialPort	SerialComPort.c	/^int ArgOpenSerialPort(char *SerialPortName, int baudRate){$/;"	f
+ArgOpenSerialPort	rfid/RFID.c	/^int ArgOpenSerialPort(char *SerialPortName, int baudRate){$/;"	f
+ArgOpenSerialPort	rfid/SerialComPort.c	/^int ArgOpenSerialPort(char *SerialPortName, int baudRate){$/;"	f
+ArrayOfCol	Main.c	/^char *ArrayOfCol[32];$/;"	v
+BAUDRATE	Main.c	12;"	d	file:
+BAUDRATE	autoscan.c	9;"	d	file:
+BAUDRATE	ecgread.c	9;"	d	file:
+BF_CHECK_TIMEOUT_SEC	Main.c	36;"	d	file:
+BF_RAW_FILE	Main.c	26;"	d	file:
+BF_SUMMARY_FILE	Main.c	25;"	d	file:
+BLIValue	Main.c	/^float BLIValue;$/;"	v
+BLSCheck	qrsdet2.c	/^int BLSCheck(int *dBuf,int dbPtr,int *maxder)$/;"	f
+BMIValue	Main.c	/^float BMIValue;$/;"	v
+BMI_RAW_FILE	Main.c	23;"	d	file:
+BMI_SUMMARY_FILE	Main.c	22;"	d	file:
+BOOL	MDB_Defs.h	/^typedef enum BOOL{$/;"	g
+BOOL	MDB_Defs.h	/^}BOOL;$/;"	t	typeref:enum:BOOL
+BP_CHECK_TIMEOUT_SEC	Main.c	38;"	d	file:
+BP_DUMPS_FILE	Main.c	28;"	d	file:
+BP_SUMMARY_FILE	Main.c	24;"	d	file:
+BUFFER_TOO_SMALL	MDB_Defs.h	60;"	d
+Bli	Main.c	/^_BLI_TEST Bli;$/;"	v
+BliTestEn	MDB.c	/^volatile unsigned char BliTestEn = 0;$/;"	v
+BliValue	Main.c	/^	char BliValue[10];$/;"	m	struct:__anon6	file:
+Bmi	Main.c	/^_BMI_TEST Bmi;$/;"	v
+BmiBuf	Main.c	/^unsigned char BmiBuf[10];$/;"	v
+BmiTestEn	MDB.c	/^volatile unsigned char BmiTestEn = 0;$/;"	v
+BmiValue	Main.c	/^	char BmiValue[10];$/;"	m	struct:__anon4	file:
+Bp	Main.c	/^_BP_TEST Bp;$/;"	v
+BpTestEn	MDB.c	/^volatile unsigned char BpTestEn = 0;$/;"	v
+Buf	Main.c	/^unsigned char Buf[5];$/;"	v
+BufferToShortInts	MDB.c	/^void BufferToShortInts(unsigned char  *pSrcBuffer, short int *pDstBuffer, short int noOfRegs){$/;"	f
+CC	Makefile	/^CC = gcc -ggdb3$/;"	m
+CC	rfid/Makefile	/^CC = gcc -ggdb3$/;"	m
+CFLAGS	Makefile	/^CFLAGS := -I.$/;"	m
+CFLAGS	rfid/Makefile	/^CFLAGS := -I.$/;"	m
+COM_PACKET_END	SerialComPort.h	11;"	d
+COM_PACKET_END	rfid/SerialComPort.h	11;"	d
+COM_PACKET_MAX_SZ	SerialComPort.h	9;"	d
+COM_PACKET_MAX_SZ	rfid/SerialComPort.h	9;"	d
+COM_PACKET_START	SerialComPort.h	10;"	d
+COM_PACKET_START	rfid/SerialComPort.h	10;"	d
+CO_CHECK_TIMEOUT_SEC	Main.c	37;"	d	file:
+CO_PORT_OPEN_TIMEOUT_SEC	Main.c	43;"	d	file:
+CO_PORT_USB	Main.c	/^char CO_PORT_USB[32];$/;"	v
+CO_SUMMARY_FILE	Main.c	27;"	d	file:
+CO_fd	Main.c	/^int fd, RFID_fd, CO_fd;$/;"	v
+CRCHigh	MDB.c	/^ const unsigned CRCHigh[] = {$/;"	v
+CRCLow	MDB.c	/^const unsigned CRCLow[] = {$/;"	v
+CRC_ERR	MDB_Defs.h	59;"	d
+CallBigDelay	MDB.c	/^void CallBigDelay(void){$/;"	f
+CallDelay	MDB.c	/^void CallDelay(void){$/;"	f
+CallWhileLoop	Main.c	/^void CallWhileLoop(void){$/;"	f
+CharArr	SMS_send.c	/^char CharArr;$/;"	v
+CharArr	rfid/RFID.c	/^char CharArr[255];$/;"	v
+CheckAbortFile	Main.c	/^void CheckAbortFile(void){$/;"	f
+CheckCrc	MDB.c	/^unsigned char  CheckCrc(MDB_RSP_ADU *pMbRspAdu){$/;"	f
+CheckTest	Main.c	/^void CheckTest(void){$/;"	f
+CheckUserInfo	Main.c	/^void CheckUserInfo(void){$/;"	f
+ClearDemonInputFile	Main.c	/^void ClearDemonInputFile(){$/;"	f
+Comma	Main.c	/^	char Comma;$/;"	m	struct:__anon1	file:
+Comma	Main.c	/^	char Comma;$/;"	m	struct:__anon4	file:
+Comma1	Main.c	/^	char Comma1;$/;"	m	struct:__anon5	file:
+Comma2	Main.c	/^	char Comma2;$/;"	m	struct:__anon1	file:
+Comma2	Main.c	/^	char Comma2;$/;"	m	struct:__anon5	file:
+Comma3	Main.c	/^	char Comma3;$/;"	m	struct:__anon1	file:
+Comma3	Main.c	/^	char Comma3;$/;"	m	struct:__anon5	file:
+CompareUserInfo	Main.c	/^void CompareUserInfo(void){$/;"	f
+ConstructRequest	MDB.c	/^unsigned char  ConstructRequest(unsigned char  slaveNo, unsigned char  functionCode, short int startAddress, short int  numItems, unsigned char  *dataBuffer,MDB_REQ_ADU *MbReqAdu, MDB_RSP_ADU *MbRspAdu){$/;"	f
+ConvertHexToFloat	Main.c	/^float ConvertHexToFloat(void){$/;"	f
+CreateArrayOfString	ProcessCSV.c	/^void CreateArrayOfString(char *StrArr[], char *Line){$/;"	f
+CreateArrayOfString	rfid/ProcessCSV.c	/^void CreateArrayOfString(char *StrArr[], char *Line){$/;"	f
+CurRFIDScaned	Main.c	/^char CurRFIDScaned[16]; $/;"	v
+DAEMON_DB_FILE	Main.c	31;"	d	file:
+DDBuffer	qrsdet2.c	/^int DDBuffer[DER_DELAY], DDPtr ;	\/* Buffer holding derivative data. *\/$/;"	v
+DDPtr	qrsdet2.c	/^int DDBuffer[DER_DELAY], DDPtr ;	\/* Buffer holding derivative data. *\/$/;"	v
+DERIV_LENGTH	qrsdet.h	48;"	d
+DERIV_LENGTH	qrsdet2.c	74;"	d	file:
+Declarations	Old Bakup.f	/^			Function Declarations$/;"	f
+DecodeResponse	MDB.c	/^unsigned char  DecodeResponse(MDB_REQ_ADU *pMbReqAdu, MDB_RSP_ADU *pMbRspAdu, unsigned char  *dataBuffer, short int  numItems){$/;"	f
+DemonArrOfCol	Main.c	/^char *DemonArrOfCol[8];$/;"	v
+DiaP	Main.c	/^	char DiaP[10];$/;"	m	struct:__anon5	file:
+Din	Main.c	/^_INPUT_DATA Din;$/;"	v
+DisplayMessage	Main.c	/^void DisplayMessage(void){$/;"	f
+Dly	qrsdet2.c	/^int Dly  = 0 ;$/;"	v
+ECG_PORT_USB	Main.c	/^char ECG_PORT_USB[32];$/;"	v
+ECG_fd	ecgread.c	/^int ECG_fd = 0;$/;"	v
+ENABLE_TIMEOUT	SMS_send.c	13;"	d	file:
+EVENT_DEMO	Main.c	41;"	d	file:
+EXCEPTION_RESPONSE	MDB_Defs.h	65;"	d
+EcgPort	ecgread.c	/^char *EcgPort[64];$/;"	v
+ErrorCode	Main.c	/^	char ErrorCode[4];$/;"	m	struct:__anon5	file:
+FALSE	MDB_Defs.h	/^	FALSE, $/;"	e	enum:BOOL
+FC_MISMATCH	MDB_Defs.h	66;"	d
+FC_READ_COILS	MDB_Defs.h	109;"	d
+FC_READ_DISC_IPS	MDB_Defs.h	110;"	d
+FC_READ_HOLD_REGS	MDB_Defs.h	111;"	d
+FC_READ_IP_REGS	MDB_Defs.h	112;"	d
+FC_WRITE_MULTIPLE_COILS	MDB_Defs.h	115;"	d
+FC_WRITE_MULTIPLE_REGS	MDB_Defs.h	116;"	d
+FC_WRITE_SINGLE_COIL	MDB_Defs.h	113;"	d
+FC_WRITE_SINGLE_REG	MDB_Defs.h	114;"	d
+FILTER_DELAY	qrsdet.h	53;"	d
+FcSel	MDB.c	/^volatile unsigned char  FcSel;   $/;"	v
+FreeArrayOfString	ProcessCSV.c	/^int FreeArrayOfString(char * Ptr[]){$/;"	f
+FreeArrayOfString	rfid/ProcessCSV.c	/^int FreeArrayOfString(char * Ptr[]){$/;"	f
+GW_PATH_UNAVAIL	MDB_Defs.h	84;"	d
+GW_TARGET_DEV_TIMEOUT	MDB_Defs.h	85;"	d
+Gender	Main.c	/^	char Gender[10];$/;"	m	struct:__anon1	file:
+Gender	Main.c	/^	char Gender[8];$/;"	m	struct:__anon7	file:
+Gender	Main.c	/^char Gender[10];$/;"	v
+GetLine	ProcessCSV.c	/^int GetLine(FILE *fp, char * line_buf){$/;"	f
+GetLine	rfid/ProcessCSV.c	/^int GetLine(FILE *fp, char * line_buf){$/;"	f
+HPBUFFER_LGTH	qrsdet.h	50;"	d
+HR	heartrate.c	/^int HR;$/;"	v
+Hight	Main.c	/^	char Hight[10];$/;"	m	struct:__anon1	file:
+Hight	Main.c	/^int Hight=0,TempWeight;$/;"	v
+HoldingReg	MDB.c	/^unsigned char HoldingReg[10];$/;"	v
+ID_MISMATCH	MDB_Defs.h	58;"	d
+ILLEGAL_DATA_ADDRESS	MDB_Defs.h	78;"	d
+ILLEGAL_DATA_VALUE	MDB_Defs.h	79;"	d
+ILLEGAL_FUNCTION	MDB_Defs.h	77;"	d
+INDEX_FUNC_CODE	MDB_Defs.h	92;"	d
+INDEX_NUM_ITEMS1	MDB_Defs.h	95;"	d
+INDEX_NUM_ITEMS2	MDB_Defs.h	96;"	d
+INDEX_RESP_BYTE_CNT	MDB_Defs.h	103;"	d
+INDEX_RESP_START_DATA	MDB_Defs.h	104;"	d
+INDEX_SLAVE_ID	MDB_Defs.h	91;"	d
+INDEX_START_ADDR1	MDB_Defs.h	93;"	d
+INDEX_START_ADDR2	MDB_Defs.h	94;"	d
+INDEX_VALUE1	MDB_Defs.h	97;"	d
+INDEX_VALUE2	MDB_Defs.h	98;"	d
+INDEX_WRITE_BYTE_CNT	MDB_Defs.h	99;"	d
+INDEX_WRITE_START_DATA	MDB_Defs.h	100;"	d
+INVALID_BYTECNT	MDB_Defs.h	67;"	d
+INVALID_DATA_VALUE	MDB_Defs.h	68;"	d
+INVALID_FC	MDB_Defs.h	62;"	d
+INVALID_HANDLE	MDB_Defs.h	54;"	d
+INVALID_NETWORKNUM	MDB_Defs.h	55;"	d
+INVALID_NUM_ITEMS	MDB_Defs.h	71;"	d
+INVALID_PKTLEN	MDB_Defs.h	69;"	d
+INVALID_PROTCODE	MDB_Defs.h	64;"	d
+INVALID_SLAVE_ADDR	MDB_Defs.h	70;"	d
+IN_BP_FILE	Main.c	15;"	d	file:
+IN_ENTERY_FILE	Main.c	16;"	d	file:
+IN_RAM	MDB_Defs.h	45;"	d
+IN_ROM	MDB_Defs.h	46;"	d
+IN_TEXT_FILE	Main.c	14;"	d	file:
+InBuf	Main.c	/^	char InBuf[10];$/;"	m	struct:__anon3	file:
+Indata	Main.c	/^_IN_FILE Indata;$/;"	v
+InitMODEM	SMS_send.c	/^int InitMODEM(char *portNameMODEM){ \/\/ return GPRS_fd (non zero opened discripter number) on success and zero(0) on error$/;"	f
+LOGIN_SUMMARY_FILE	Main.c	21;"	d	file:
+LPBUFFER_LGTH	qrsdet.h	49;"	d
+Line	Main.c	/^char Line[512];$/;"	v
+LoginReply	Main.c	/^	char LoginReply[15];$/;"	m	struct:__anon7	file:
+LoopCase	Main.c	/^volatile unsigned int LoopCase = 1;$/;"	v
+MAX_NO_SENSORS	SerialComPort.h	14;"	d
+MAX_NO_SENSORS	rfid/SerialComPort.h	14;"	d
+MAX_STRING_ARRAY_ELEMENT	ProcessCSV.c	6;"	d	file:
+MAX_STRING_ARRAY_ELEMENT	rfid/ProcessCSV.c	6;"	d	file:
+MDB_REQ_ADU	MDB_Defs.h	/^}MDB_REQ_ADU;$/;"	t	typeref:struct:__anon8
+MDB_RSP_ADU	MDB_Defs.h	/^}MDB_RSP_ADU;$/;"	t	typeref:struct:__anon9
+MEMMOVELEN	qrsdet2.c	/^const int MEMMOVELEN = 7*sizeof(int);$/;"	v
+MEMORY_PARITY_ERROR	MDB_Defs.h	83;"	d
+MIN_PEAK_AMP	qrsdet2.c	70;"	d	file:
+MMPL_NO_ERROR	MDB_Defs.h	52;"	d
+MODBUS_RTU	MDB_Defs.h	32;"	d
+MODBUS_USB	Main.c	/^char MODBUS_USB[32];$/;"	v
+MS10	qrsdet.h	29;"	d
+MS100	qrsdet.h	34;"	d
+MS1000	qrsdet.h	46;"	d
+MS125	qrsdet.h	35;"	d
+MS150	qrsdet.h	36;"	d
+MS1500	qrsdet.h	47;"	d
+MS160	qrsdet.h	37;"	d
+MS175	qrsdet.h	38;"	d
+MS195	qrsdet.h	39;"	d
+MS200	qrsdet.h	40;"	d
+MS220	qrsdet.h	41;"	d
+MS25	qrsdet.h	30;"	d
+MS250	qrsdet.h	42;"	d
+MS30	qrsdet.h	31;"	d
+MS300	qrsdet.h	43;"	d
+MS360	qrsdet.h	44;"	d
+MS450	qrsdet.h	45;"	d
+MS80	qrsdet.h	32;"	d
+MS95	qrsdet.h	33;"	d
+MS_PER_SAMPLE	qrsdet.h	28;"	d
+MdbFlag	Main.c	/^unsigned char MdbFlag = 0;$/;"	v
+MdbResponse	Main.c	/^short int MdbResponse = 0;	$/;"	v
+ModbusOP	MDB.c	/^unsigned char  ModbusOP(unsigned char  slaveNo, unsigned char  functionCode, short int startAddress, short int  numItems, unsigned char  *dataBuffer, unsigned char  numRetries){$/;"	f
+Mul	Main.c	/^float Weight,Sub,Mul;$/;"	v
+Name	Main.c	/^	char *Name;$/;"	m	struct:__anon2	file:
+Name	Main.c	/^	char Name[64];$/;"	m	struct:__anon7	file:
+OBJS	Makefile	/^OBJS= $(SRCS:.c=.o)$/;"	m
+OBJS	rfid/Makefile	/^OBJS= $(SRCS:.c=.o)$/;"	m
+OK_RESPONSE_TIMEOUT_SEC	SMS_send.c	14;"	d	file:
+OT_ENTERY_FILE	Main.c	18;"	d	file:
+OT_TEXT_FILE	Main.c	17;"	d	file:
+OpenSerialPort	Main.c	/^char OpenSerialPort(void){$/;"	f
+OpenSerialPort	rfid/RFID.c	/^char OpenSerialPort(void){$/;"	f
+OperateCOSensor	Main.c	/^void OperateCOSensor(void){$/;"	f
+PORT_CLOSED	MDB_Defs.h	61;"	d
+PRE_BLANK	qrsdet2.c	69;"	d	file:
+PROCESS_CSV	ProcessCSV.h	2;"	d
+PROCESS_CSV	rfid/ProcessCSV.h	2;"	d
+Password	Main.c	/^	char *Password;$/;"	m	struct:__anon2	file:
+Peak	qrsdet2.c	/^int Peak( int datum, int init )$/;"	f
+PrintArrayOfString	ProcessCSV.c	/^void PrintArrayOfString(char *StrArr[]) {$/;"	f
+PrintArrayOfString	rfid/ProcessCSV.c	/^void PrintArrayOfString(char *StrArr[]) {$/;"	f
+PulseRate	Main.c	/^	char PulseRate[10];$/;"	m	struct:__anon5	file:
+QRSDet	qrsdet2.c	/^int QRSDet( int datum, int init )$/;"	f
+RD_BLK_SIZE_REGINFO	MDB.h	8;"	d
+READ_ERROR	MDB_Defs.h	72;"	d
+READ_WRITE_FAIL	MDB_Defs.h	56;"	d
+READ_WRITE_TIMEOUT	MDB_Defs.h	57;"	d
+RFID_PORT_USB	Main.c	/^char RFID_PORT_USB[32];$/;"	v
+RFID_fd	Main.c	/^int fd, RFID_fd, CO_fd;$/;"	v
+RFID_fd	rfid/RFID.c	/^int fd, baud, RFID_fd;$/;"	v
+RRCount	qrsdet2.c	/^int RRCount = 0;$/;"	v
+RRFlag	qrsdet2.c	/^static int RRFlag = 0;$/;"	v	file:
+RRLastVal	qrsdet2.c	/^int RRLastVal = 0;$/;"	v
+RRMean	qrsdet2.c	/^int RRMean = 0;$/;"	v
+RX_BUFFER_SIZE	MDB_Defs.h	13;"	d
+ReadInputFile	Main.c	/^void ReadInputFile(void){$/;"	f
+ReadPort	MDB.c	/^unsigned char  ReadPort(short int noOfBytesToRead, unsigned char  *pBuffer){$/;"	f
+RxBuf	Main.c	/^unsigned char RxBuf[100];$/;"	v
+RxBuffer	MDB_Defs.h	/^	unsigned char  RxBuffer[TX_BUFFER_SIZE];$/;"	m	struct:__anon9
+SAMPLE_RATE	qrsdet.h	27;"	d
+SERIAL_COMPORT_BAUD	SerialComPort.h	15;"	d
+SERIAL_COMPORT_BAUD	rfid/SerialComPort.h	15;"	d
+SHOW_DISPLAY	rfid/Main.h	13;"	d
+SIZE_RESP_PDU_WRITE_BASIC	MDB_Defs.h	118;"	d
+SLAVE_DEVICE_BUSY	MDB_Defs.h	82;"	d
+SLAVE_DEVICE_FAILURE	MDB_Defs.h	80;"	d
+SMS_SEND_FILE	Main.c	30;"	d	file:
+SRCS	Makefile	/^SRCS:= $(shell ls *.c)$/;"	m
+SRCS	rfid/Makefile	/^SRCS:= $(shell ls *.c)$/;"	m
+SRL_index	Main.c	/^int SRL_index;$/;"	v
+Sbuffer	SerialComPort.c	/^static unsigned char Sbuffer [COM_PACKET_MAX_SZ];$/;"	v	file:
+Sbuffer	rfid/SerialComPort.c	/^static unsigned char Sbuffer [COM_PACKET_MAX_SZ];$/;"	v	file:
+SerialPortName	Main.c	/^char *SerialPortName[] = {	"\/dev\/ttyUSB0",$/;"	v
+SerialPortName	rfid/RFID.c	/^char *SerialPortName[] = {	"\/dev\/ttyUSB0",$/;"	v
+SerialPortStatus	Main.c	/^char SerialPortStatus = 0;$/;"	v
+ShortIntsToBuffer	MDB.c	/^void ShortIntsToBuffer(short int *pSrcBuffer, unsigned char  *pDstBuffer, short int noOfRegs){$/;"	f
+StringSplit	ProcessCSV.c	/^void StringSplit(char *StrArr[], char *Line, char *delimiters){$/;"	f
+Sub	Main.c	/^float Weight,Sub,Mul;$/;"	v
+SysP	Main.c	/^	char SysP[10];$/;"	m	struct:__anon5	file:
+TARGET	Makefile	/^TARGET := daemon $/;"	m
+TARGET	rfid/Makefile	/^TARGET := daemon $/;"	m
+TH	qrsdet2.c	/^double TH = .3125 ;$/;"	v
+TRUE	MDB_Defs.h	/^	TRUE $/;"	e	enum:BOOL
+TXID_MISMATCH	MDB_Defs.h	63;"	d
+TX_BUFFER_SIZE	MDB_Defs.h	14;"	d
+TempBuf	Main.c	/^unsigned char TempBuf[10];$/;"	v
+TempWeight	Main.c	/^int Hight=0,TempWeight;$/;"	v
+TestNo	Main.c	/^int baud,TestNo;$/;"	v
+TxBuf	Main.c	/^unsigned char TxBuf[30];$/;"	v
+TxBuffer	MDB_Defs.h	/^	unsigned char  TxBuffer[RX_BUFFER_SIZE];$/;"	m	struct:__anon8
+UNKNOWN_ERROR	MDB_Defs.h	53;"	d
+UName	Main.c	/^char UName[32];$/;"	v
+USER_INFO_FILE	Main.c	19;"	d	file:
+USER_SUMMARY_FILE	Main.c	33;"	d	file:
+Uin	Main.c	/^_LOGIN_DATA Uin;$/;"	v
+UserMode	Main.c	/^char cbuf, UserMode=0;$/;"	v
+UserName	Main.c	/^char UserName[10];$/;"	v
+UserPassword	Main.c	/^char UserPassword[10];$/;"	v
+WEIGHT_CHECK_TIMEOUT_SEC	Main.c	35;"	d	file:
+WELLTH_CHECK_TIMEOUT_SEC	Main.c	/^volatile int WELLTH_CHECK_TIMEOUT_SEC=180;$/;"	v
+WINDOW_WIDTH	qrsdet.h	52;"	d
+WR_BLK_SIZE_BITINFO	MDB_Defs.h	120;"	d
+WR_BLK_SIZE_REGINFO	MDB_Defs.h	119;"	d
+Weight	Main.c	/^	char Weight[10];$/;"	m	struct:__anon1	file:
+Weight	Main.c	/^	char Weight[10];$/;"	m	struct:__anon4	file:
+Weight	Main.c	/^float Weight,Sub,Mul;$/;"	v
+WritePacket	MDB.c	/^unsigned char  WritePacket(short int noOfBytesToWrite){$/;"	f
+_BLI_TEST	Main.c	/^}_BLI_TEST;$/;"	t	typeref:struct:__anon6	file:
+_BMI_TEST	Main.c	/^}_BMI_TEST;$/;"	t	typeref:struct:__anon4	file:
+_BP_TEST	Main.c	/^}_BP_TEST;$/;"	t	typeref:struct:__anon5	file:
+_INPUT_DATA	Main.c	/^}_INPUT_DATA;$/;"	t	typeref:struct:__anon1	file:
+_IN_FILE	Main.c	/^}_IN_FILE;$/;"	t	typeref:struct:__anon3	file:
+_LOGIN_DATA	Main.c	/^}_LOGIN_DATA;$/;"	t	typeref:struct:__anon2	file:
+_LOGIN_TEST	Main.c	/^}_LOGIN_TEST;$/;"	t	typeref:struct:__anon7	file:
+_MMPL_C_H_	MDB.h	3;"	d
+_MMPL_DEFS_H_	MDB_Defs.h	3;"	d
+autoscan	autoscan.c	/^int autoscan()$/;"	f
+baud	Main.c	/^int baud,TestNo;$/;"	v
+baud	rfid/RFID.c	/^int fd, baud, RFID_fd;$/;"	v
+bf_t	MDB/bmi_backup.sql	/^CREATE TABLE bf_t (pkey INTEGER PRIMARY KEY, bf_val TEXT, log_time TEXT);$/;"	t
+bf_t.bf_val	MDB/bmi_backup.sql	/^CREATE TABLE bf_t (pkey INTEGER PRIMARY KEY, bf_val TEXT, log_time TEXT);$/;"	F
+bf_t.log_time	MDB/bmi_backup.sql	/^CREATE TABLE bf_t (pkey INTEGER PRIMARY KEY, bf_val TEXT, log_time TEXT);$/;"	F
+bf_t.pkey	MDB/bmi_backup.sql	/^CREATE TABLE bf_t (pkey INTEGER PRIMARY KEY, bf_val TEXT, log_time TEXT);$/;"	F
+bmi_t	MDB/bmi_backup.sql	/^CREATE TABLE bmi_t (pkey INTEGER PRIMARY KEY, weight TEXT, bmi TEXT, height TEXT, log_time TEXT);$/;"	t
+bmi_t.bmi	MDB/bmi_backup.sql	/^CREATE TABLE bmi_t (pkey INTEGER PRIMARY KEY, weight TEXT, bmi TEXT, height TEXT, log_time TEXT);$/;"	F
+bmi_t.height	MDB/bmi_backup.sql	/^CREATE TABLE bmi_t (pkey INTEGER PRIMARY KEY, weight TEXT, bmi TEXT, height TEXT, log_time TEXT);$/;"	F
+bmi_t.log_time	MDB/bmi_backup.sql	/^CREATE TABLE bmi_t (pkey INTEGER PRIMARY KEY, weight TEXT, bmi TEXT, height TEXT, log_time TEXT);$/;"	F
+bmi_t.pkey	MDB/bmi_backup.sql	/^CREATE TABLE bmi_t (pkey INTEGER PRIMARY KEY, weight TEXT, bmi TEXT, height TEXT, log_time TEXT);$/;"	F
+bmi_t.weight	MDB/bmi_backup.sql	/^CREATE TABLE bmi_t (pkey INTEGER PRIMARY KEY, weight TEXT, bmi TEXT, height TEXT, log_time TEXT);$/;"	F
+bp_t	MDB/bmi_backup.sql	/^CREATE TABLE bp_t (pkey INTEGER PRIMARY KEY, sbp_val TEXT, dbp_val TEXT, pr_val TEXT, log_time TEXT);$/;"	t
+bp_t.dbp_val	MDB/bmi_backup.sql	/^CREATE TABLE bp_t (pkey INTEGER PRIMARY KEY, sbp_val TEXT, dbp_val TEXT, pr_val TEXT, log_time TEXT);$/;"	F
+bp_t.log_time	MDB/bmi_backup.sql	/^CREATE TABLE bp_t (pkey INTEGER PRIMARY KEY, sbp_val TEXT, dbp_val TEXT, pr_val TEXT, log_time TEXT);$/;"	F
+bp_t.pkey	MDB/bmi_backup.sql	/^CREATE TABLE bp_t (pkey INTEGER PRIMARY KEY, sbp_val TEXT, dbp_val TEXT, pr_val TEXT, log_time TEXT);$/;"	F
+bp_t.pr_val	MDB/bmi_backup.sql	/^CREATE TABLE bp_t (pkey INTEGER PRIMARY KEY, sbp_val TEXT, dbp_val TEXT, pr_val TEXT, log_time TEXT);$/;"	F
+bp_t.sbp_val	MDB/bmi_backup.sql	/^CREATE TABLE bp_t (pkey INTEGER PRIMARY KEY, sbp_val TEXT, dbp_val TEXT, pr_val TEXT, log_time TEXT);$/;"	F
+callback	Main.c	/^static int callback(void *NotUsed, int argc, char **argv, char **azColName){$/;"	f	file:
+cbuf	Main.c	/^char cbuf, UserMode=0;$/;"	v
+clearSummaryFile	Main.c	/^void clearSummaryFile(void){$/;"	f
+co_t	MDB/bmi_backup.sql	/^CREATE TABLE co_t (pkey INTEGER PRIMARY KEY, co_val TEXT, log_time TEXT);$/;"	t
+co_t.co_val	MDB/bmi_backup.sql	/^CREATE TABLE co_t (pkey INTEGER PRIMARY KEY, co_val TEXT, log_time TEXT);$/;"	F
+co_t.log_time	MDB/bmi_backup.sql	/^CREATE TABLE co_t (pkey INTEGER PRIMARY KEY, co_val TEXT, log_time TEXT);$/;"	F
+co_t.pkey	MDB/bmi_backup.sql	/^CREATE TABLE co_t (pkey INTEGER PRIMARY KEY, co_val TEXT, log_time TEXT);$/;"	F
+deriv1	qrsdet2.c	/^int deriv1(int x, int init)$/;"	f
+ecgread	ecgread.c	/^int ecgread()$/;"	f
+end	Main.c	/^struct timeval start, end;$/;"	v	typeref:struct:
+fd	Main.c	/^int fd, RFID_fd, CO_fd;$/;"	v
+fd	rfid/RFID.c	/^int fd, baud, RFID_fd;$/;"	v
+flush_flag	ecgread.c	/^int flush_flag = 0;$/;"	v
+fp	Main.c	/^FILE *fp;$/;"	v
+fp1	Main.c	/^FILE* fp1, *fpUI, *sms_fp;$/;"	v
+fpUI	Main.c	/^FILE* fp1, *fpUI, *sms_fp;$/;"	v
+getSignalStrength	SMS_send.c	/^int getSignalStrength(int GPRS_fd){$/;"	f
+heartrate	heartrate.c	/^int heartrate()$/;"	f
+init_scan	ecgread.c	/^int init_scan = 0;$/;"	v
+login	Main.c	/^_LOGIN_TEST login;$/;"	v
+main	Main.c	/^int main(void){$/;"	f
+main	rfid/RFID.c	/^void main (){$/;"	f
+mbresp	MDB.c	/^char mbresp[30];$/;"	v
+mbrespctr	MDB.c	/^int  mbrespctr;$/;"	v
+mdbReqAdu	MDB.c	/^MDB_REQ_ADU mdbReqAdu;$/;"	v
+mdbRspAdu	MDB.c	/^MDB_RSP_ADU mdbRspAdu;$/;"	v
+mean	qrsdet2.c	/^int mean(int *array, int datnum)$/;"	f
+nu_SerialComPort_BlockRead	SerialComPort.c	/^int nu_SerialComPort_BlockRead (int fd, unsigned char *recv, int len)$/;"	f
+nu_SerialComPort_BlockRead	rfid/SerialComPort.c	/^int nu_SerialComPort_BlockRead (int fd, unsigned char *recv, int len)$/;"	f
+nu_SerialComPort_Close	SerialComPort.c	/^void nu_SerialComPort_Close (int fd)$/;"	f
+nu_SerialComPort_Close	rfid/SerialComPort.c	/^void nu_SerialComPort_Close (int fd)$/;"	f
+nu_SerialComPort_Getbaud	SerialComPort.c	/^int nu_SerialComPort_Getbaud (int fd) $/;"	f
+nu_SerialComPort_Getbaud	rfid/SerialComPort.c	/^int nu_SerialComPort_Getbaud (int fd) $/;"	f
+nu_SerialComPort_Init	SerialComPort.c	/^int nu_SerialComPort_Init (int fd, int baud)$/;"	f
+nu_SerialComPort_Init	rfid/SerialComPort.c	/^int nu_SerialComPort_Init (int fd, int baud)$/;"	f
+nu_SerialComPort_Open	SerialComPort.c	/^int nu_SerialComPort_Open (char *port)$/;"	f
+nu_SerialComPort_Open	rfid/SerialComPort.c	/^int nu_SerialComPort_Open (char *port)$/;"	f
+number	Main.c	/^char number[16];$/;"	v
+openCO_port	Main.c	/^char openCO_port(){$/;"	f
+open_sms_port	SMS_send.c	/^int open_sms_port(){$/;"	f
+pduSize	MDB_Defs.h	/^	unsigned char  pduSize;$/;"	m	struct:__anon8
+pduSize	MDB_Defs.h	/^	unsigned char  pduSize;$/;"	m	struct:__anon9
+prevSecVal	Main.c	/^long prevSecVal = 0;$/;"	v
+query	Main.c	/^char query[512];$/;"	v
+readdump	readdump.c	/^int readdump()$/;"	f
+retStr	SMS_send.c	/^unsigned char retStr[255];$/;"	v
+selectSMSFormat	SMS_send.c	/^int selectSMSFormat(int GPRS_fd, char *format){$/;"	f
+sendMsgCammand	SMS_send.c	/^int sendMsgCammand(char* number){$/;"	f
+sendSMSTo	SMS_send.c	/^int sendSMSTo(int GPRS_fd, char* number, char* SMSBuffer){$/;"	f
+serial_port_write	SerialComPort.c	/^int serial_port_write(int fd, char *write_buffer)$/;"	f
+sms_buf	Main.c	/^char sms_buf[512];$/;"	v
+sms_fd	SMS_send.c	/^static int sms_fd;$/;"	v	file:
+sms_fp	Main.c	/^FILE* fp1, *fpUI, *sms_fp;$/;"	v
+start	Main.c	/^struct timeval start, end;$/;"	v	typeref:struct:timeval
+statusCode	MDB.c	/^volatile unsigned char  statusCode;$/;"	v
+temp_bli_val	Main.c	/^float temp_bli_val;$/;"	v
+testStartTime	Main.c	/^int testStartTime =0;$/;"	v
+thresh	qrsdet2.c	/^int thresh(int qmean, int nmean)$/;"	f
+timeout_SerialComPort_BlockRead	SerialComPort.c	/^int timeout_SerialComPort_BlockRead (int fd, unsigned char *recv, int len)$/;"	f
+tmpBLIValue	Main.c	/^char tmpBLIValue[10];$/;"	v
+tmpBLIValue1	Main.c	/^char tmpBLIValue1[10];$/;"	v

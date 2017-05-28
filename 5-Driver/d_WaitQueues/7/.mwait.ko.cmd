@@ -1,0 +1,1 @@
+cmd_/home/tsp/tlinux/mylinux/Tools/1-Driver/4_WaitQueues/7/mwait.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/tsp/tlinux/mylinux/Tools/1-Driver/4_WaitQueues/7/mwait.ko /home/tsp/tlinux/mylinux/Tools/1-Driver/4_WaitQueues/7/mwait.o /home/tsp/tlinux/mylinux/Tools/1-Driver/4_WaitQueues/7/mwait.mod.o

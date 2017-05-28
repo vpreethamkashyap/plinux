@@ -1,0 +1,1 @@
+cmd_/home/tsp/tlinux/mylinux/Tools/1-Driver/1_basics/2/drv/char_driver_static.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/tsp/tlinux/mylinux/Tools/1-Driver/1_basics/2/drv/char_driver_static.ko /home/tsp/tlinux/mylinux/Tools/1-Driver/1_basics/2/drv/char_driver_static.o /home/tsp/tlinux/mylinux/Tools/1-Driver/1_basics/2/drv/char_driver_static.mod.o

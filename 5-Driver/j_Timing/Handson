@@ -1,0 +1,39 @@
+1.	User has to understand here use of Schdule function in kernel
+	& how to use proc entry to wake up read operation
+	But her concept of wait is not proper let us chcek in 2nd folder
+	
+2.	User has to understand here use of Schdule function in kernel
+	& how to use proc entry to wake up read operation.
+	Here read waits in running queue.
+
+3.	User has to understand here use of Schdule function in kernel
+	& how to use proc entry to wake up read operation.
+	Here read waits in running queue for particular letter.
+	
+4.	User has to understand here use of Schdule function in kernel
+	& how to use proc entry to wake up read operation.
+	Here read doesn't waits in runing queue It will woken up as soon 
+	as PROC entry done waits in sleeping state.
+	For this we need two terminals one is serial & another is tftp
+	
+5.  User has to understand how interruptible wait works
+	For this we need two terminals one is serial & another is tftp
+	
+6.  Here user has to start first read operation then it waits for flag 
+	in while loop once user do PROC entry then only while loop breaks & 
+	more over read operation while looks for particular letter from PROC
+	For this we need two terminals one is serial & another is tftp
+	
+7.	User has to understand how read operation waits untill 
+	write operation writes. 
+	For this we need two terminals one is serial & another is tftp
+
+8.	User has to understand how read operation waits untill 
+	write operation writes. But here read operation waits for some 
+	particular data from write operation 
+	for this we need two terminals one is serial & another is tftp
+	
+9.  Created 10 threads here you will get to know when you do write entry 
+	then all process wakes up 
+
+10. But exclusive waits take care here it waks up one last process

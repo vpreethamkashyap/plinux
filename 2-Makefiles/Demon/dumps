@@ -1,0 +1,8 @@
+doserial.c: In function 'main':
+doserial.c:20: warning: passing argument 1 of 'nu_SerialComPort_Open' from incompatible pointer type
+SerialComPort.h:20: note: expected 'char *' but argument is of type 'char **'
+/tmp/ccyOCDMT.o: In function `main':
+doserial.c:(.text+0x44): undefined reference to `nu_SerialComPort_Open'
+doserial.c:(.text+0xa4): undefined reference to `nu_SerialComPort_Init'
+collect2: ld returned 1 exit status
+make: *** [doserial.o] Error 1

@@ -1,0 +1,771 @@
+#include "Main.h"
+
+#define IN_TEXT_FILE                "MDB/in.txt"
+#define IN_ENTERY_FILE           "MDB/Inpt.csv"
+#define OT_TEXT_FILE               "MDB/out.txt"
+#define OT_ENTERY_FILE          "MDB/Data.csv"
+#define USER_INFO_FILE           "MDB/user.csv"
+//-----Used by UI---
+#define LOGIN_SUMMARY_FILE		"MDB/login_sum.csv"
+#define BMI_SUMMARY_FILE		"MDB/bmi_sum.csv"
+#define BP_SUMMARY_FILE			"MDB/bp_sum.csv"
+#define BF_SUMMARY_FILE			"MDB/bf_sum.csv"
+#define CO_SUMMARY_FILE			"MDB/co_sum.csv"
+//-----Used by UI---
+#define USER_SUMMARY_FILE		"MDB/user_summary.csv"
+
+typedef struct{
+	char Weight[10];
+	char Comma;
+	char Hight[10];
+}_INPUT_DATA;
+_INPUT_DATA Din;
+
+
+typedef struct{
+	char *Name;
+	char *Password;
+}_LOGIN_DATA;
+_LOGIN_DATA Uin;
+char CurRFIDScaned[16]; 
+
+typedef struct{
+	char InBuf[10];
+}_IN_FILE;
+_IN_FILE Indata;
+
+typedef struct{
+	char Weight[10];
+	char Comma;
+	char BmiValue[10];
+}_BMI_TEST;
+_BMI_TEST Bmi;
+
+typedef struct{
+	char SysP[10];
+	char Comma1;
+	char DiaP[10];
+	char Comma2;
+	char PulseRate[10];
+}_BP_TEST;
+_BP_TEST Bp;
+
+typedef struct{
+	char BliValue[10];
+}_BLI_TEST;
+_BLI_TEST Bli;
+
+typedef struct{
+	char LoginReply[15];
+	char Name[64];
+	char Age[8];
+	char Gender[8];
+}_LOGIN_TEST;
+_LOGIN_TEST login;
+
+
+char *SerialPortName[] = {	"/dev/ttyUSB0",
+							"/dev/ttyUSB1",
+							"/dev/ttyUSB2",
+							"/dev/ttyUSB3",
+							"/dev/ttyUSB4",
+							"/dev/ttyUSB5",
+							"/dev/ttyUSB6",
+							"/dev/ttyUSB7",
+							"/dev/ttyUSB8",
+							"/dev/ttyUSB9",    
+							"/dev/ttyS0",
+							"/dev/ttyS1",                                                           
+							"/dev/ttyS2",
+							"/dev/ttyS3",
+							"/dev/ttyS4",
+							"/dev/ttyS5",
+							"/dev/ttyS6",
+							"/dev/ttyS7",
+							"/dev/ttyS8",
+							"/dev/ttyS9"
+						};
+/********************************************************************************************
+			Function Declarations
+*********************************************************************************************/
+void CheckTest(void);
+void CallWhileLoop(void);
+void ReadInputFile(void);
+void CheckUserInfo(void);
+void CheckEndOfTest(void);
+void DisplayMessage(void);
+char OpenSerialPort(void);   	
+void CompareUserInfo(void);
+float ConvertHexToFloat(void);
+void ClearDemonInputFile();
+extern unsigned char  ModbusOP(unsigned char  slaveNo, unsigned char  functionCode, short int startAddress, short int  numItems, unsigned char  *dataBuffer, unsigned char  numRetries);
+extern unsigned char  ConstructRequest(unsigned char  slaveNo, unsigned char  functionCode, short int startAddress, short int  numItems, unsigned char  *dataBuffer,MDB_REQ_ADU *MbReqAdu, MDB_RSP_ADU *MbRspAdu);
+/********************************************************************************************
+			Variable Declarations
+*********************************************************************************************/
+int fd, RFID_fd;
+FILE *fp;
+
+FILE* fp1, *fpUI;
+
+float BMIValue;
+float BLIValue;
+int baud,TestNo;
+char cbuf, UserMode=0;
+char SerialPortStatus = 0;
+short int MdbResponse = 0;	
+short int Hight=0,TempWeight;
+char UserName[10];
+char UserPassword[10];
+unsigned char MdbFlag = 0;
+unsigned char RxBuf[100];
+unsigned char TxBuf[30];
+unsigned char BmiBuf[10];
+unsigned char TempBuf[10];
+volatile unsigned int LoopCase = 1;
+volatile unsigned char Buf[5];
+float Weight,Sub,Mul;
+	
+extern unsigned short int BmiTestEn;
+extern unsigned short int BpTestEn;
+extern unsigned short int BliTestEn;
+extern unsigned char HoldingReg[10];
+
+
+/********************************************************************************************
+			Main Starts Here
+*********************************************************************************************/
+int main(void){
+    //CompareUserInfo();
+    //while(1);
+    OpenSerialPort();
+    if(SerialPortStatus==1){
+        LoopCase = 1;
+        MdbFlag = 0;
+        printf(" Wellth System is runing \n");
+        CallWhileLoop();
+        close(fd);
+    }
+    else{
+    	return 0;
+    }
+}
+
+void ReadInputFile(void){
+    FILE *ffp,*fp;
+    ffp = fopen (IN_TEXT_FILE, "r");
+    if(ffp<0){
+        printf(" System is not able to open file \n");
+       LoopCase = 0;    
+    }
+    else{
+        fread(&Indata,sizeof(Indata),1,ffp);
+        fclose(ffp);
+        if(strcmp(Indata.InBuf,"WeTest") == 0){
+            memset(Indata.InBuf,0,10);
+            TestNo = 1;
+        }
+        else if(strcmp(Indata.InBuf,"BpTest") == 0){
+            memset(Indata.InBuf,0,10);
+            TestNo = 2;
+        }
+        else if(strcmp(Indata.InBuf,"BliTest") == 0){
+            memset(Indata.InBuf,0,10);
+            TestNo = 3;
+        }
+        else if(strcmp(Indata.InBuf,"Login") == 0){
+			printf("\n*******login flag set\n");
+            memset(Indata.InBuf,0,10);
+            UserMode = 1;
+        }
+        else{
+            TestNo =0;
+        }
+       LoopCase = 1;    
+    }
+}
+
+void CallWhileLoop(void){
+	while(1){
+		switch(LoopCase){		
+			case 1:
+                  ReadInputFile();
+                  CheckTest();
+                  CheckUserInfo();
+             break;
+             //<<<<<<<<<<<<.................................................. Sensor No 1 Interface.......................................................................................>>>>>>>>>>>>>//
+			case 2:
+		       HoldingReg[1] = 0x00;   
+               HoldingReg[0] = 0x01;
+               MdbResponse = ModbusOP(0x01,FC_WRITE_SINGLE_COIL, 0x000A, 0x000l, (unsigned char *)HoldingReg,1);
+               if(MdbResponse!=0){
+                    #if defined	SHOW_DISPLAY
+                        printf("Modbus Error Response %d \n",MdbResponse);
+                     #endif
+               }
+               else{
+               printf("Modbus Error Response %d \n",MdbResponse);
+                    HoldingReg[1] = 0x00;   
+                    HoldingReg[0] = 0x00;
+     				LoopCase = LoopCase +1;
+                }
+			break;			
+			case 3:
+                MdbResponse = ModbusOP(0x01,FC_READ_COILS, 0x000F, 0x0000, (unsigned char *)HoldingReg, 1);
+                if((RxBuf[0] == 0x01) && (RxBuf[1] == 0x01) && (RxBuf[2] == 0x01) && (RxBuf[3] == 0x01)){
+    				LoopCase = LoopCase +1;
+    				BmiTestEn = 1;
+                }
+             break;
+             case 4:      
+                 MdbResponse = ModbusOP(0x01,FC_READ_HOLD_REGS, 0x000A, 0x0002, (unsigned char *)HoldingReg, 1);
+                 if(MdbResponse!=0){
+                    #if defined	SHOW_DISPLAY
+                        printf("Modbus Error Response %d \n",MdbResponse);
+                     #endif
+                 }
+                else{  
+                    Weight = ConvertHexToFloat();
+                    printf("Modbus Got Sensor Response\n");
+                    printf("Your Weight is = %f\n",Weight);   
+                    BMIValue  = (Weight/Hight)*10000;
+                    BMIValue = BMIValue / Hight;
+                    printf("Your BMI Level is = %f\n",BMIValue);   
+    				Buf[0] = '1';
+                    memset(TempBuf,0,10);
+                    sprintf(TempBuf,"%f",Weight);
+                    strcpy(Bmi.Weight,TempBuf);
+                    memset(TempBuf,0,10);
+                    sprintf(TempBuf,"%f",BMIValue);
+                    strcpy(Bmi.BmiValue,TempBuf);
+                    memset(TempBuf,0,10);
+                    
+                    fp = fopen (OT_ENTERY_FILE, "w");
+                    if(fp<0){
+                        printf(" System is not able to open file \n");
+                    }
+                    else{
+                        fwrite(&Bmi,sizeof(Bmi),1,fp);
+                        fclose(fp);
+                    }
+
+					fpUI = fopen (BMI_SUMMARY_FILE, "w"); //open file in append mode now onwards
+					printf("1>>BMI summary file opened : %s\n", BMI_SUMMARY_FILE);
+                    if(fpUI<0){
+                        printf(" System is not able to open file \n");
+                    } else {
+						printf("BMI summary file opened : %s\n", BMI_SUMMARY_FILE);
+						printf(">>>>>>>>weight:%s bmi-%s height-- %s",Bmi.Weight, Bmi.BmiValue, Din.Hight);
+						Bmi.Comma = ',';
+						fwrite(Bmi.Weight,strlen(Bmi.Weight),1,fpUI);
+						fwrite(&Bmi.Comma,1,1,fpUI);
+						fwrite(Bmi.BmiValue,strlen(Bmi.BmiValue),1,fpUI);
+						fwrite(&Bmi.Comma,1,1,fpUI);
+						fwrite(Din.Hight, strlen(Din.Hight), 1, fpUI);
+					}
+					fclose(fpUI);
+
+                    fp = fopen (OT_TEXT_FILE, "w");
+                    if(fp<0){
+                        printf(" System is not able to open file \n");
+                    }
+                    else{
+                        fwrite(&Buf,1,1,fp);
+                        fclose(fp);
+                    }
+                    printf(" Demon has completed the  Wellth BMI Test\n");
+                    BmiTestEn = 0;
+             		LoopCase = 1;
+                    printf("LoopCase Value is %d\n",LoopCase);
+                    fp  = fopen(IN_ENTERY_FILE,"w");
+                    fclose(fp);
+                    fp = fopen(IN_TEXT_FILE,"w");
+                    fclose(fp);                    
+                }
+             break;
+             case 5:
+             break;
+
+             //<<<<<<<<<<<<.................................................. Sensor No 2 Interface.......................................................................................>>>>>>>>>>>>>//
+             
+			case 6:		
+		       HoldingReg[1] = 0x00;   
+               HoldingReg[0] = 0x01;
+               MdbResponse = ModbusOP(0x01,FC_WRITE_SINGLE_COIL, 0x000B, 0x000l, (unsigned char *)HoldingReg,1);
+               if(MdbResponse!=0){
+                    #if defined	SHOW_DISPLAY
+                        printf("Modbus Error Response %d \n",MdbResponse);
+                     #endif
+               }
+               else{
+                    HoldingReg[1] = 0x00;   
+                    HoldingReg[0] = 0x00;
+     				LoopCase = LoopCase +1;
+                }
+			break;			
+			case 7:
+                MdbResponse = ModbusOP(0x01,FC_READ_COILS, 0x000F, 0x0000, (unsigned char *)HoldingReg, 1);
+                if((RxBuf[0] == 0x01) && (RxBuf[1] == 0x01) && (RxBuf[2] == 0x01) && (RxBuf[3] == 0x01)){
+    				LoopCase = LoopCase +1;
+                    BpTestEn = 1;
+                }
+             break;
+             case 8:      
+                 MdbResponse = ModbusOP(0x01,FC_READ_HOLD_REGS, 0x000B, 0x0002, (unsigned char *)HoldingReg, 1);
+                 if(MdbResponse!=0){
+                    #if defined	SHOW_DISPLAY
+                        printf("Modbus Error Response %d \n",MdbResponse);
+                     #endif
+                 }
+                else{  
+                    printf("Modbus Got Sensor Response\n");
+                    printf("Systolic Pressure is = %d\n",BmiBuf[0]);   
+                    printf("Diastolic Pressure is = %d\n",BmiBuf[1]);   
+                    printf("Pulse Rate is = %d\n",BmiBuf[2]);   
+                    BpTestEn = 0;
+                    
+                    sprintf(Bp.SysP,"%d",BmiBuf[0]);
+                    sprintf(Bp.DiaP,"%d",BmiBuf[1]);
+                    sprintf(Bp.PulseRate,"%d",BmiBuf[2]);
+									
+                    fp = fopen (OT_ENTERY_FILE, "w");
+                    if(fp<0){
+                        printf(" System is not able to open file \n");
+                    }
+                    else{
+                        fwrite(&Bp,sizeof(Bp),1,fp);
+                        fclose(fp);
+                    }
+					Buf[0] = ',';
+					fpUI = fopen (BP_SUMMARY_FILE, "w"); //open file in append mode now onwards
+                    if(fpUI<0){
+                        printf(" System is not able to open file \n");
+                    } else {
+						fwrite(Bp.SysP,strlen(Bp.SysP),1,fpUI);
+						fwrite(&Buf[0],1,1,fpUI);
+						fwrite(Bp.DiaP,strlen(Bp.DiaP),1,fpUI);
+						fwrite(&Buf[0],1,1,fpUI);
+						fwrite(Bp.PulseRate,strlen(Bp.PulseRate),1,fpUI);
+						fclose(fpUI);
+					}
+					
+					Buf[0] = '1';
+                    fp = fopen (OT_TEXT_FILE, "w");
+                    if(fp<0){
+                        printf(" System is not able to open file \n");
+                    }
+                    else{
+                        fwrite(&Buf,1,1,fp);
+                        fclose(fp);
+                    }
+                    printf(" Demon has completed the  Wellth BMI Test\n");
+             		LoopCase = 1;
+                    printf("LoopCase Value is %d\n",LoopCase);
+                    fp  = fopen(IN_ENTERY_FILE,"w");
+                    fclose(fp);
+                    fp = fopen(IN_TEXT_FILE,"w");
+                    fclose(fp);   
+                }
+             break;       
+             
+             //<<<<<<<<<<<<.................................................. Sensor No 3 Interface.......................................................................................>>>>>>>>>>>>>//
+           case 9:
+                LoopCase = LoopCase +1;
+  			 break;  			 	  
+			case 10:		
+		       HoldingReg[1] = 0x00;   
+               HoldingReg[0] = 0x01;
+               MdbResponse = ModbusOP(0x01,FC_WRITE_SINGLE_COIL, 0x000C, 0x000l, (unsigned char *)HoldingReg,1);
+               if(MdbResponse!=0){
+                    #if defined	SHOW_DISPLAY
+                        printf("Modbus Error Response %d \n",MdbResponse);
+                     #endif
+               }
+               else{
+                    HoldingReg[1] = 0x00;   
+                    HoldingReg[0] = 0x00;
+     				LoopCase = LoopCase +1;
+                }
+			break;			
+			case 11:
+                MdbResponse = ModbusOP(0x01,FC_READ_COILS, 0x000F, 0x0000, (unsigned char *)HoldingReg, 1);
+                if((RxBuf[0] == 0x01) && (RxBuf[1] == 0x01) && (RxBuf[2] == 0x01) && (RxBuf[3] == 0x01)){
+    				LoopCase = LoopCase +1;
+                    BpTestEn = 1;
+                }
+             break;
+             case 12:      
+                 MdbResponse = ModbusOP(0x01,FC_READ_HOLD_REGS, 0x000C, 0x0002, (unsigned char *)HoldingReg, 1);
+                 if(MdbResponse!=0){
+                    #if defined	SHOW_DISPLAY
+                        printf("Modbus Error Response %d \n",MdbResponse);
+                     #endif
+                 }
+                else{  
+                    BliTestEn =  1;
+                    BLIValue = ConvertHexToFloat();
+                    printf("Modbus Got Sensor Response\n");
+                    printf("Sensor Response is  = %f\n",BLIValue);   
+                    BLIValue  = BLIValue*10000;
+                    Mul = (Hight*Hight)/BLIValue;
+                    Sub  = 12.297 + (0.287*Mul);
+                    BLIValue  = 0.697 * TempWeight;
+                    BLIValue = BLIValue  - Sub;
+                    printf("Your BMI Level is = %f\n",BLIValue);   
+    				LoopCase = 1;
+                    BliTestEn =  0;
+    				Buf[0] = '1';
+                    memset(TempBuf,0,10);
+                    sprintf(TempBuf,"%f",BLIValue);
+                    strcpy(Bli.BliValue,TempBuf);
+                    memset(TempBuf,0,10);
+                    
+                    fp = fopen (OT_ENTERY_FILE, "w");
+                    if(fp<0){
+                        printf(" System is not able to open file \n");
+                    }
+                    else{
+                        fwrite(&Bli,sizeof(Bli),1,fp);
+                        fclose(fp);
+                    }
+
+					fpUI = fopen (BF_SUMMARY_FILE, "w"); //open file in append mode now onwards
+                    if(fpUI<0){
+                        printf(" System is not able to open file \n");
+                    } else {
+						fwrite(Bli.BliValue,strlen(Bli.BliValue),1,fpUI);
+						fclose(fpUI);
+					}
+					
+                    fp = fopen (OT_TEXT_FILE, "w");
+                    if(fp<0){
+                        printf(" System is not able to open file \n");
+                    }
+                    else{
+                        fwrite(&Buf,1,1,fp);
+                        fclose(fp);
+                    }
+                    printf(" Demon has completed the  Wellth BMI Test\n");
+                    BliTestEn = 0;
+             		LoopCase = 1;
+                    printf("LoopCase Value is %d\n",LoopCase);
+                    fp  = fopen(IN_ENTERY_FILE,"w");
+                    fclose(fp);
+                    fp = fopen(IN_TEXT_FILE,"w");
+                    fclose(fp);            
+                }
+             break;        
+             default:
+			 break;
+		}
+	}
+}
+
+char OpenSerialPort(void){
+	FILE *rfid_fp;
+	char PrevLine[512];
+	char Line[512];
+	char *ArrStr[4];
+	char *StrPtr;
+	char StrSerialPortName[64];
+	int len;
+	/********************Open RFID connected serial port*********************/
+		system("/bin/dmesg | grep FTDI > /home/ab.c");
+		rfid_fp = fopen("/home/ab.c", "r");
+		while( GetLine(rfid_fp, Line) != 0){
+			strcpy(PrevLine, Line);
+			//printf("%s\n", Line);
+		}
+		printf("---\n %s\n", PrevLine);
+		StrPtr = strstr(PrevLine, "FTDI USB Serial Device converter now attached to");
+		if(StrPtr == NULL) {
+			printf("\n******************************************\nError : The RFID Sensor is not connected\n******************************************\n");
+		} else {
+			StrPtr = strstr(PrevLine, "tty");
+			strcpy(StrSerialPortName, "/dev/");
+			strcat(StrSerialPortName, StrPtr);
+			len = strlen(StrSerialPortName);
+			printf(">>> %s -- %d\n", StrSerialPortName, len);
+			StrSerialPortName[len] = 0;
+			RFID_fd = ArgOpenSerialPort(StrSerialPortName, 9600);
+		}
+	
+	/********************Open Co-Processor connected serial port*********************/
+		system("/bin/dmesg | grep pl2303 > /home/ab.c");
+		rfid_fp = fopen("/home/ab.c", "r");
+		while( GetLine(rfid_fp, Line) != 0){
+			strcpy(PrevLine, Line);
+			//printf("%s\n", Line);
+		}
+		printf("---\n %s\n", PrevLine);
+		StrPtr = strstr(PrevLine, "pl2303 converter now attached to");
+		if(StrPtr == NULL) {
+			printf("\n******************************************\nError : The Co-Processor is not connected\n******************************************\n");
+		} else {
+			StrPtr = strstr(PrevLine, "tty");
+			strcpy(StrSerialPortName, "/dev/");
+			strcat(StrSerialPortName, StrPtr);
+			len = strlen(StrSerialPortName);
+			printf(">>>%s -- %d\n", StrSerialPortName, len);
+			StrSerialPortName[len] = 0;
+			fd = ArgOpenSerialPort(StrSerialPortName, 9600);
+		}
+/*
+
+    int i=0;
+    while(i<20){
+      	fd = nu_SerialComPort_Open(SerialPortName[i]);
+	    if(fd < 0) {
+        }
+	    else{
+ 	        printf("Able to open the SerialPort %s \n ",SerialPortName[i]);
+  	        SerialPortStatus = 1;
+            break;
+	    }
+	    i++;
+	    
+    }
+
+    if(SerialPortStatus != 0){
+        baud = 9600;    //atoi(argv[2]);
+    	if(nu_SerialComPort_Init(fd, baud) < 0 ){
+    		printf("baud not set");
+		    return 0;
+    	} 
+    }
+    else{
+            printf("Unable to open the SerialPort \n ");
+   		    return ;
+    }
+    return 1;
+*/
+}
+
+void DisplayMessage(void){
+ 	printf("You are in Wellth System \n");
+	printf("Enter 1 To Check Your BMI Level\n");
+	printf("Enter 2 To Check Your Blood Pressure  \n");
+	printf("Enter 3 To Check Your BLI Level\n");
+}
+
+float ConvertHexToFloat(void){
+        float Result;
+        signed int Bmi;
+        long int Byte1=0,Byte2=0,Byte3=0,Byte4=0;
+        
+        if(BliTestEn){
+          Byte1 = BmiBuf[1];
+            Byte2  = BmiBuf[0];
+            Byte2 = (Byte2<<8);
+            Byte3 = BmiBuf[3];
+            Byte3 = (Byte3<<16);
+            Byte4= BmiBuf[2];
+            Byte4  = (Byte4<<24);
+        }        
+        else
+        {        
+            Byte1 = BmiBuf[0];
+            Byte2  = BmiBuf[1];
+            Byte2 = (Byte2<<8);
+            Byte3 = BmiBuf[2];
+            Byte3 = (Byte3<<16);
+            Byte4= BmiBuf[3];
+            Byte4  = (Byte4<<24);
+        }        
+        Bmi = (Byte1| Byte2| Byte3|Byte4);    
+        printf("The int value is %x \n",Bmi);    
+        Result = *((float *)&Bmi);     
+        return Result;
+}
+
+void CheckTest(void){
+    if(TestNo == 1){
+         LoopCase = 2;    
+        printf("Demon Code has received the Hight = ");
+        fp = fopen (IN_ENTERY_FILE, "r");
+        if(fp<0){
+            printf(" System is not able to open file \n");
+        }
+        else{
+            fread(&Din,sizeof(Din),1,fp);
+            fclose(fp);
+        }
+        sscanf(&Din.Hight,"%d",&Hight);
+        //memset(Din.Hight,0,10);
+        printf("%d\n",Hight);
+        printf("\n");     
+        printf("BMI Test Starts Now \n");             
+    }
+    else if(TestNo == 2){
+        printf("Bp Test Starts Now \n");
+        LoopCase = 6;    
+    }
+    else if(TestNo == 3){
+        printf("BLI Test Starts now \n");      
+        printf("Demon Code has received the Hight = ");
+        fp = fopen (IN_ENTERY_FILE, "r");
+        if(fp<0){
+            printf(" System is not able to open file \n");
+        }
+        else{
+            fread(&Din,sizeof(Din),1,fp);
+            fclose(fp);
+        }
+        sscanf(&Din.Weight,"%d",&TempWeight);
+        sscanf(&Din.Hight,"%d",&Hight);
+        memset(Din.Weight,0,10);
+        memset(Din.Hight,0,10);
+        printf("The Hight Value %d\n",Hight);
+        printf("%d\n",Hight);
+        printf("The Weight Value %d\n",TempWeight);
+        printf("BLI Test Starts now \n");      
+        LoopCase = 9;  
+        printf("\n");     
+    }
+    else{
+        LoopCase = 1;    
+    }
+}
+
+char Line[512];
+char *DemonArrOfCol[8];
+char *ArrayOfCol[32];
+
+void CheckUserInfo(void){
+	char CharArr[12];
+	if(UserMode==1){
+    	printf("Demon Code has received the User Login information\n ");
+	    fp = fopen (IN_ENTERY_FILE, "r");
+	    if(fp<0){
+	        printf(" System is not able to open file \n");
+	    }
+	    else{
+			if(GetLine(fp,Line)){
+				//printf("size of array of string %d", sizeof(DemonArrOfCol));
+				//printf("size of array of column %d", sizeof(ArrayOfCol));
+				CreateArrayOfString(DemonArrOfCol,Line);					
+			}	
+	        fclose(fp);
+	    }
+		if(DemonArrOfCol[1] == NULL) {
+			memset(CurRFIDScaned, 0, sizeof(CurRFIDScaned));
+			read(RFID_fd, CurRFIDScaned, 12);
+			printf("%s",CurRFIDScaned);
+		} else {
+		   	Uin.Name = DemonArrOfCol[0];
+			Uin.Password  = DemonArrOfCol[1];
+			printf("The User Name %s\n",Uin.Name);
+			printf("The User Password %s\n",Uin.Password);
+			printf("DataBase Test Starts now \n");          
+			CompareUserInfo();
+		}
+	}
+}
+
+void CompareUserInfo(void){
+		FILE* fp1, *fpUI;
+        char Buf,NoOfCommas =0,Index=0;
+        char TempUserName[20], ch;
+		unsigned char UNMatched = 0, PWDMatched = 0, RFIDMatched = 0;
+		unsigned char UNColNum = 11;
+		unsigned char PWDColNum = 12;  
+		unsigned char NameColNum = 8;
+		unsigned char AgeColNum = 13;
+		unsigned char RFIDColNum = 14;
+		unsigned char GenderColNum = 4;
+
+        printf("Demon Code has started the comparison of  Login information\n ");
+        UNMatched = 0; PWDMatched = 0; RFIDMatched = 0;
+        fp1 = fopen (USER_INFO_FILE, "r");
+        if(fp1<0){
+            printf(" System is not able to open file \n");
+        }
+        else{
+			while(1){
+				if(GetLine(fp1,Line)){
+					printf("----> Line: %s\n", Line);
+					CreateArrayOfString(ArrayOfCol,Line);
+					if (strcmp(ArrayOfCol[UNColNum-1],Uin.Name) == 0) {
+						UNMatched = 1;
+						if(strcmp(ArrayOfCol[PWDColNum-1],Uin.Password) == 0){
+							PWDMatched = 1;
+						}
+					}
+					if(strcmp(ArrayOfCol[RFIDColNum-1],CurRFIDScaned){
+						RFIDMatched = 1;
+					}
+					if((UNMatched == 1 && PWDMatched == 1) || RFIDMatched == 1) {
+						strcpy(login.LoginReply, "LOGIN_SUCCESS");
+						strcpy(login.Name, ArrayOfCol[NameColNum-1]);
+						strcpy(login.Age, ArrayOfCol[AgeColNum-1]);
+						strcpy(login.Gender, ArrayOfCol[GenderColNum-1]);
+						break;
+					} else {
+						printf("--wrong user name / PWD---- \n");
+						strcpy(login.LoginReply, "LOGIN_FAILED");
+						strcpy(login.Name, "NULL");
+						strcpy(login.Age, "NULL");
+						strcpy(login.Gender, "NULL");
+					}
+				} else {
+					break;
+				}
+			}
+			fclose(fp1); // close USER_INFO_FILE
+
+            fp1 = fopen (OT_ENTERY_FILE, "w");
+            if(fp1<0){
+                printf(" System is not able to open file \n");
+            }
+            else{
+                fwrite(login.LoginReply, strlen(login.LoginReply), 1, fp1);
+				ch = ',';
+				fwrite(&ch, 1, 1, fp1);
+				fwrite(login.Name, strlen(login.Name), 1, fp1);
+				fwrite(&ch, 1, 1, fp1);
+				fwrite(login.Age, strlen(login.Age), 1, fp1);
+				fwrite(&ch, 1, 1, fp1);
+				fwrite(login.Gender, strlen(login.Gender), 1, fp1);
+				
+				fpUI = fopen(LOGIN_SUMMARY_FILE, "w");
+				if(fp1<0){
+                	printf(" System is not able to open file \n");
+	            } else {
+					fwrite(login.Name, strlen(login.Name), 1, fpUI);
+					fwrite(&ch, 1, 1, fpUI);
+					fwrite(login.Age, strlen(login.Age), 1, fpUI);
+					fwrite(&ch, 1, 1, fpUI);
+					fwrite(login.Gender, strlen(login.Gender), 1, fpUI);
+					fclose(fpUI);
+				}
+				
+				//ch = '\0';
+				//fwrite(&ch, 1, 1, fp1);
+                //fclose(fp);
+            }
+            fclose(fp1); // close OT_ENTERY_FILE
+
+			UserMode= 0;
+			Buf = '1';
+            fp1 = fopen (OT_TEXT_FILE, "w");
+            if(fp1<0){
+                printf(" System is not able to open file \n");
+            }
+            else{
+                fwrite(&Buf,1,1,fp1);
+            }
+			fclose(fp1); // close OT_TEXT_FILE
+
+			FreeArrayOfString(DemonArrOfCol);
+			FreeArrayOfString(ArrayOfCol);
+			ClearDemonInputFile();
+        }
+}
+
+void ClearDemonInputFile(){
+	FILE *fp1;
+	fp1 = fopen (IN_TEXT_FILE, "w");
+	fclose(fp1);
+	fp1 = fopen (IN_ENTERY_FILE, "w");
+	fclose(fp1);
+}

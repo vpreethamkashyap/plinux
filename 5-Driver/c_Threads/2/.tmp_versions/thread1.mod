@@ -1,0 +1,2 @@
+/home/tsp/tlinux/mylinux/Tools/6-Driver/3_Threads/2/thread1.ko
+/home/tsp/tlinux/mylinux/Tools/6-Driver/3_Threads/2/thread1.o

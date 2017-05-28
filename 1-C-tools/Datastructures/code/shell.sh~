@@ -1,0 +1,4 @@
+clear 
+gcc data1.c
+./a.out
+	

@@ -1,0 +1,534 @@
+#include<stdio.h>
+#include<malloc.h>
+
+struct node
+{
+	int data;
+	struct node *next;
+	struct node *pre; 
+};
+typedef struct node node;
+
+node *first,*new,*curr,*temp,*temp1,*raw,*ins,*del,*rev;
+
+/*********************************************************************************
+		List of Variables
+**********************************************************************************/
+int TotalLoopCount = 0;
+
+/*********************************************************************************
+		List of Functions
+**********************************************************************************/
+void InsertNode(void);
+void DeleteNode(void);
+void SortLinkList(void);	
+void LookForNode(void);
+void FindMinNode(void);
+void FindMaxNode(void);
+void AlterNodeValue(void);
+void EnterTheNodes(void);
+void ReverseLinkList(void);
+void CheckSameNodes(void);
+
+
+/*********************************************************************************			
+/*********************************************************************************
+ * *******************************************************************************
+ * Main Function
+ * *******************************************************************************		
+**********************************************************************************/
+int main()
+{
+	int SelOption = 0;
+	
+	EnterTheNodes();	
+	
+	while(1)
+	{
+		printf("*********************************************************************\n\n");	
+		printf("Enter the option no 1 to ReverseLinkList \n");
+		printf("Enter the option no 2 to CheckSameNodes\n");
+		printf("Enter the option no 3 to LookForNode \n");
+		printf("Enter the option no 4 to FindMinNode \n");
+		printf("Enter the option no 5 to FindMaxNode \n");
+		printf("Enter the option no 6 to SortLinkList \n");
+		printf("Enter the option no 7 to InsertNode \n");
+		printf("Enter the option no 8 to DeleteNode\n");
+		printf("Enter the option no 9 to AlterNodeValue\n");
+		printf("Enter the option no 10 to ReverseLinkList\n");
+		printf("Enter 0 to come out \n");
+		printf("*********************************************************************\n\n");	
+		
+		scanf("%d",&SelOption);
+		
+		if(SelOption >0 && SelOption <11)
+		{				
+			switch(SelOption)
+			{
+				case 1:
+					ReverseLinkList();
+				break;
+				case 2:
+					CheckSameNodes();
+				break;
+				case 3:
+					LookForNode();
+				break;
+				case 4:
+					FindMaxNode();
+				break;
+				case 5:
+					FindMinNode();
+				break;
+				case 6:
+					SortLinkList();	
+				break;
+				case 7:
+					InsertNode();
+				break;
+				case 8:
+					DeleteNode();
+				break;
+				case 9:
+					AlterNodeValue();
+				break;
+				case 10:
+					ReverseLinkList();
+				break;
+				default:
+					break;
+			}
+		}
+		else
+		{
+			break;
+		}
+	}
+}
+
+/*********************************************************************************			
+/*********************************************************************************
+ * *******************************************************************************
+ * This below function Create the link list
+ * *******************************************************************************		
+**********************************************************************************/
+
+void EnterTheNodes(void)
+{
+	int ContiueLoop = 0;
+	
+	do
+	{
+		printf("Enter the node value\n");
+		new = malloc(sizeof(node));
+		scanf("%d",&new->data);
+		
+		new->pre =0;
+		new->next= 0;
+			
+		if(first == 0)
+		{
+			first = curr = new;
+			TotalLoopCount++;
+		}
+		else
+		{
+			curr->next = new;
+			new->pre = curr;
+			curr = new;
+			TotalLoopCount++;
+		}
+		printf("do u want to continue\n");
+		scanf("%d",&ContiueLoop);
+	}while(ContiueLoop);
+
+	printf("The nodes entered by user\n");
+	curr =  first;
+	while(curr != 0)
+	{
+		printf("%d\n",curr->data);
+		curr = curr->next;
+	}
+}
+
+/*********************************************************************************			
+/*********************************************************************************
+ * *******************************************************************************
+ * This below function checks the same nodes in link list
+ * *******************************************************************************		
+**********************************************************************************/
+
+void CheckSameNodes(void)
+{		
+	int CmpValue = 0,CmpCount = 1;
+	int NodeMatch = 0,LoopCount = 0;
+
+	printf("*********************************************************************\n\n");	
+	printf("Check the  same node Present in link list\n");	
+	printf("The Total no of nodes %d \n",TotalLoopCount);
+
+	while(CmpCount < TotalLoopCount)
+	{
+		printf("Comparison started \n");		
+		curr = first;
+		LoopCount = CmpCount;
+	
+		while(LoopCount)
+		{
+			CmpValue = curr->data;
+			curr = curr->next;
+			LoopCount--;
+		}
+		
+		printf("The Final Comparitive Element %d \n",	CmpValue);
+		
+		while(curr != NULL)
+		{			
+			if(CmpValue == curr->data)
+			{
+				printf("The Matching with this node  %d\n" , curr->data);
+				NodeMatch = 1;
+			}
+			curr = curr->next;	
+		}	
+
+		CmpCount++;
+		printf("\n");
+	}	
+
+	if(NodeMatch!=0){
+		printf("Node are Matching\n ");
+	}
+	printf("*********************************************************************\n\n");	
+}
+
+/*********************************************************************************
+ * *******************************************************************************
+ * Look for any node in link list
+ * *******************************************************************************		
+**********************************************************************************/
+void LookForNode(void)
+{	
+	int CheckNode = 0,i=0;
+	
+	printf("*********************************************************************\n\n");	
+	printf("Check and Comapre Node Value\n");
+	scanf("%d",&CheckNode);
+	curr = first;		
+		
+	for(i=0; i<TotalLoopCount; i++)
+	{
+		if(CheckNode == curr->data)
+		{
+			printf("The entered node is present\n");	
+			return;
+		}
+		else
+		{
+			curr = curr->next;		
+		}
+	}	
+	printf("Sorry This node %d is not present\n",CheckNode);
+	printf("*********************************************************************\n\n");	
+}
+
+
+/*********************************************************************************
+ * *******************************************************************************
+ * This function finds the maximum node value
+ * *******************************************************************************		
+**********************************************************************************/
+
+void FindMaxNode(void)
+{
+	int i = 0;
+	int lowest  = 0;	
+	
+	printf("*********************************************************************\n\n");	
+	curr = first;
+	lowest = curr->data;
+	for(i=0;i<TotalLoopCount-1;i++)
+	{
+		curr = curr->next;
+		if(lowest >curr->data)
+			lowest = curr->data;
+	}
+	printf("The lowest node is = %d\n",lowest);
+	printf("*********************************************************************\n\n");	
+}
+
+
+/*********************************************************************************
+ * *******************************************************************************
+ * This function finds the minimum node value
+ * *******************************************************************************		
+**********************************************************************************/
+
+void FindMinNode(void)
+{
+	int i = 0;
+	int highest  = 0;	
+	
+	printf("*********************************************************************\n\n");	
+	curr = first;
+	highest = curr->data;
+	for(i=0;i<TotalLoopCount-1;i++)
+	{
+		curr = curr->next;
+		if(highest < curr->data)
+			highest = curr->data;
+	}
+	printf("The highest node is = %d \n",highest);
+	printf("*********************************************************************\n\n");			
+}
+
+
+/*********************************************************************************
+ * *******************************************************************************
+ * This function sort the link list in ascending order
+ * *******************************************************************************		
+**********************************************************************************/
+void SortLinkList(void)
+{	
+	for(temp = first; temp != 0; temp=temp->next)
+	{
+		for(temp1 = first; temp1!=0; temp1=temp1->next)
+		{
+			if(temp->data > temp1->data)
+			{
+				raw = temp->data;
+				temp->data = temp1->data;
+				temp1->data = raw;
+				 
+			}
+		}		
+	}
+	
+	printf("*********************************************************************\n\n");	
+	printf("After sorting of link list\n");
+	curr = first;
+	while(curr!=0)
+	{
+		printf("%d\n",curr->data);
+		curr = curr->next;
+	}
+	printf("*********************************************************************\n\n");	
+}
+
+
+/*********************************************************************************
+ * *******************************************************************************
+ * This function insert the node 
+ * *******************************************************************************		
+**********************************************************************************/
+	
+void InsertNode(void)
+{
+	int InsNode = 1;
+	int NodePos = 0;
+	int i = 0,ddd = 0;
+
+	printf("*********************************************************************\n\n");	
+	
+	while(InsNode)
+	{
+		printf("\nEnter 1 if u wana to insert the node\n");
+		scanf("%d",&InsNode);
+		
+		if(InsNode != 0)
+		{
+			printf("The maximum number of nodes = %d\n",TotalLoopCount);
+			printf("Enter the postion of node\n");
+			scanf("%d",&NodePos);
+			
+			ins = malloc(sizeof(node));
+			printf("Enter the value of new node \n");
+			scanf("%d",&ins->data);
+			
+			curr = first;
+				
+			if(NodePos == 1)
+			{
+				printf("Node position is 1 \n");
+				first = ins;
+				first->pre = 0;
+				first->next = curr;
+				curr->pre = ins;
+			}
+			else 
+			{
+				for(i=1;i<NodePos-1;i++)
+				{
+					curr = curr->next;
+				}
+				if(curr->next == 0)//(NodePos == TotalLoopCount)
+				{
+					printf("Node position is Last \n");
+					curr->next = ins;
+					ins->pre = curr;
+					ins->next = 0;			
+				}	
+				else
+				{
+					printf("Node position is mid \n");			
+					ins->pre  = curr;
+					ins->next = curr->next;
+					curr->next = ins;
+					(curr->next)->pre = ins; 
+				}	
+			}
+			
+			printf("After the insertion\n");		
+		
+			curr = first;
+			TotalLoopCount++;
+			
+			while(curr!=0)
+			{
+				printf("%d \n",curr->data);
+				curr =curr->next;
+			}
+		}	
+	}
+	printf("*********************************************************************\n\n");	
+}
+
+
+/*********************************************************************************
+ * *******************************************************************************
+ * This function delete the node 
+ * *******************************************************************************		
+**********************************************************************************/
+void DeleteNode(void)
+{
+	int i = 0;
+	int Del = 0,DelPos = 0;
+
+	printf("*********************************************************************\n\n");	
+	printf("The total no of new nodes is %d\n",TotalLoopCount);
+	printf("Enter 1 if u want to delete the node\n");
+	scanf("%d",&Del);
+	
+	if(Del)
+	{
+		curr = first;
+		printf("Enter the postion to delete the node\n");
+		scanf("%d",&DelPos);
+		
+		for(i=1;i<DelPos;i++)
+		{
+			curr = curr->next;
+		}
+		
+		if(DelPos == 0)
+		{
+			first = curr->next;
+			
+		}
+		else
+		{
+			if(curr->next->next == 0)
+			{
+				curr->next = 0;
+			}
+			else
+			{
+				curr->next = curr->next->next; 
+				curr->next->pre = curr;
+			}
+		}	
+		printf("After the deleting mode \n");
+		
+		curr = first;
+		TotalLoopCount--;
+		
+		while(curr!=0)
+		{
+			printf("%d\n",curr->data);
+			curr = curr->next;
+		}
+	}
+	printf("*********************************************************************\n\n");	
+}
+
+/*********************************************************************************
+ * *******************************************************************************
+ * This function change the node value
+ * *******************************************************************************		
+**********************************************************************************/
+
+void AlterNodeValue(void)
+{
+	int i = 0;
+	int NodPos = 0;
+	
+	printf("*********************************************************************\n\n");	
+	printf("Alter the Node in  the Link List\n");
+
+	printf("Enter the location where u want to change the value\n");
+	scanf("%d",&NodPos);
+	curr = first;
+	for(i=0;i<NodPos;i++)
+	{
+		curr = curr->next;
+	}
+	printf("Enter the node value to change\n");
+	scanf("%d",&curr->data);
+	curr = first;
+	while(curr!=0)
+	{
+		printf("%d\n",curr->data);
+		curr = curr->next;
+	}
+	printf("*********************************************************************\n\n");	
+}
+
+/*********************************************************************************
+ * *******************************************************************************
+ * This function reverse the link list
+ * *******************************************************************************		
+**********************************************************************************/
+void ReverseLinkList(void)
+{
+	int ee = 0;
+	printf("*********************************************************************\n\n");	
+	printf("Reverse the Link List\n");
+
+	curr = first;
+	printf("Link List before Reverse \n");
+	while(1)
+	{
+		printf("%d\n",curr->data);
+		if(curr->next != NULL)
+		{
+			curr = curr->next;
+		}
+		else
+		{
+			break;
+		}
+	}
+	
+	first = curr;
+	
+	while(curr != NULL)
+	{
+		rev = curr->pre;
+		curr->pre = curr->next;
+		curr->next = rev;
+		curr = rev;	
+	}
+	
+	printf("\nLink List After Reverse \n");
+	curr = 	first;
+	while(curr!=0)
+	{
+		printf("%d\n",curr->data);
+		curr = curr->next;
+	}
+	printf("*********************************************************************\n\n");	
+
+}
+
+
+

@@ -1,0 +1,203 @@
+
+/********************************************************************************************
+							List of Header Files
+*********************************************************************************************/
+#include "../inc/Main.h"
+
+/********************************************************************************************
+							Structure variable declaration
+*********************************************************************************************/
+// timer struct
+struct timeval start, end;
+
+// structure used for Data  transition between GTK
+_INPUT_DATA_STRUCT		Din;
+_LOGIN_DATA_STRUCT		Uin;
+_IN_FILE_STRUCT 			Indata;
+_BMI_TEST_STRUCT 			Bmi;
+_BP_TEST_STRUCT				Bp;
+_BLI_TEST_STRUCT			Bli;
+_LOGIN_TEST_STRUCT		login;
+
+/********************************************************************************************
+							List of variable Declaration
+*********************************************************************************************/
+
+int testStartTime = 0;
+int SerialPortStatus =0;
+int UserMode = 0;
+int LoopState=0;
+long prevSecVal = 0;
+
+extern int BpSwitch;
+extern int Hight,TempWeight;
+extern unsigned short int BmiTestEn;
+extern unsigned short int BpTestEn;
+extern unsigned short int BliTestEn;
+extern unsigned char HoldingReg[10];
+
+/********************************************************************************************
+							List of Function Declaration
+*********************************************************************************************/
+void CallWhileLoop(void);
+void OpenSerialPort(void);
+void TestProcSerialPorts(void);
+void CheckSensorResponse(void);
+
+/********************************************************************************************
+							Main Starts Here
+*********************************************************************************************/
+int main(void)
+{
+	printf("\nWelcome Wellth Entity Code\n");
+	
+	//clear the demon input files
+	ClearDemonInputFile();
+	
+	//open the serial port for various interface
+	OpenSerialPort();
+    
+	// if serial port opens up
+	#if defined W2_INTERFACE_EN
+		if(SerialPortStatus==0)
+		{
+			printf(" Wellth System MODBUS Disconnected \n");
+			return 0;
+		}
+	#endif
+	
+	#if defined PIC_BOARD_SERIAL_TEST
+		TestProcSerialPorts();
+	#else
+		LoopState = DO_LOOP_TEST;
+		printf(" Wellth System is running \n");
+		CallWhileLoop();
+	#endif
+	
+	return 0;
+}
+
+/*************************************************************************************************************
+**		function 			:	 	CallWhileLoop
+**		Definition   	:		Check for which test has enable from GTK Tool	
+**
+**************************************************************************************************************/
+void CallWhileLoop(void)
+{
+	FILE * app_fp;
+	
+	app_fp = fopen("/home/time_app.c", "w");
+	system("/bin/chmod 777 /home/time_app.c");
+	fchmod (app_fp, S_IROTH | S_IWOTH | S_IXOTH);
+	fclose(app_fp);	
+	
+	LoopState = DO_LOOP_TEST;
+	
+	while(1)
+	{
+		// check the sensor response
+		CheckSensorResponse();
+		
+		switch(LoopState)
+		{		
+			// check the inputs from GTK & run the test
+			case DO_LOOP_TEST:
+				#if defined GTK_DISABLE
+					GetUserInputs();					
+				#else
+					usleep(40000);
+					ReadInputFile();
+					CheckUserInfo();
+				#endif	
+			break;
+			
+			// run the bmi test
+			case DO_BMI_TEST:
+				#if defined W2_INTERFACE_EN
+					RunBmiMdbTest();
+				#else
+					RunBmiDirectTest();
+				#endif
+			break;
+			
+			// run the bp test
+			case DO_BP_TEST:
+				#if defined W2_INTERFACE_EN
+					RunBpMdbTest();
+				#else
+					ReadBPDirectTest();
+				#endif
+			break;
+			
+			// run the bli test
+			case DO_BLI_TEST:
+				#if defined W2_INTERFACE_EN
+					RunBliMdbTest();
+				#else
+					ReadBliDirectTest();
+				#endif
+			break;
+			
+			// run the Ecg test
+			case DO_ECG_TEST:
+			break;	
+			
+			// run the Rfid test		
+			case DO_RFID_TEST:
+			break;	
+			
+			default:
+			break;
+		}
+	}
+}
+		
+/*************************************************************************************************************
+**		function 			:		CheckSensorResponse
+**		Definition   	:		Weight for Sensor Response If it is delayed then 
+**											it cancels the test
+**
+**************************************************************************************************************/
+void CheckSensorResponse(void)
+{
+	if (LoopState != DO_LOOP_TEST)
+	{
+		/*****************************
+			check the time if it is more than 2 min then 
+			1) clear the daemon input files
+			2) give a msg to the UI that sensors are not responding
+			3) change LoopState to 1
+		*************************/
+		gettimeofday(&start, NULL);
+		if(prevSecVal != start.tv_sec)
+		{
+			prevSecVal = start.tv_sec;
+			testStartTime++;
+			printf("\n__%d__\n", testStartTime);
+		}
+	} 
+	else 
+	{
+		testStartTime = 0;
+	}
+	
+	// compare with maximum delay time
+	if(testStartTime > WELLTH_CHECK_TIMEOUT_SEC)
+	{
+		LoopState =  DO_LOOP_TEST;
+		ClearDemonInputFile();	
+		printf("/**********************/\nRetry Test..! No Responce From Sensor resetted the Daemon....!\n/**********************/\n");
+	}
+	
+	// If Bp test enable then always check for abort files
+	if(BpTestEn ==1)
+	{
+		CheckAbortFile();
+	}
+}
+
+
+
+
+
+

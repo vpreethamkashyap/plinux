@@ -1,0 +1,1 @@
+cmd_/root/ElkiTemplates/Sources/Driver/WaitQueues/mwait.ko := arm-linux-gnueabihf-ld -EL -r  -T /root/ElkiTemplates/Kernel/linux-3.12.9/scripts/module-common.lds --build-id  -o /root/ElkiTemplates/Sources/Driver/WaitQueues/mwait.ko /root/ElkiTemplates/Sources/Driver/WaitQueues/mwait.o /root/ElkiTemplates/Sources/Driver/WaitQueues/mwait.mod.o

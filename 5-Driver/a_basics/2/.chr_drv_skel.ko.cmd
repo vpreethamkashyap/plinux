@@ -1,0 +1,1 @@
+cmd_/home/tsp/earm/Tools/ChDrivers/1.static_CharDrv/chr_drv_skel.ko := ld -r -m elf_i386 -T /usr/src/linux-headers-3.2.0-60-generic-pae/scripts/module-common.lds --build-id  -o /home/tsp/earm/Tools/ChDrivers/1.static_CharDrv/chr_drv_skel.ko /home/tsp/earm/Tools/ChDrivers/1.static_CharDrv/chr_drv_skel.o /home/tsp/earm/Tools/ChDrivers/1.static_CharDrv/chr_drv_skel.mod.o

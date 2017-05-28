@@ -1,0 +1,3005 @@
+---
+ 1@îÊ¾´º@
+
+******************************************
+Error : The RFID Sensor is not connected
+******************************************
+Able to open the SerialPort /dev/ttyHS3 
+ Serial Port : /dev/ttyHS3 
+ /dev/ttyHS3 port opened 
+-- 
+-- 
+-- 
+-- 
+-- 
+-- 
+-- 
+-- 
+-- 
+-- 
+Serial Port : /dev/ttyUSB0 
+Serial Port : /dev/ttyUSB1 
+Serial Port : /dev/ttyUSB2 
+Serial Port : /dev/ttyUSB3 
+Serial Port : /dev/ttyUSB4 
+Serial Port : /dev/ttyUSB5 
+Serial Port : /dev/ttyUSB6 
+Serial Port : /dev/ttyUSB7 
+Serial Port : /dev/ttyUSB8 
+ECG Port not connected or not working properly 
+ Wellth System is running 
+
+*******login flag set
+Demon Code has received the User Login information
+ The User Name 1234567890
+The User Password 74
+DataBase Test Starts now 
+compairing user info
+Demon Code has started the comparison of  Login information
+ ----> Line: Profile_Id,User_Id,Status,Gender,Date_Of_Birth,Picture,NickName,FullName,First_name,Last_Name,Email,Alternate_Email,Age,RFID,Mobile,Landline,Home_Address,City,PinCode,Emergency_ContactPhone,Current_Employer,Insurer,Language_Prefered,Created_By,Created_Time,Modified_By,Modified_Time,o,o,o
+BLI Test Starts now 
+Demon Code has received the Hight = The Hight Value 0
+0
+The Weight Value 0
+The Gender Value Male
+The Age  Value 74
+BLI Test Starts now 
+
+
+__1__
+ loop case value is = 9 loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+
+__2__
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+
+__3__
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+
+__4__
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+
+__5__
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+
+__6__
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+
+__7__
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+
+__8__
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+
+__9__
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+
+__10__
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+
+__11__
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+
+__12__
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+
+__13__
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+
+__14__
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+
+__15__
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+
+__16__
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+
+__17__
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+
+__18__
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+
+__19__
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+
+__20__
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+
+__21__
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+
+__22__
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+
+__23__
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+
+__24__
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+
+__25__
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+
+__26__
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+
+__27__
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+
+__28__
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+
+__29__
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Place 3 
+ Place 4 
+ Place 5 
+ Place 6 
+ Place 7 
+ loop case value is = 10Entered Modbus OP fd - 4 
+ Place 1 
+ Place 2 
+ Pla

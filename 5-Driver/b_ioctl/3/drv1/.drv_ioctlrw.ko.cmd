@@ -1,0 +1,1 @@
+cmd_/home/tsp/tlinux/mylinux/Tools/1-Driver/2_ioctl/3/drv1/drv_ioctlrw.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/tsp/tlinux/mylinux/Tools/1-Driver/2_ioctl/3/drv1/drv_ioctlrw.ko /home/tsp/tlinux/mylinux/Tools/1-Driver/2_ioctl/3/drv1/drv_ioctlrw.o /home/tsp/tlinux/mylinux/Tools/1-Driver/2_ioctl/3/drv1/drv_ioctlrw.mod.o

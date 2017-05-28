@@ -1,0 +1,19 @@
+CC=gcc
+CFLAG=-c
+OFLAG=-o
+OBJS=add.o sub.o mul.o mean.o
+
+prog: prog.c myhead.h $(OBJS) 
+	$(CC) $(OFLAG) prog prog.c  $(OBJS)
+
+#using name of the first prerequisite
+
+%.o: %.c
+	$(CC) $(CFLAG) $< 	# -o $@     # can also used
+
+clean:
+	@rm -f prog *.o
+
+clean all:
+	@rm -f prog *.o
+

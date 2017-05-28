@@ -1,0 +1,75 @@
+#include<stdio.h>
+#include<malloc.h>
+#include<string.h>
+
+// This below program tells about the how to use the structure enum & union with malloc function..........................................   
+
+
+// Bit filed
+
+void main(){
+
+struct value{
+	int bit1 : 1;
+	int bit2 : 8;
+	int bit3 : 8;
+	int bit4 : 16;
+}BIT;
+printf("%ld\n",sizeof(BIT));
+
+BIT.bit1 = 0;
+
+BIT.bit2 = "11110000";
+
+printf("%d\n",BIT.bit1);
+
+printf("%x\n",BIT.bit2);
+nnnnnnnnnnnnnnnnnnnnnnnnn
+
+}
+
+
+
+
+
+
+/*
+
+typedef struct node node;
+struct node
+{
+	int len;
+	char *name;
+};
+
+node *var;
+
+void main(){
+
+	char newname[] = "Tarun";
+	printf("Size of node %d \n",sizeof(node));
+	printf("Size of int %d \n",sizeof(var->len));
+	printf("Size of char * %d \n",sizeof(var->name));
+
+ 	char *buf = (node *) malloc ( sizeof(node) + strlen(newname) + 1);
+	var = (node *) buf; 
+
+ 	printf("Size of node variable %d \n",sizeof(var));
+	printf("Size of buf %d \n",sizeof(buf));
+
+	var->len = strlen (newname);
+	var->name = buf + sizeof(node);
+	strcpy(var->name,newname);
+	printf("%d %s \n",var->len,var->name);
+ 	
+
+	
+ /	char *buf = (node *) malloc ( sizeof(node) + strlen(newname) + 1);
+	var = (node *) malloc ( sizeof(node)); 
+	var->len = strlen (newname);
+	var->name = malloc(var->len +1);
+	strcpy(var->name,newname);
+	printf("%d %s \n",var->len,var->name);
+/
+}
+*/

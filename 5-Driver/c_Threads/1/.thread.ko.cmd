@@ -1,0 +1,1 @@
+cmd_/home/tsp/tlinux/mylinux/Tools/1-Driver/3_Threads/1/thread.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/tsp/tlinux/mylinux/Tools/1-Driver/3_Threads/1/thread.ko /home/tsp/tlinux/mylinux/Tools/1-Driver/3_Threads/1/thread.o /home/tsp/tlinux/mylinux/Tools/1-Driver/3_Threads/1/thread.mod.o

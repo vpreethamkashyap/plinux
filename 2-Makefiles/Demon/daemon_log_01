@@ -1,0 +1,176 @@
+---
+ [    9.928526] usb 1-1.1.4.1: cp210x converter now attached to ttyUSB1
+>>>/dev/ttyUSB1 -- 12
+Able to open the SerialPort /dev/ttyUSB1 
+ 
+-----/dev/ttyUSB0----
+Able to open the SerialPort /dev/ttyUSB0 
+ 
+-----/dev/ttyUSB2----
+
+-----/dev/ttyUSB3----
+
+-----/dev/ttyUSB4----
+
+-----/dev/ttyUSB5----
+
+-----/dev/ttyUSB6----
+
+-----/dev/ttyUSB7----
+
+-----/dev/ttyUSB8----
+
+-----/dev/ttyUSB9----
+
+-----/dev/ttyS0----
+Able to open the SerialPort /dev/ttyS0 
+ 
+-----/dev/ttyS1----
+Able to open the SerialPort /dev/ttyS1 
+ 
+-----/dev/ttyS2----
+Able to open the SerialPort /dev/ttyS2 
+ 
+-----/dev/ttyS3----
+Able to open the SerialPort /dev/ttyS3 
+ 
+-----/dev/ttyS4----
+Able to open the SerialPort /dev/ttyS4 
+ 
+-----/dev/ttyS5----
+Able to open the SerialPort /dev/ttyS5 
+ 
+-----/dev/ttyS6----
+Able to open the SerialPort /dev/ttyS6 
+ 
+-----/dev/ttyS7----
+Able to open the SerialPort /dev/ttyS7 
+ 
+-----/dev/ttyS8----
+Able to open the SerialPort /dev/ttyS8 
+ 
+-----/dev/ttyS9----
+Able to open the SerialPort /dev/ttyS9 
+ ---1--
+/dev/ttyUSB0
+Able to open the SerialPort /dev/ttyUSB0 
+ RFID is connected to /dev/ttyUSB0 discriptor=16
+  Wellth System is running 
+
+*******login flag set
+Demon Code has received the User Login information
+ The User Name 1111111111
+The User Password 44
+DataBase Test Starts now 
+compairing user info
+Demon Code has started the comparison of  Login information
+ ----> Line: Profile_Id,User_Id,Status,Gender,Date_Of_Birth,Picture,NickName,FullName,First_name,Last_Name,Email,Alternate_Email,Age,RFID,Mobile,Landline,Home_Address,City,PinCode,Emergency_ContactPhone,Current_Employer,Insurer,Language_Prefered,Created_By,Created_Time,Modified_By,Modified_Time,o,o,o
+Bp Test Starts Now 
+
+__1__
+ Case 6 : Time - 1367826418 - 
+ loop case value is = 6Modbus Error Response 6 
+ loop case value is = 6
+__2__
+ Case 7 : Time - 1367826419 - 
+ loop case value is = 7
+__3__
+ loop case value is = 7 loop case value is = 7
+__4__
+ loop case value is = 7
+__5__
+ loop case value is = 7 loop case value is = 7
+__6__
+ loop case value is = 7 loop case value is = 7
+__7__
+ loop case value is = 7
+__8__
+ loop case value is = 7 loop case value is = 7
+__9__
+ loop case value is = 7
+__10__
+ loop case value is = 7 loop case value is = 7
+__11__
+ loop case value is = 7
+__12__
+ loop case value is = 7 loop case value is = 7
+__13__
+ loop case value is = 7 loop case value is = 7
+__14__
+ loop case value is = 7
+__15__
+ loop case value is = 7 loop case value is = 7
+__16__
+ loop case value is = 7
+__17__
+ loop case value is = 7 loop case value is = 7
+__18__
+ loop case value is = 7 loop case value is = 7
+__19__
+ loop case value is = 7
+__20__
+ loop case value is = 7 loop case value is = 7
+__21__
+ loop case value is = 7
+__22__
+ loop case value is = 7 loop case value is = 7
+__23__
+ loop case value is = 7
+__24__
+ loop case value is = 7 loop case value is = 7
+__25__
+ loop case value is = 7 loop case value is = 7
+__26__
+ loop case value is = 7
+__27__
+ loop case value is = 7 loop case value is = 7
+__28__
+ loop case value is = 7
+__29__
+ loop case value is = 7 loop case value is = 7
+__30__
+ loop case value is = 7 loop case value is = 7
+__31__
+ loop case value is = 7
+__32__
+ loop case value is = 7 loop case value is = 7
+__33__
+ loop case value is = 7
+__34__
+ loop case value is = 7 loop case value is = 7
+__35__
+ loop case value is = 7 loop case value is = 7
+__36__
+ loop case value is = 7
+__37__
+ loop case value is = 7 loop case value is = 7
+__38__
+ loop case value is = 7
+__39__
+ loop case value is = 7 loop case value is = 7
+__40__
+ loop case value is = 7
+__41__
+ loop case value is = 7 loop case value is = 7
+__42__
+ loop case value is = 7 loop case value is = 7
+__43__
+ loop case value is = 7
+__44__
+ loop case value is = 7 loop case value is = 7
+__45__
+ loop case value is = 7
+__46__
+ loop case value is = 7 loop case value is = 7
+__47__
+ loop case value is = 7 loop case value is = 7
+__48__
+ loop case value is = 7
+__49__
+ loop case value is = 7 loop case value is = 7
+__50__
+ loop case value is = 7
+__51__
+ loop case value is = 7 loop case value is = 7
+__52__
+ loop case value is = 7 loop case value

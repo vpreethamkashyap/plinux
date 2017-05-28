@@ -1,0 +1,2158 @@
+ errors
+[ 1305.538216] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.543443] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.548671] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.553902] tegra_uart tegra_uart.3: Got Break
+[ 1305.558347] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.563576] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.568803] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.574030] tegra_uart tegra_uart.3: Got frame errors
+[ 1305.579085] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.584313] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.589541] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.594770] tegra_uart tegra_uart.3: Got frame errors
+[ 1305.599824] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.605051] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.610278] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.615505] tegra_uart tegra_uart.3: Got frame errors
+[ 1305.620559] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.625787] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.631015] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.636243] tegra_uart tegra_uart.3: Got frame errors
+[ 1305.641297] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.646525] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.651753] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.656981] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.662208] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.667435] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.672663] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.677892] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.683119] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.688346] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.693573] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.698799] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.704025] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.709253] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.714480] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.719707] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.724934] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.730164] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.735395] tegra_uart tegra_uart.3: Got frame errors
+[ 1305.740449] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.745676] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.750903] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.756131] tegra_uart tegra_uart.3: Got frame errors
+[ 1305.761185] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.766412] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.771639] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.776866] tegra_uart tegra_uart.3: Got frame errors
+[ 1305.781919] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.787147] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.792374] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.797601] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.802828] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.808055] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.813282] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.818509] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.823737] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.828965] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.834192] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.839420] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.844646] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.849874] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.855101] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.860328] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.865555] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.870783] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.876012] tegra_uart tegra_uart.3: Got frame errors
+[ 1305.881065] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.886292] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.891519] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.896747] tegra_uart tegra_uart.3: Got frame errors
+[ 1305.901800] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.907027] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.912255] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.917484] tegra_uart tegra_uart.3: Got frame errors
+[ 1305.922537] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.927764] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.932991] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.938219] tegra_uart tegra_uart.3: Got frame errors
+[ 1305.943274] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.948501] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.953729] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.958959] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.964187] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.969414] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.974641] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.979869] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.985096] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.990325] tegra_uart tegra_uart.3: Got overrun errors
+[ 1305.995552] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.000780] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.006008] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.011236] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.016465] tegra_uart tegra_uart.3: Got frame errors
+[ 1306.021519] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.026747] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.031975] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.037205] tegra_uart tegra_uart.3: Got Break
+[ 1306.041650] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.046877] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.052104] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.057332] tegra_uart tegra_uart.3: Got Break
+[ 1306.061777] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.067005] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.072232] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.077459] tegra_uart tegra_uart.3: Got frame errors
+[ 1306.082513] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.087740] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.092967] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.098197] tegra_uart tegra_uart.3: Got frame errors
+[ 1306.103251] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.108478] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.113705] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.118932] tegra_uart tegra_uart.3: Got frame errors
+[ 1306.123986] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.129213] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.134440] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.139669] tegra_uart tegra_uart.3: Got frame errors
+[ 1306.144723] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.149950] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.155177] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.160404] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.165631] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.170858] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.176085] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.181312] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.186539] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.191767] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.196994] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.202222] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.207450] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.212677] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.217904] tegra_uart tegra_uart.3: Got frame errors
+[ 1306.222958] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.228186] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.233413] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.238640] tegra_uart tegra_uart.3: Got frame errors
+[ 1306.243695] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.248923] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.254150] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.259380] tegra_uart tegra_uart.3: Got frame errors
+[ 1306.264435] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.269662] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.274889] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.280116] tegra_uart tegra_uart.3: Got Break
+[ 1306.284562] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.289789] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.295016] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.300244] tegra_uart tegra_uart.3: Got frame errors
+[ 1306.305298] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.310525] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.315752] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.320983] tegra_uart tegra_uart.3: Got frame errors
+[ 1306.326037] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.331266] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.336494] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.341720] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.346947] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.352174] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.357401] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.362628] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.367855] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.373082] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.378310] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.383537] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.388765] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.393994] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.399221] tegra_uart tegra_uart.3: Got frame errors
+[ 1306.404275] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.409503] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.414730] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.419959] tegra_uart tegra_uart.3: Got frame errors
+[ 1306.425012] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.430239] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.435466] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.440693] tegra_uart tegra_uart.3: Got frame errors
+[ 1306.445749] tegra_uart tegra_uart.3: Got Break
+[ 1306.450197] tegra_uart tegra_uart.3: Got frame errors
+[ 1306.455254] tegra_uart tegra_uart.3: Got frame errors
+[ 1306.460308] tegra_uart tegra_uart.3: Got frame errors
+[ 1306.465362] tegra_uart tegra_uart.3: Got frame errors
+[ 1306.470416] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.475644] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.480871] tegra_uart tegra_uart.3: Got frame errors
+[ 1306.485926] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.491153] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.496380] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.501608] tegra_uart tegra_uart.3: Got frame errors
+[ 1306.506662] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.511889] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.517118] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.522347] tegra_uart tegra_uart.3: Got frame errors
+[ 1306.527400] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.532628] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.537855] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.543082] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.548309] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.553536] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.558763] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.563990] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.569217] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.574444] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.579670] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.584897] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.590124] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.595351] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.600578] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.605805] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.611032] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.616259] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.621489] tegra_uart tegra_uart.3: Got frame errors
+[ 1306.626544] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.631772] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.637001] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.642229] tegra_uart tegra_uart.3: Got frame errors
+[ 1306.647283] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.652510] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.657737] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.662964] tegra_uart tegra_uart.3: Got frame errors
+[ 1306.668018] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.673246] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.678473] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.683702] tegra_uart tegra_uart.3: Got frame errors
+[ 1306.688756] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.693983] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.699210] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.704439] tegra_uart tegra_uart.3: Got frame errors
+[ 1306.709493] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.714720] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.719947] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.725176] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.730404] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.735631] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.740858] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.746085] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.751312] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.756539] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.761766] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.766993] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.772220] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.777447] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.782674] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.787901] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.793128] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.798355] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.803584] tegra_uart tegra_uart.3: Got frame errors
+[ 1306.808637] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.813865] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.819092] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.824321] tegra_uart tegra_uart.3: Got frame errors
+[ 1306.829374] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.834601] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.839828] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.845062] tegra_uart tegra_uart.3: Got frame errors
+[ 1306.850115] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.855343] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.860570] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.865797] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.871025] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.876252] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.881480] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.886708] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.891935] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.897162] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.902389] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.907616] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.912844] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.918070] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.923297] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.928524] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.933751] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.938978] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.944205] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.949433] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.954660] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.959887] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.965114] tegra_uart tegra_uart.3: Got frame errors
+[ 1306.970168] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.975395] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.980622] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.985851] tegra_uart tegra_uart.3: Got frame errors
+[ 1306.990904] tegra_uart tegra_uart.3: Got overrun errors
+[ 1306.996132] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.001359] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.006588] tegra_uart tegra_uart.3: Got frame errors
+[ 1307.011645] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.016871] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.022098] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.027325] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.032552] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.037780] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.043007] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.048234] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.053462] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.058689] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.063916] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.069143] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.074370] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.079597] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.084823] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.090051] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.095278] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.100505] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.105734] tegra_uart tegra_uart.3: Got frame errors
+[ 1307.110788] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.116015] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.121242] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.126470] tegra_uart tegra_uart.3: Got frame errors
+[ 1307.131524] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.136751] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.141978] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.147205] tegra_uart tegra_uart.3: Got frame errors
+[ 1307.152259] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.157487] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.162714] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.167941] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.173168] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.178395] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.183623] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.188850] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.194077] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.199305] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.204532] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.209759] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.214986] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.220213] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.225444] tegra_uart tegra_uart.3: Got Break
+[ 1307.229890] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.235117] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.240344] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.245572] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.250799] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.256025] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.261252] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.266480] tegra_uart tegra_uart.3: Got frame errors
+[ 1307.271534] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.276761] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.281988] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.287216] tegra_uart tegra_uart.3: Got frame errors
+[ 1307.292270] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.297497] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.302724] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.307952] tegra_uart tegra_uart.3: Got frame errors
+[ 1307.313007] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.318234] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.323461] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.328689] tegra_uart tegra_uart.3: Got frame errors
+[ 1307.333742] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.338969] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.344196] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.349422] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.354649] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.359879] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.365105] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.370332] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.375559] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.380787] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.386014] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.391241] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.396468] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.401695] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.406922] tegra_uart tegra_uart.3: Got frame errors
+[ 1307.411976] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.417203] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.422430] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.427659] tegra_uart tegra_uart.3: Got frame errors
+[ 1307.432712] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.437940] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.443169] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.448395] tegra_uart tegra_uart.3: Got frame errors
+[ 1307.453449] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.458676] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.463903] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.469130] tegra_uart tegra_uart.3: Got frame errors
+[ 1307.474184] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.479411] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.484639] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.489866] tegra_uart tegra_uart.3: Got frame errors
+[ 1307.494921] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.500147] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.505374] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.510601] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.515828] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.521055] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.526282] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.531510] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.536738] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.541965] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.547192] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.552420] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.557649] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.562876] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.568104] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.573331] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.578558] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.583786] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.589019] tegra_uart tegra_uart.3: Got frame errors
+[ 1307.594073] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.599300] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.604527] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.609756] tegra_uart tegra_uart.3: Got frame errors
+[ 1307.614810] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.620036] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.625263] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.630492] tegra_uart tegra_uart.3: Got frame errors
+[ 1307.635546] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.640773] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.646001] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.651229] tegra_uart tegra_uart.3: Got frame errors
+[ 1307.656282] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.661509] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.666736] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.671963] tegra_uart tegra_uart.3: Got frame errors
+[ 1307.677018] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.682245] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.687472] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.692699] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.697926] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.703153] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.708382] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.713608] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.718837] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.724064] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.729292] tegra_uart tegra_uart.3: Got frame errors
+[ 1307.734347] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.739574] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.741172] ------------[ cut here ]------------
+[ 1307.741225] WARNING: at drivers/i2c/busses/i2c-tegra.c:728 tegra_i2c_xfer+0x398/0x4f4()
+[ 1307.741244] Modules linked in:
+[ 1307.741300] [<c0015240>] (unwind_backtrace+0x0/0xf8) from [<c05fb4c8>] (dump_stack+0x20/0x24)
+[ 1307.741375] [<c05fb4c8>] (dump_stack+0x20/0x24) from [<c005bbf8>] (warn_slowpath_common+0x5c/0x74)
+[ 1307.741413] [<c005bbf8>] (warn_slowpath_common+0x5c/0x74) from [<c005bc3c>] (warn_slowpath_null+0x2c/0x34)
+[ 1307.741452] [<c005bc3c>] (warn_slowpath_null+0x2c/0x34) from [<c03dabf4>] (tegra_i2c_xfer+0x398/0x4f4)
+[ 1307.741491] [<c03dabf4>] (tegra_i2c_xfer+0x398/0x4f4) from [<c03d8828>] (i2c_transfer+0x94/0xec)
+[ 1307.741526] [<c03d8828>] (i2c_transfer+0x94/0xec) from [<c03d8d00>] (i2c_smbus_xfer+0x3c4/0x50c)
+[ 1307.741562] [<c03d8d00>] (i2c_smbus_xfer+0x3c4/0x50c) from [<c03d9140>] (i2c_smbus_write_byte_data+0x4c/0x54)
+[ 1307.741606] [<c03d9140>] (i2c_smbus_write_byte_data+0x4c/0x54) from [<c033fb68>] (tps6591x_write+0x3c/0x70)
+[ 1307.741661] [<c033fb68>] (tps6591x_write+0x3c/0x70) from [<c0302a54>] (__tps6591x_vdd_set_voltage+0xd0/0x114)
+[ 1307.741704] [<c0302a54>] (__tps6591x_vdd_set_voltage+0xd0/0x114) from [<c0302aec>] (tps6591x_vdd_set_voltage+0x54/0x5c)
+[ 1307.741744] [<c0302aec>] (tps6591x_vdd_set_voltage+0x54/0x5c) from [<c02ff6b8>] (_regulator_do_set_voltage+0x104/0x34c)
+[ 1307.741784] [<c02ff6b8>] (_regulator_do_set_voltage+0x104/0x34c) from [<c02ffaac>] (regulator_set_voltage+0xd4/0xec)
+[ 1307.741828] [<c02ffaac>] (regulator_set_voltage+0xd4/0xec) from [<c0036a68>] (dvfs_rail_set_voltage+0x160/0x234)
+[ 1307.741865] [<c0036a68>] (dvfs_rail_set_voltage+0x160/0x234) from [<c0036c20>] (dvfs_rail_update+0xe4/0x100)
+[ 1307.741900] [<c0036c20>] (dvfs_rail_update+0xe4/0x100) from [<c0036f3c>] (__tegra_dvfs_set_rate+0xc4/0x100)
+[ 1307.741934] [<c0036f3c>] (__tegra_dvfs_set_rate+0xc4/0x100) from [<c0036fb8>] (tegra_dvfs_set_rate+0x40/0x58)
+[ 1307.741976] [<c0036fb8>] (tegra_dvfs_set_rate+0x40/0x58) from [<c0020350>] (clk_set_rate_locked+0x1a0/0x1d8)
+[ 1307.742021] [<c0020350>] (clk_set_rate_locked+0x1a0/0x1d8) from [<c0023034>] (tegra3_cpu_cmplx_clk_set_rate+0xf4/0x1d8)
+[ 1307.742060] [<c0023034>] (tegra3_cpu_cmplx_clk_set_rate+0xf4/0x1d8) from [<c002031c>] (clk_set_rate_locked+0x16c/0x1d8)
+[ 1307.742097] [<c002031c>] (clk_set_rate_locked+0x16c/0x1d8) from [<c002047c>] (clk_set_rate+0xf4/0x1c0)
+[ 1307.742133] [<c002047c>] (clk_set_rate+0xf4/0x1c0) from [<c003fb34>] (tegra_update_cpu_speed+0x118/0x1c0)
+[ 1307.742168] [<c003fb34>] (tegra_update_cpu_speed+0x118/0x1c0) from [<c003fc78>] (tegra_cpu_set_speed_cap+0x60/0x80)
+[ 1307.742203] [<c003fc78>] (tegra_cpu_set_speed_cap+0x60/0x80) from [<c003feac>] (tegra_target+0x78/0x98)
+[ 1307.742253] [<c003feac>] (tegra_target+0x78/0x98) from [<c0410650>] (__cpufreq_driver_target+0xfc/0x1a4)
+[ 1307.742295] [<c0410650>] (__cpufreq_driver_target+0xfc/0x1a4) from [<c041414c>] (do_dbs_timer+0x3b0/0x468)
+[ 1307.742339] [<c041414c>] (do_dbs_timer+0x3b0/0x468) from [<c0074c08>] (process_one_work+0x2ac/0x45c)
+[ 1307.742375] [<c0074c08>] (process_one_work+0x2ac/0x45c) from [<c00752d4>] (worker_thread+0x2bc/0x3c0)
+[ 1307.742409] [<c00752d4>] (worker_thread+0x2bc/0x3c0) from [<c007b014>] (kthread+0xac/0xb4)
+[ 1307.742454] [<c007b014>] (kthread+0xac/0xb4) from [<c000f00c>] (kernel_thread_exit+0x0/0x8)
+[ 1307.742478] ---[ end trace 2e09999b7a564f32 ]---
+[ 1307.742500] tegra-i2c tegra-i2c.4: i2c transfer timed out, addr 0x002d, data 0x28
+[ 1307.742593] tps6591x 4-002d: failed writing 0x1f to 0x28
+[ 1307.742615] Failed to set dvfs regulator vdd_cpu
+[ 1307.762224] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.767452] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.772678] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.777906] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.783133] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.788360] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.793587] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.798814] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.804041] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.809268] tegra_uart tegra_uart.3: Got overrun errors
+[ 1307.814495] tegra_uart tegra_uart.3: Got frame errors
+[ 1307.819549] tegra_uart tegra_uart.3: Got Break
+[ 1307.823998] tegra_uart tegra_uart.3: Got frame errors
+[ 1307.829054] tegra_uart tegra_uart.3: Got frame errors
+[ 1307.834107] tegra_uart tegra_uart.3: Got frame errors
+[ 1307.839160] tegra_uart tegra_uart.3: Got frame errors
+[ 1307.844216] tegra_uart tegra_uart.3: Got frame errors
+[ 1307.849269] tegra_uart tegra_uart.3: Got frame errors
+[ 1307.854325] tegra_uart tegra_uart.3: Got frame errors
+[ 1307.859379] tegra_uart tegra_uart.3: Got frame errors
+[ 1307.864436] tegra_uart tegra_uart.3: Got frame errors
+[ 1307.869490] tegra_uart tegra_uart.3: Got Break
+[ 1307.873937] tegra_uart tegra_uart.3: Got frame errors
+[ 1307.878993] tegra_uart tegra_uart.3: Got Break
+[ 1307.883440] tegra_uart tegra_uart.3: Got frame errors
+[ 1307.888493] tegra_uart tegra_uart.3: Got frame errors
+[ 1307.893549] tegra_uart tegra_uart.3: Got frame errors
+[ 1307.898605] tegra_uart tegra_uart.3: Got frame errors
+[ 1307.903664] tegra_uart tegra_uart.3: Got frame errors
+[ 1307.908717] tegra_uart tegra_uart.3: Got frame errors
+[ 1307.913772] tegra_uart tegra_uart.3: Got Break
+[ 1308.708272] tegra_uart tegra_uart.3: Got frame errors
+[ 1308.719543] tegra_uart tegra_uart.3: Got frame errors
+[ 1308.726880] tegra_uart tegra_uart.3: Got frame errors
+[ 1308.731942] tegra_uart tegra_uart.3: Got frame errors
+[ 1308.736998] tegra_uart tegra_uart.3: Got frame errors
+[ 1308.747054] tegra_uart tegra_uart.3: Got Break
+[ 1308.760074] tegra_uart tegra_uart.3: Got frame errors
+[ 1308.767228] tegra_uart tegra_uart.3: Got Break
+[ 1308.779774] tegra_uart tegra_uart.3: Got frame errors
+[ 1308.785282] tegra_uart tegra_uart.3: Got Break
+[ 1308.800471] tegra_uart tegra_uart.3: Got frame errors
+[ 1308.805533] tegra_uart tegra_uart.3: Got frame errors
+[ 1308.812755] tegra_uart tegra_uart.3: Got frame errors
+[ 1308.822131] tegra_uart tegra_uart.3: Got frame errors
+[ 1308.827194] tegra_uart tegra_uart.3: Got frame errors
+[ 1308.832255] tegra_uart tegra_uart.3: Got frame errors
+[ 1308.837314] tegra_uart tegra_uart.3: Got Break
+[ 1308.841760] tegra_uart tegra_uart.3: Got frame errors
+[ 1308.846816] tegra_uart tegra_uart.3: Got frame errors
+[ 1308.851871] tegra_uart tegra_uart.3: Got overrun errors
+[ 1308.857099] tegra_uart tegra_uart.3: Got overrun errors
+[ 1308.862326] tegra_uart tegra_uart.3: Got overrun errors
+[ 1308.867553] tegra_uart tegra_uart.3: Got overrun errors
+[ 1308.872782] tegra_uart tegra_uart.3: Got overrun errors
+[ 1308.878010] tegra_uart tegra_uart.3: Got overrun errors
+[ 1308.883238] tegra_uart tegra_uart.3: Got overrun errors
+[ 1308.888464] tegra_uart tegra_uart.3: Got overrun errors
+[ 1308.893691] tegra_uart tegra_uart.3: Got overrun errors
+[ 1308.898920] tegra_uart tegra_uart.3: Got frame errors
+[ 1308.903975] tegra_uart tegra_uart.3: Got overrun errors
+[ 1308.909202] tegra_uart tegra_uart.3: Got overrun errors
+[ 1308.914429] tegra_uart tegra_uart.3: Got overrun errors
+[ 1308.919662] tegra_uart tegra_uart.3: Got frame errors
+[ 1308.924716] tegra_uart tegra_uart.3: Got overrun errors
+[ 1308.929943] tegra_uart tegra_uart.3: Got overrun errors
+[ 1308.935170] tegra_uart tegra_uart.3: Got overrun errors
+[ 1308.940406] tegra_uart tegra_uart.3: Got frame errors
+[ 1308.945461] tegra_uart tegra_uart.3: Got frame errors
+[ 1308.950515] tegra_uart tegra_uart.3: Got overrun errors
+[ 1308.955742] tegra_uart tegra_uart.3: Got overrun errors
+[ 1308.960970] tegra_uart tegra_uart.3: Got Break
+[ 1308.965416] tegra_uart tegra_uart.3: Got overrun errors
+[ 1308.970643] tegra_uart tegra_uart.3: Got overrun errors
+[ 1308.975870] tegra_uart tegra_uart.3: Got overrun errors
+[ 1308.981098] tegra_uart tegra_uart.3: Got Break
+[ 1308.985544] tegra_uart tegra_uart.3: Got overrun errors
+[ 1308.990771] tegra_uart tegra_uart.3: Got overrun errors
+[ 1308.995998] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.001225] tegra_uart tegra_uart.3: Got frame errors
+[ 1309.006279] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.011507] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.016734] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.021961] tegra_uart tegra_uart.3: Got frame errors
+[ 1309.027015] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.032243] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.037470] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.042697] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.047924] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.053152] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.058379] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.063606] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.068835] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.074062] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.079289] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.084516] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.089743] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.094970] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.100196] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.105423] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.110650] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.115877] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.121105] tegra_uart tegra_uart.3: Got frame errors
+[ 1309.126159] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.131386] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.136613] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.141840] tegra_uart tegra_uart.3: Got frame errors
+[ 1309.146894] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.152121] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.157349] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.162576] tegra_uart tegra_uart.3: Got frame errors
+[ 1309.167630] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.172857] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.178084] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.183312] tegra_uart tegra_uart.3: Got frame errors
+[ 1309.188366] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.193593] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.198820] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.204047] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.209275] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.214503] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.219730] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.224957] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.230184] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.235411] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.240638] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.245865] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.251092] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.256320] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.261547] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.266774] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.272001] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.277228] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.282457] tegra_uart tegra_uart.3: Got frame errors
+[ 1309.287510] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.292737] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.297964] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.303191] tegra_uart tegra_uart.3: Got Break
+[ 1309.307637] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.312864] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.318093] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.323322] tegra_uart tegra_uart.3: Got frame errors
+[ 1309.328376] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.333603] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.338831] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.344058] tegra_uart tegra_uart.3: Got frame errors
+[ 1309.349113] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.354340] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.359567] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.364795] tegra_uart tegra_uart.3: Got frame errors
+[ 1309.369849] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.375076] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.380303] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.385530] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.390757] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.395984] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.401211] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.406438] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.411665] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.416892] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.422119] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.427346] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.432574] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.437801] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.443029] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.448256] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.453483] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.458710] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.463937] tegra_uart tegra_uart.3: Got frame errors
+[ 1309.468993] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.474220] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.479447] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.484676] tegra_uart tegra_uart.3: Got frame errors
+[ 1309.489730] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.494957] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.500184] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.505414] tegra_uart tegra_uart.3: Got frame errors
+[ 1309.510468] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.515695] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.520923] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.526152] tegra_uart tegra_uart.3: Got frame errors
+[ 1309.531206] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.536434] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.541661] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.546888] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.552115] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.557343] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.562571] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.567798] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.573025] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.578252] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.583479] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.588706] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.593934] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.599161] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.604388] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.609615] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.614842] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.620070] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.625298] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.630526] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.635753] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.640980] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.646207] tegra_uart tegra_uart.3: Got frame errors
+[ 1309.651262] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.656490] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.661717] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.666944] tegra_uart tegra_uart.3: Got frame errors
+[ 1309.671998] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.677225] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.682452] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.687679] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.692906] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.698134] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.703361] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.708588] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.713815] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.719042] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.724270] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.729496] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.734723] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.739950] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.745177] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.750405] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.755633] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.760860] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.766090] tegra_uart tegra_uart.3: Got frame errors
+[ 1309.771144] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.776371] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.781598] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.786828] tegra_uart tegra_uart.3: Got frame errors
+[ 1309.791882] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.797109] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.802336] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.807564] tegra_uart tegra_uart.3: Got frame errors
+[ 1309.812619] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.817846] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.823073] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.828300] tegra_uart tegra_uart.3: Got frame errors
+[ 1309.833354] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.838581] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.843808] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.849035] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.854262] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.859489] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.864716] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.869944] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.875172] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.880399] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.885626] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.890853] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.896080] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.901307] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.906536] tegra_uart tegra_uart.3: Got frame errors
+[ 1309.911591] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.916819] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.922046] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.927273] tegra_uart tegra_uart.3: Got Break
+[ 1309.931719] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.936946] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.942173] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.947402] tegra_uart tegra_uart.3: Got Break
+[ 1309.951847] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.957074] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.962301] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.967528] tegra_uart tegra_uart.3: Got frame errors
+[ 1309.972582] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.977809] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.983037] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.988263] tegra_uart tegra_uart.3: Got frame errors
+[ 1309.993317] tegra_uart tegra_uart.3: Got overrun errors
+[ 1309.998544] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.003771] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.008999] tegra_uart tegra_uart.3: Got frame errors
+[ 1310.014054] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.019281] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.024509] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.029736] tegra_uart tegra_uart.3: Got frame errors
+[ 1310.034790] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.040018] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.045245] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.050472] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.055699] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.060926] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.066153] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.071380] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.076607] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.081834] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.087061] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.092288] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.097515] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.102742] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.107970] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.113197] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.118424] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.123651] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.128879] tegra_uart tegra_uart.3: Got frame errors
+[ 1310.133932] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.139159] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.144386] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.149617] tegra_uart tegra_uart.3: Got frame errors
+[ 1310.154670] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.159897] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.165124] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.170352] tegra_uart tegra_uart.3: Got frame errors
+[ 1310.175405] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.180632] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.185859] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.191087] tegra_uart tegra_uart.3: Got frame errors
+[ 1310.196141] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.201368] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.206595] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.211823] tegra_uart tegra_uart.3: Got frame errors
+[ 1310.216876] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.222103] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.227331] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.232558] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.237785] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.243012] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.248239] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.253467] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.258694] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.263921] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.269148] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.274375] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.279602] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.284829] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.290056] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.295283] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.300510] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.305737] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.310964] tegra_uart tegra_uart.3: Got frame errors
+[ 1310.316018] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.321245] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.326472] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.331699] tegra_uart tegra_uart.3: Got frame errors
+[ 1310.336755] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.341982] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.347210] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.352437] tegra_uart tegra_uart.3: Got frame errors
+[ 1310.357491] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.362718] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.367945] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.373172] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.378400] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.383628] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.388856] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.394083] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.399310] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.404538] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.409765] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.414992] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.420220] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.425448] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.430676] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.435903] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.441130] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.446357] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.451586] tegra_uart tegra_uart.3: Got frame errors
+[ 1310.456640] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.461868] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.467095] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.472325] tegra_uart tegra_uart.3: Got Break
+[ 1310.476771] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.481998] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.487225] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.492452] tegra_uart tegra_uart.3: Got Break
+[ 1310.496898] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.502125] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.507353] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.512580] tegra_uart tegra_uart.3: Got Break
+[ 1310.517026] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.522253] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.527481] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.532708] tegra_uart tegra_uart.3: Got frame errors
+[ 1310.537762] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.542989] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.548216] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.553443] tegra_uart tegra_uart.3: Got frame errors
+[ 1310.558497] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.563724] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.568952] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.574179] tegra_uart tegra_uart.3: Got frame errors
+[ 1310.579233] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.584460] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.589687] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.594915] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.600142] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.605369] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.610596] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.615822] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.621050] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.626277] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.631505] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.636732] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.641959] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.647187] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.652418] tegra_uart tegra_uart.3: Got Break
+[ 1310.656864] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.662091] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.667319] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.672546] tegra_uart tegra_uart.3: Got frame errors
+[ 1310.677600] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.682827] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.688054] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.693282] tegra_uart tegra_uart.3: Got Break
+[ 1310.697728] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.702955] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.708182] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.713409] tegra_uart tegra_uart.3: Got frame errors
+[ 1310.718463] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.723690] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.728917] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.734145] tegra_uart tegra_uart.3: Got frame errors
+[ 1310.739198] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.744426] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.749653] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.754881] tegra_uart tegra_uart.3: Got frame errors
+[ 1310.759936] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.765162] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.770389] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.775618] tegra_uart tegra_uart.3: Got frame errors
+[ 1310.780673] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.785900] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.791128] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.796355] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.801582] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.806810] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.812037] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.817264] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.822491] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.827718] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.832945] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.838172] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.843399] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.848626] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.853853] tegra_uart tegra_uart.3: Got frame errors
+[ 1310.858907] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.864135] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.869362] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.874589] tegra_uart tegra_uart.3: Got frame errors
+[ 1310.879643] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.884870] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.890097] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.895324] tegra_uart tegra_uart.3: Got frame errors
+[ 1310.900378] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.905606] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.910833] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.916060] tegra_uart tegra_uart.3: Got frame errors
+[ 1310.920956] ------------[ cut here ]------------
+[ 1310.921010] WARNING: at drivers/i2c/busses/i2c-tegra.c:728 tegra_i2c_xfer+0x398/0x4f4()
+[ 1310.921028] Modules linked in:
+[ 1310.921084] [<c0015240>] (unwind_backtrace+0x0/0xf8) from [<c05fb4c8>] (dump_stack+0x20/0x24)
+[ 1310.921127] [<c05fb4c8>] (dump_stack+0x20/0x24) from [<c005bbf8>] (warn_slowpath_common+0x5c/0x74)
+[ 1310.921163] [<c005bbf8>] (warn_slowpath_common+0x5c/0x74) from [<c005bc3c>] (warn_slowpath_null+0x2c/0x34)
+[ 1310.921200] [<c005bc3c>] (warn_slowpath_null+0x2c/0x34) from [<c03dabf4>] (tegra_i2c_xfer+0x398/0x4f4)
+[ 1310.921240] [<c03dabf4>] (tegra_i2c_xfer+0x398/0x4f4) from [<c03d8828>] (i2c_transfer+0x94/0xec)
+[ 1310.921260] tegra_uart tegra_uart.3: Got overrun errors
+[ 1310.921277] tegra_uart tegra_uart.3: Got Break
+[ 1310.921295] tegra_uart tegra_uart.3: Got frame errors
+[ 1310.921315] tegra_uart tegra_uart.3: Got frame errors
+[ 1310.921333] tegra_uart tegra_uart.3: Got frame errors
+[ 1310.921349] tegra_uart tegra_uart.3: Got frame errors
+[ 1310.921368] tegra_uart tegra_uart.3: Got frame errors
+[ 1310.921384] tegra_uart tegra_uart.3: Got frame errors
+[ 1310.921400] tegra_uart tegra_uart.3: Got frame errors
+[ 1310.921416] tegra_uart tegra_uart.3: Got frame errors
+[ 1310.921433] tegra_uart tegra_uart.3: Got frame errors
+[ 1310.921449] tegra_uart tegra_uart.3: Got frame errors
+[ 1310.921467] tegra_uart tegra_uart.3: Got frame errors
+[ 1310.921483] tegra_uart tegra_uart.3: Got frame errors
+[ 1310.921499] tegra_uart tegra_uart.3: Got Break
+[ 1310.921515] tegra_uart tegra_uart.3: Got frame errors
+[ 1310.921533] tegra_uart tegra_uart.3: Got Break
+[ 1310.921548] tegra_uart tegra_uart.3: Got frame errors
+[ 1310.921564] tegra_uart tegra_uart.3: Got frame errors
+[ 1310.921581] tegra_uart tegra_uart.3: Got Break
+[ 1310.921599] tegra_uart tegra_uart.3: Got frame errors
+[ 1310.921615] tegra_uart tegra_uart.3: Got Break
+[ 1310.921632] tegra_uart tegra_uart.3: Got frame errors
+[ 1310.943151] tegra_uart tegra_uart.3: Got frame errors
+[ 1310.944153] tegra_uart tegra_uart.3: Got frame errors
+[ 1310.945314] tegra_uart tegra_uart.3: Got Break
+[ 1310.945661] tegra_uart tegra_uart.3: Got Break
+[ 1310.946005] tegra_uart tegra_uart.3: Got frame errors
+[ 1310.957042] tegra_uart tegra_uart.3: Got frame errors
+[ 1310.958317] tegra_uart tegra_uart.3: Got frame errors
+[ 1310.963334] tegra_uart tegra_uart.3: Got frame errors
+[ 1310.964321] tegra_uart tegra_uart.3: Got Break
+[ 1310.964668] tegra_uart tegra_uart.3: Got frame errors
+[ 1310.965649] tegra_uart tegra_uart.3: Got Break
+[ 1310.965994] tegra_uart tegra_uart.3: Got Break
+[ 1310.968173] tegra_uart tegra_uart.3: Got frame errors
+[ 1310.977240] tegra_uart tegra_uart.3: Got frame errors
+[ 1310.984260] tegra_uart tegra_uart.3: Got frame errors
+[ 1310.985383] tegra_uart tegra_uart.3: Got Break
+[ 1310.985727] tegra_uart tegra_uart.3: Got frame errors
+[ 1310.988120] tegra_uart tegra_uart.3: Got frame errors
+[ 1310.998647] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.002421] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.003667] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.004667] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.005700] tegra_uart tegra_uart.3: Got Break
+[ 1311.006043] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.019540] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.023807] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.024785] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.025814] tegra_uart tegra_uart.3: Got Break
+[ 1311.026157] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.027124] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.037446] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.038677] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.044581] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.046608] tegra_uart tegra_uart.3: Got Break
+[ 1311.049658] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.057776] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.063933] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.064972] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.065972] tegra_uart tegra_uart.3: Got Break
+[ 1311.066315] tegra_uart tegra_uart.3: Got Break
+[ 1311.066658] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.069003] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.078075] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.084465] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.084953] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.086011] tegra_uart tegra_uart.3: Got Break
+[ 1311.086355] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.087308] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.098173] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.099908] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.104432] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.105229] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.106246] tegra_uart tegra_uart.3: Got Break
+[ 1311.106592] tegra_uart tegra_uart.3: Got Break
+[ 1311.106934] tegra_uart tegra_uart.3: Got Break
+[ 1311.107278] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.112851] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.112872] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.118339] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.120145] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.125490] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.126481] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.128876] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.138353] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.144556] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.145579] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.146579] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.147576] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.148738] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.158451] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.164708] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.165690] tegra_uart tegra_uart.3: Got Break
+[ 1311.166036] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.167024] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.168050] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.178505] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.184881] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.185879] tegra_uart tegra_uart.3: Got Break
+[ 1311.186354] tegra_uart tegra_uart.3: Got Break
+[ 1311.187335] tegra_uart tegra_uart.3: Got Break
+[ 1311.187677] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.198597] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.199845] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.201806] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.206117] tegra_uart tegra_uart.3: Got Break
+[ 1311.208607] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.209954] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.218954] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.225174] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.226199] tegra_uart tegra_uart.3: Got Break
+[ 1311.228765] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.233880] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.239283] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.245415] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.246512] tegra_uart tegra_uart.3: Got Break
+[ 1311.260565] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.264218] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.265512] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.266598] tegra_uart tegra_uart.3: Got Break
+[ 1311.266957] tegra_uart tegra_uart.3: Got Break
+[ 1311.267857] tegra_uart tegra_uart.3: Got Break
+[ 1311.268240] tegra_uart tegra_uart.3: Got Break
+[ 1311.268581] tegra_uart tegra_uart.3: Got Break
+[ 1311.268923] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.269994] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.271550] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.281769] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.285704] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.286717] tegra_uart tegra_uart.3: Got Break
+[ 1311.287370] tegra_uart tegra_uart.3: Got Break
+[ 1311.288113] tegra_uart tegra_uart.3: Got Break
+[ 1311.288457] tegra_uart tegra_uart.3: Got Break
+[ 1311.288800] tegra_uart tegra_uart.3: Got Break
+[ 1311.289141] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.291251] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.300639] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.307203] tegra_uart tegra_uart.3: Got Break
+[ 1311.309617] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.321004] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.325980] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.327088] tegra_uart tegra_uart.3: Got Break
+[ 1311.329503] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.330644] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.339665] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.346139] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.347122] tegra_uart tegra_uart.3: Got Break
+[ 1311.349691] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.350687] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.360569] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.367639] tegra_uart tegra_uart.3: Got Break
+[ 1311.367988] tegra_uart tegra_uart.3: Got Break
+[ 1311.369243] tegra_uart tegra_uart.3: Got Break
+[ 1311.369260] tegra_uart tegra_uart.3: Got Break
+[ 1311.369275] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.369777] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.382719] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.386558] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.387542] tegra_uart tegra_uart.3: Got Break
+[ 1311.406708] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.424199] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.426793] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.427856] tegra_uart tegra_uart.3: Got Break
+[ 1311.428593] tegra_uart tegra_uart.3: Got Break
+[ 1311.429222] tegra_uart tegra_uart.3: Got Break
+[ 1311.429564] tegra_uart tegra_uart.3: Got Break
+[ 1311.429905] tegra_uart tegra_uart.3: Got Break
+[ 1311.430246] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.452442] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.452463] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.452480] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.465750] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.467073] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.468060] tegra_uart tegra_uart.3: Got Break
+[ 1311.468468] tegra_uart tegra_uart.3: Got Break
+[ 1311.470428] tegra_uart tegra_uart.3: Got Break
+[ 1311.470445] tegra_uart tegra_uart.3: Got Break
+[ 1311.470460] tegra_uart tegra_uart.3: Got Break
+[ 1311.470475] tegra_uart tegra_uart.3: Got Break
+[ 1311.470980] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.472810] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.483313] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.487232] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.488233] tegra_uart tegra_uart.3: Got Break
+[ 1311.490757] tegra_uart tegra_uart.3: Got Break
+[ 1311.501365] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.507429] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.512016] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.513052] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.521664] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.523067] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.527996] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.528967] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.528984] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.529000] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.529016] tegra_uart tegra_uart.3: Got Break
+[ 1311.529503] tegra_uart tegra_uart.3: Got Break
+[ 1311.530027] tegra_uart tegra_uart.3: Got Break
+[ 1311.530372] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.531190] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.532500] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.547815] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.561933] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.563157] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.567933] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.568966] tegra_uart tegra_uart.3: Got Break
+[ 1311.569310] tegra_uart tegra_uart.3: Got Break
+[ 1311.571568] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.587999] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.589036] tegra_uart tegra_uart.3: Got Break
+[ 1311.591613] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.604542] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.608284] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.609302] tegra_uart tegra_uart.3: Got Break
+[ 1311.609645] tegra_uart tegra_uart.3: Got Break
+[ 1311.610136] tegra_uart tegra_uart.3: Got Break
+[ 1311.610660] tegra_uart tegra_uart.3: Got Break
+[ 1311.611002] tegra_uart tegra_uart.3: Got Break
+[ 1311.611343] tegra_uart tegra_uart.3: Got Break
+[ 1311.611686] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.623630] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.628320] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.629307] tegra_uart tegra_uart.3: Got Break
+[ 1311.636966] tegra_uart tegra_uart.3: Got Break
+[ 1311.637501] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.642476] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.644366] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.652293] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.656593] tegra_uart tegra_uart.3: Got Break
+[ 1311.662545] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.668651] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.669708] tegra_uart tegra_uart.3: Got Break
+[ 1311.672241] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.676498] tegra_uart tegra_uart.3: Got Break
+[ 1311.677121] tegra_uart tegra_uart.3: Got Break
+[ 1311.683125] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.688796] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.689944] tegra_uart tegra_uart.3: Got Break
+[ 1311.690598] tegra_uart tegra_uart.3: Got Break
+[ 1311.691310] tegra_uart tegra_uart.3: Got Break
+[ 1311.691653] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.692558] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.693971] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.695804] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.698115] tegra_uart tegra_uart.3: Got Break
+[ 1311.698134] tegra_uart tegra_uart.3: Got Break
+[ 1311.703508] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.708946] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.710099] tegra_uart tegra_uart.3: Got Break
+[ 1311.712532] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.716647] tegra_uart tegra_uart.3: Got Break
+[ 1311.717846] tegra_uart tegra_uart.3: Got Break
+[ 1311.723255] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.724347] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.729108] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.730090] tegra_uart tegra_uart.3: Got Break
+[ 1311.736932] tegra_uart tegra_uart.3: Got Break
+[ 1311.749417] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.750802] tegra_uart tegra_uart.3: Got Break
+[ 1311.751800] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.752675] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.753661] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.756516] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.765262] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.765282] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.769499] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.773032] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.776270] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.789592] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.790575] tegra_uart tegra_uart.3: Got Break
+[ 1311.793269] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.809745] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.810728] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.811763] tegra_uart tegra_uart.3: Got Break
+[ 1311.812108] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.813138] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.819077] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.825082] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.829899] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.830882] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.831940] tegra_uart tegra_uart.3: Got Break
+[ 1311.832286] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.833215] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.843947] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.850130] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.851197] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.852208] tegra_uart tegra_uart.3: Got Break
+[ 1311.852551] tegra_uart tegra_uart.3: Got Break
+[ 1311.852893] tegra_uart tegra_uart.3: Got Break
+[ 1311.853234] tegra_uart tegra_uart.3: Got Break
+[ 1311.863939] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.870301] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.871353] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.874090] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.884147] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.885453] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.890540] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.891697] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.892705] tegra_uart tegra_uart.3: Got Break
+[ 1311.893050] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.895503] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.910585] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.911599] tegra_uart tegra_uart.3: Got Break
+[ 1311.911942] tegra_uart tegra_uart.3: Got Break
+[ 1311.912285] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.913162] tegra_uart tegra_uart.3: Got Break
+[ 1311.914423] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.915961] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.924383] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.930892] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.931879] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.933944] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.934931] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.950929] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.951925] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.953052] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.954051] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.956807] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.965965] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.972021] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.973096] tegra_uart tegra_uart.3: Got Break
+[ 1311.973440] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.974471] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.975798] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.991290] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.993472] tegra_uart tegra_uart.3: Got frame errors
+[ 1311.997231] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.006515] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.011366] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.012351] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.013365] tegra_uart tegra_uart.3: Got Break
+[ 1312.013709] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.014674] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.026502] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.031610] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.032598] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.033712] tegra_uart tegra_uart.3: Got Break
+[ 1312.036287] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.045277] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.051868] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.052871] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.053998] tegra_uart tegra_uart.3: Got Break
+[ 1312.054341] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.056840] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.071950] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.072950] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.073980] tegra_uart tegra_uart.3: Got Break
+[ 1312.074324] tegra_uart tegra_uart.3: Got Break
+[ 1312.074665] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.085766] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.092510] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.093077] tegra_uart tegra_uart.3: Got Break
+[ 1312.093422] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.094354] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.095361] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.096703] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.098225] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.105990] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.112203] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.114398] tegra_uart tegra_uart.3: Got Break
+[ 1312.114743] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.117235] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.125806] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.127456] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.132414] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.133501] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.134495] tegra_uart tegra_uart.3: Got Break
+[ 1312.134839] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.135795] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.152557] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.153542] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.154638] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.156999] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.166259] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.167889] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.168876] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.171361] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.172718] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.173718] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.174814] tegra_uart tegra_uart.3: Got Break
+[ 1312.175158] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.176107] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.177571] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.186515] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.193025] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.194009] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.195073] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.208083] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.211306] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.213133] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.214119] tegra_uart tegra_uart.3: Got Break
+[ 1312.214463] tegra_uart tegra_uart.3: Got Break
+[ 1312.214804] tegra_uart tegra_uart.3: Got Break
+[ 1312.215145] tegra_uart tegra_uart.3: Got Break
+[ 1312.215487] tegra_uart tegra_uart.3: Got Break
+[ 1312.216759] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.234349] tegra_uart tegra_uart.3: Got Break
+[ 1312.234696] tegra_uart tegra_uart.3: Got Break
+[ 1312.235037] tegra_uart tegra_uart.3: Got Break
+[ 1312.235379] tegra_uart tegra_uart.3: Got Break
+[ 1312.235721] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.236538] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.248006] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.254064] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.255075] tegra_uart tegra_uart.3: Got Break
+[ 1312.255418] tegra_uart tegra_uart.3: Got Break
+[ 1312.255760] tegra_uart tegra_uart.3: Got Break
+[ 1312.256102] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.273592] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.274576] tegra_uart tegra_uart.3: Got Break
+[ 1312.274919] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.275947] tegra_uart tegra_uart.3: Got Break
+[ 1312.276289] tegra_uart tegra_uart.3: Got Break
+[ 1312.276631] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.287078] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.288370] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.293727] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.294689] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.295867] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.296879] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.307559] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.313758] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.314774] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.316114] tegra_uart tegra_uart.3: Got Break
+[ 1312.316457] tegra_uart tegra_uart.3: Got Break
+[ 1312.327405] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.330189] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.332456] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.334211] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.335223] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.336268] tegra_uart tegra_uart.3: Got Break
+[ 1312.336614] tegra_uart tegra_uart.3: Got Break
+[ 1312.336955] tegra_uart tegra_uart.3: Got Break
+[ 1312.337297] tegra_uart tegra_uart.3: Got overrun errors
+[ 1312.338466] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.347753] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.353495] tegra_uart tegra_uart.3: Got Break
+[ 1312.354130] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.355115] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.357226] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.358750] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.367803] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.369165] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.374344] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.375174] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.376255] tegra_uart tegra_uart.3: Got Break
+[ 1312.376600] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.377501] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.388210] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.390374] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.394391] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.395376] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.396468] tegra_uart tegra_uart.3: Got Break
+[ 1312.396811] tegra_uart tegra_uart.3: Got Break
+[ 1312.397152] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.399421] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.408265] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.409520] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.414461] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.415476] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.416559] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.417679] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.420524] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.428563] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.429673] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.434827] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.435810] tegra_uart tegra_uart.3: Got Break
+[ 1312.436154] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.448305] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.455069] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.456055] tegra_uart tegra_uart.3: Got Break
+[ 1312.456614] tegra_uart tegra_uart.3: Got Break
+[ 1312.456957] tegra_uart tegra_uart.3: Got Break
+[ 1312.457298] tegra_uart tegra_uart.3: Got Break
+[ 1312.457639] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.458443] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.468376] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.469613] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.475046] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.476032] tegra_uart tegra_uart.3: Got Break
+[ 1312.476420] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.477567] tegra_uart tegra_uart.3: Got Break
+[ 1312.477910] tegra_uart tegra_uart.3: Got Break
+[ 1312.490995] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.495198] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.496201] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.497506] tegra_uart tegra_uart.3: Got Break
+[ 1312.500474] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.503465] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.509023] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.510542] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.515431] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.516431] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.517678] tegra_uart tegra_uart.3: Got Break
+[ 1312.518023] tegra_uart tegra_uart.3: Got Break
+[ 1312.518365] tegra_uart tegra_uart.3: Got Break
+[ 1312.518706] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.520547] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.529142] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.535501] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.536505] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.537517] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.538539] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.539539] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.549097] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.555702] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.556688] tegra_uart tegra_uart.3: Got Break
+[ 1312.557030] tegra_uart tegra_uart.3: Got Break
+[ 1312.558470] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.559884] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.571016] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.577086] tegra_uart tegra_uart.3: Got Break
+[ 1312.577432] tegra_uart tegra_uart.3: Got Break
+[ 1312.577774] tegra_uart tegra_uart.3: Got Break
+[ 1312.578116] tegra_uart tegra_uart.3: Got Break
+[ 1312.578459] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.579212] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.580670] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.589941] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.591339] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.593296] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.595923] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.596925] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.598086] tegra_uart tegra_uart.3: Got Break
+[ 1312.598430] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.600358] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.602089] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.612356] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.616009] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.616994] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.618122] tegra_uart tegra_uart.3: Got Break
+[ 1312.618465] tegra_uart tegra_uart.3: Got Break
+[ 1312.618808] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.636273] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.637259] tegra_uart tegra_uart.3: Got Break
+[ 1312.637603] tegra_uart tegra_uart.3: Got Break
+[ 1312.638025] tegra_uart tegra_uart.3: Got Break
+[ 1312.638402] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.650032] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.656374] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.658437] tegra_uart tegra_uart.3: Got Break
+[ 1312.658780] tegra_uart tegra_uart.3: Got Break
+[ 1312.659121] tegra_uart tegra_uart.3: Got Break
+[ 1312.659462] tegra_uart tegra_uart.3: Got overrun errors
+[ 1312.670069] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.676557] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.677541] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.678651] tegra_uart tegra_uart.3: Got Break
+[ 1312.690364] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.696674] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.698754] tegra_uart tegra_uart.3: Got Break
+[ 1312.711906] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.716873] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.717875] tegra_uart tegra_uart.3: Got Break
+[ 1312.718219] tegra_uart tegra_uart.3: Got Break
+[ 1312.718561] tegra_uart tegra_uart.3: Got Break
+[ 1312.718902] tegra_uart tegra_uart.3: Got Break
+[ 1312.731041] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.735355] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.737007] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.737993] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.739137] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.740141] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.757130] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.758162] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.759339] tegra_uart tegra_uart.3: Got Break
+[ 1312.759681] tegra_uart tegra_uart.3: Got Break
+[ 1312.760022] tegra_uart tegra_uart.3: Got Break
+[ 1312.760363] tegra_uart tegra_uart.3: Got Break
+[ 1312.760706] tegra_uart tegra_uart.3: Got overrun errors
+[ 1312.771119] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.772393] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.773570] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.777316] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.778298] tegra_uart tegra_uart.3: Got Break
+[ 1312.778642] tegra_uart tegra_uart.3: Got Break
+[ 1312.778985] tegra_uart tegra_uart.3: Got Break
+[ 1312.779325] tegra_uart tegra_uart.3: Got Break
+[ 1312.779667] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.780623] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.791194] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.793682] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.797500] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.798485] tegra_uart tegra_uart.3: Got Break
+[ 1312.798830] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.811374] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.817607] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.819621] tegra_uart tegra_uart.3: Got Break
+[ 1312.819965] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.820925] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.837793] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.838793] tegra_uart tegra_uart.3: Got Break
+[ 1312.839136] tegra_uart tegra_uart.3: Got Break
+[ 1312.839478] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.840385] tegra_uart tegra_uart.3: Got Break
+[ 1312.840730] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.852814] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.857915] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.858932] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.860141] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.878325] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.879331] tegra_uart tegra_uart.3: Got Break
+[ 1312.879676] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.880679] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.881668] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.882954] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.893596] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.898191] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.899175] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.900287] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.901573] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.912033] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.913470] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.914618] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.918425] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.919409] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.920590] tegra_uart tegra_uart.3: Got Break
+[ 1312.920936] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.932430] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.938561] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.939547] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.940658] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.941677] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.943376] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.952304] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.958646] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.959800] tegra_uart tegra_uart.3: Got Break
+[ 1312.960153] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.961253] tegra_uart tegra_uart.3: Got Break
+[ 1312.961598] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.962505] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.963789] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.972717] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.978865] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.979897] tegra_uart tegra_uart.3: Got Break
+[ 1312.980241] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.981224] tegra_uart tegra_uart.3: Got Break
+[ 1312.981568] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.984128] tegra_uart tegra_uart.3: Got frame errors
+[ 1312.999052] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.000055] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.001116] tegra_uart tegra_uart.3: Got Break
+[ 1313.001461] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.004164] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.007102] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.019268] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.020252] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.021399] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.023798] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.039324] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.041409] tegra_uart tegra_uart.3: Got Break
+[ 1313.041756] tegra_uart tegra_uart.3: Got Break
+[ 1313.042098] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.059782] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.060822] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.061845] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.062831] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.074926] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.079800] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.080667] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.081748] tegra_uart tegra_uart.3: Got Break
+[ 1313.082092] tegra_uart tegra_uart.3: Got Break
+[ 1313.082434] tegra_uart tegra_uart.3: Got Break
+[ 1313.082775] tegra_uart tegra_uart.3: Got Break
+[ 1313.083118] tegra_uart tegra_uart.3: Got overrun errors
+[ 1313.098179] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.100137] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.101181] tegra_uart tegra_uart.3: Got Break
+[ 1313.101526] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.102522] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.105560] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.119922] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.120922] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.121971] tegra_uart tegra_uart.3: Got Break
+[ 1313.122345] tegra_uart tegra_uart.3: Got Break
+[ 1313.122687] tegra_uart tegra_uart.3: Got Break
+[ 1313.123029] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.140224] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.141211] tegra_uart tegra_uart.3: Got Break
+[ 1313.141556] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.142469] tegra_uart tegra_uart.3: Got Break
+[ 1313.142812] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.158557] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.160308] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.161296] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.162457] tegra_uart tegra_uart.3: Got Break
+[ 1313.162801] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.165277] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.174562] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.175939] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.180398] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.181400] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.182413] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.183426] tegra_uart tegra_uart.3: Got Break
+[ 1313.196239] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.201589] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.202683] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.214883] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.218663] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.225863] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.240989] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.243071] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.246926] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.255419] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.261189] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.262174] tegra_uart tegra_uart.3: Got Break
+[ 1313.262518] tegra_uart tegra_uart.3: Got Break
+[ 1313.262861] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.263799] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.281377] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.282378] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.283491] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.295023] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.297562] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.301657] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.302645] tegra_uart tegra_uart.3: Got Break
+[ 1313.302989] tegra_uart tegra_uart.3: Got Break
+[ 1313.303332] tegra_uart tegra_uart.3: Got Break
+[ 1313.303674] tegra_uart tegra_uart.3: Got Break
+[ 1313.304015] tegra_uart tegra_uart.3: Got overrun errors
+[ 1313.305402] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.316993] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.319534] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.321534] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.322520] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.323616] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.324657] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.327533] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.335802] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.337110] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.339806] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.339825] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.341751] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.342737] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.343800] tegra_uart tegra_uart.3: Got Break
+[ 1313.344146] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.346422] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.355662] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.361940] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.362924] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.363973] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.366281] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.380352] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.382061] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.383045] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.384193] tegra_uart tegra_uart.3: Got Break
+[ 1313.384538] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.397494] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.403751] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.404284] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.406856] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.417387] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.422274] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.423275] tegra_uart tegra_uart.3: Got Break
+[ 1313.423620] tegra_uart tegra_uart.3: Got Break
+[ 1313.423962] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.426014] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.427386] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.437771] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.442559] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.444543] tegra_uart tegra_uart.3: Got Break
+[ 1313.444887] tegra_uart tegra_uart.3: Got Break
+[ 1313.445229] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.457758] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.462762] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.463801] tegra_uart tegra_uart.3: Got Break
+[ 1313.464146] tegra_uart tegra_uart.3: Got Break
+[ 1313.464487] tegra_uart tegra_uart.3: Got Break
+[ 1313.464829] tegra_uart tegra_uart.3: Got Break
+[ 1313.465171] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.466123] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.478296] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.482823] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.484809] tegra_uart tegra_uart.3: Got Break
+[ 1313.485153] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.486100] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.487526] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.488844] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.491175] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.497091] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.498476] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.503011] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.504031] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.505075] tegra_uart tegra_uart.3: Got Break
+[ 1313.505419] tegra_uart tegra_uart.3: Got Break
+[ 1313.505761] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.508304] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.523152] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.524137] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.525182] tegra_uart tegra_uart.3: Got Break
+[ 1313.525525] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.526433] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.543327] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.544330] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.545342] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.546330] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.563551] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.564537] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.565598] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.566612] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.579857] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.583805] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.584678] tegra_uart tegra_uart.3: Got Break
+[ 1313.585023] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.585972] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.598030] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.603852] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.604870] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.605869] tegra_uart tegra_uart.3: Got Break
+[ 1313.606212] tegra_uart tegra_uart.3: Got Break
+[ 1313.606554] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.607809] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.609082] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.618221] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.623928] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.624929] tegra_uart tegra_uart.3: Got Break
+[ 1313.625273] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.626226] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.639807] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.644073] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.645073] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.646217] tegra_uart tegra_uart.3: Got Break
+[ 1313.646560] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.658165] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.664233] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.665250] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.666250] tegra_uart tegra_uart.3: Got Break
+[ 1313.666593] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.669134] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.678016] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.679568] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.684345] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.685331] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.686360] tegra_uart tegra_uart.3: Got Break
+[ 1313.686704] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.687804] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.690213] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.690231] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.690247] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.690787] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.699554] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.704505] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.705492] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.706522] tegra_uart tegra_uart.3: Got Break
+[ 1313.706866] tegra_uart tegra_uart.3: Got Break
+[ 1313.707209] tegra_uart tegra_uart.3: Got Break
+[ 1313.707550] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.708360] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.724672] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.725688] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.726899] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.727910] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.729634] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.740964] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.744799] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.745785] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.749751] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.765047] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.766047] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.767093] tegra_uart tegra_uart.3: Got Break
+[ 1313.767435] tegra_uart tegra_uart.3: Got Break
+[ 1313.767777] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.768681] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.780190] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.785127] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.786127] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.787256] tegra_uart tegra_uart.3: Got Break
+[ 1313.787599] tegra_uart tegra_uart.3: Got Break
+[ 1313.787941] tegra_uart tegra_uart.3: Got Break
+[ 1313.788282] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.790751] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.799239] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.800482] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.805323] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.806325] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.807337] tegra_uart tegra_uart.3: Got Break
+[ 1313.807681] tegra_uart tegra_uart.3: Got Break
+[ 1313.808023] tegra_uart tegra_uart.3: Got Break
+[ 1313.808365] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.810640] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.819811] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.820927] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.823596] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.825536] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.826537] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.827600] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.839500] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.845601] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.846587] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.847616] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.848662] tegra_uart tegra_uart.3: Got Break
+[ 1313.861400] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.865861] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.866846] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.868039] tegra_uart tegra_uart.3: Got Break
+[ 1313.868382] tegra_uart tegra_uart.3: Got Break
+[ 1313.868724] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.886092] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.886913] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.887928] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.901522] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.906237] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.907090] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.908184] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.920408] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.921793] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.926297] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.927296] tegra_uart tegra_uart.3: Got Break
+[ 1313.927639] tegra_uart tegra_uart.3: Got Break
+[ 1313.927981] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.928934] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.946440] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.947425] tegra_uart tegra_uart.3: Got Break
+[ 1313.947768] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.948686] tegra_uart tegra_uart.3: Got Break
+[ 1313.951360] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.962190] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.964800] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.970286] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.972561] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.981085] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.984810] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.984829] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.986774] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.987759] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.988839] tegra_uart tegra_uart.3: Got Break
+[ 1313.989182] tegra_uart tegra_uart.3: Got frame errors
+[ 1313.991828] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.000587] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.006899] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.007888] tegra_uart tegra_uart.3: Got Break
+[ 1314.008232] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.009161] tegra_uart tegra_uart.3: Got Break
+[ 1314.009503] tegra_uart tegra_uart.3: Got Break
+[ 1314.009845] tegra_uart tegra_uart.3: Got Break
+[ 1314.010186] tegra_uart tegra_uart.3: Got overrun errors
+[ 1314.021186] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.025110] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.027121] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.028107] tegra_uart tegra_uart.3: Got Break
+[ 1314.028451] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.031804] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.032686] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.042523] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.047179] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.048168] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.049227] tegra_uart tegra_uart.3: Got Break
+[ 1314.049571] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.050507] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.061646] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.065401] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.067528] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.068512] tegra_uart tegra_uart.3: Got Break
+[ 1314.068856] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.069794] tegra_uart tegra_uart.3: Got Break
+[ 1314.070137] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.083622] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.087541] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.088529] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.089605] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.090618] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.103304] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.105910] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.107648] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.108633] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.109711] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.110726] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.112652] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.114885] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.121965] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.127800] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.128787] tegra_uart tegra_uart.3: Got Break
+[ 1314.129131] tegra_uart tegra_uart.3: Got Break
+[ 1314.129475] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.130400] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.142382] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.143574] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.147988] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.148974] tegra_uart tegra_uart.3: Got Break
+[ 1314.149318] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.150299] tegra_uart tegra_uart.3: Got Break
+[ 1314.150641] tegra_uart tegra_uart.3: Got Break
+[ 1314.152169] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.156231] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.156248] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.163502] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.168124] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.169121] tegra_uart tegra_uart.3: Got Break
+[ 1314.169464] tegra_uart tegra_uart.3: Got Break
+[ 1314.169807] tegra_uart tegra_uart.3: Got Break
+[ 1314.170148] tegra_uart tegra_uart.3: Got Break
+[ 1314.170489] tegra_uart tegra_uart.3: Got Break
+[ 1314.170831] tegra_uart tegra_uart.3: Got overrun errors
+[ 1314.173241] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.183569] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.186542] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.188393] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.189378] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.190556] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.191565] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.192936] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.202087] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.208764] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.209806] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.228665] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.229648] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.230725] tegra_uart tegra_uart.3: Got Break
+[ 1314.231068] tegra_uart tegra_uart.3: Got Break
+[ 1314.231410] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.232456] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.242749] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.248780] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.249766] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.250842] tegra_uart tegra_uart.3: Got Break
+[ 1314.251186] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.264260] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.269029] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.270015] tegra_uart tegra_uart.3: Got Break
+[ 1314.270359] tegra_uart tegra_uart.3: Got Break
+[ 1314.270700] tegra_uart tegra_uart.3: Got Break
+[ 1314.271040] tegra_uart tegra_uart.3: Got Break
+[ 1314.271381] tegra_uart tegra_uart.3: Got Break
+[ 1314.271722] tegra_uart tegra_uart.3: Got overrun errors
+[ 1314.274000] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.283066] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.287095] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.287113] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.292580] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.293478] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.309581] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.310284] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.311300] tegra_uart tegra_uart.3: Got Break
+[ 1314.311643] tegra_uart tegra_uart.3: Got Break
+[ 1314.311984] tegra_uart tegra_uart.3: Got Break
+[ 1314.312326] tegra_uart tegra_uart.3: Got Break
+[ 1314.324860] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.327256] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.329353] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.330352] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.333843] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.334962] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.337352] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.345108] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.347744] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.349583] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.350584] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.351803] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.365575] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.369702] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.370718] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.371733] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.374157] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.384131] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.387811] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.389836] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.391936] tegra_uart tegra_uart.3: Got Break
+[ 1314.392281] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.394595] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.404069] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.410104] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.411102] tegra_uart tegra_uart.3: Got Break
+[ 1314.413367] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.431407] tegra_uart tegra_uart.3: Got Break
+[ 1314.431754] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.432716] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.448825] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.450308] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.452374] tegra_uart tegra_uart.3: Got Break
+[ 1314.452719] tegra_uart tegra_uart.3: Got Break
+[ 1314.453062] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.465853] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.470444] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.471431] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.472576] tegra_uart tegra_uart.3: Got Break
+[ 1314.472921] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.485217] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.491895] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.492952] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.493984] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.509261] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.510828] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.511813] tegra_uart tegra_uart.3: Got Break
+[ 1314.512160] tegra_uart tegra_uart.3: Got Break
+[ 1314.512502] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.513416] tegra_uart tegra_uart.3: Got Break
+[ 1314.513758] tegra_uart tegra_uart.3: Got Break
+[ 1314.514100] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.524535] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.525970] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.527118] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.531182] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.532204] tegra_uart tegra_uart.3: Got Break
+[ 1314.532548] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.533626] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.544781] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.546005] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.551074] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.552065] tegra_uart tegra_uart.3: Got Break
+[ 1314.552411] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.554417] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.564754] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.571275] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.572259] tegra_uart tegra_uart.3: Got Break
+[ 1314.572603] tegra_uart tegra_uart.3: Got Break
+[ 1314.572945] tegra_uart tegra_uart.3: Got Break
+[ 1314.573286] tegra_uart tegra_uart.3: Got Break
+[ 1314.573628] tegra_uart tegra_uart.3: Got overrun errors
+[ 1314.574611] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.585460] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.591698] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.592385] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.593425] tegra_uart tegra_uart.3: Got Break
+[ 1314.593769] tegra_uart tegra_uart.3: Got Break
+[ 1314.594112] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.606643] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.611528] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.612512] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.613559] tegra_uart tegra_uart.3: Got Break
+[ 1314.613902] tegra_uart tegra_uart.3: Got Break
+[ 1314.614244] tegra_uart tegra_uart.3: Got Break
+[ 1314.614585] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.625072] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.626821] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.631818] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.632747] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.633807] tegra_uart tegra_uart.3: Got Break
+[ 1314.634151] tegra_uart tegra_uart.3: Got Break
+[ 1314.634494] tegra_uart tegra_uart.3: Got Break
+[ 1314.634837] tegra_uart tegra_uart.3: Got overrun errors
+[ 1314.645488] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.646680] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.650036] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.651879] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.652864] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.653911] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.657538] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.665393] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.671983] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.672970] tegra_uart tegra_uart.3: Got Break
+[ 1314.673313] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.674406] tegra_uart tegra_uart.3: Got Break
+[ 1314.674748] tegra_uart tegra_uart.3: Got Break
+[ 1314.675089] tegra_uart tegra_uart.3: Got Break
+[ 1314.675430] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.678145] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.687580] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.692380] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.694355] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.695358] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.707122] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.710186] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.712369] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.713355] tegra_uart tegra_uart.3: Got Break
+[ 1314.713699] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.714664] tegra_uart tegra_uart.3: Got Break
+[ 1314.715008] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.726068] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.727503] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.732542] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.733542] tegra_uart tegra_uart.3: Got Break
+[ 1314.733886] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.734919] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.747581] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.752709] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.753709] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.754823] tegra_uart tegra_uart.3: Got Break
+[ 1314.755166] tegra_uart tegra_uart.3: Got Break
+[ 1314.755507] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.756339] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.767271] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.772842] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.773874] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.774955] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.786681] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.792864] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.793861] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.795057] tegra_uart tegra_uart.3: Got Break
+[ 1314.795400] tegra_uart tegra_uart.3: Got Break
+[ 1314.795743] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.796810] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.806788] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.808798] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.813111] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.814096] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.815107] tegra_uart tegra_uart.3: Got Break
+[ 1314.815450] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.816391] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.827572] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.829191] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.831818] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.833351] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.834409] tegra_uart tegra_uart.3: Got Break
+[ 1314.834753] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.835774] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.838716] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.853444] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.854427] tegra_uart tegra_uart.3: Got Break
+[ 1314.854771] tegra_uart tegra_uart.3: Got Break
+[ 1314.855114] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.856087] tegra_uart tegra_uart.3: Got Break
+[ 1314.856433] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.859072] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.869004] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.873546] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.874561] tegra_uart tegra_uart.3: Got Break
+[ 1314.874905] tegra_uart tegra_uart.3: Got Break
+[ 1314.875247] tegra_uart tegra_uart.3: Got Break
+[ 1314.875589] tegra_uart tegra_uart.3: Got Break
+[ 1314.875930] tegra_uart tegra_uart.3: Got Break
+[ 1314.889172] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.895047] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.896059] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.897064] tegra_uart tegra_uart.3: Got frame errors
+[ 1314.907880] tegra_uart tegra_uart.3: Got frame errors
+[ 1316.855971] [<c03d8828>] (i2c_transfer+0x94/0xec) from [<c03d8d00>] (i2c_smbus_xfer+0x3c4/0x50c)
+[ 1316.856019] [<c03d8d00>] (i2c_smbus_xfer+0x3c4/0x50c) from [<c03d9188>] (i2c_smbus_read_byte_data+0x40/0x50)
+[ 1316.856067] [<c03d9188>] (i2c_smbus_read_byte_data+0x40/0x50) from [<c040a310>] (lm95245_update_device+0x78/0xb8)
+[ 1316.856110] [<c040a310>] (lm95245_update_device+0x78/0xb8) from [<c040a444>] (thermal_get_temp+0x20/0x6c)
+[ 1316.856149] [<c040a444>] (thermal_get_temp+0x20/0x6c) from [<c040a500>] (lm95245_get_remote_temp+0x1c/0x20)
+[ 1316.856205] [<c040a500>] (lm95245_get_remote_temp+0x1c/0x20) from [<c0047d64>] (thermd_alert_work_func+0x30/0xc8)
+[ 1316.856258] [<c0047d64>] (thermd_alert_work_func+0x30/0xc8) from [<c0074c08>] (process_one_work+0x2ac/0x45c)
+[ 1316.856300] [<c0074c08>] (process_one_work+0x2ac/0x45c) from [<c00752d4>] (worker_thread+0x2bc/0x3c0)
+[ 1316.856340] [<c00752d4>] (worker_thread+0x2bc/0x3c0) from [<c007b014>] (kthread+0xac/0xb4)
+[ 1316.856388] [<c007b014>] (kthread+0xac/0xb4) from [<c000f00c>] (kernel_thread_exit+0x0/0x8)
+[ 1316.856417] ---[ end trace 2e09999b7a564f33 ]---
+[ 1316.856443] tegra-i2c tegra-i2c.4: i2c transfer timed out, addr 0x004c, data 0x00
+[ 1640.581306] eth0: ax88772b - Link status is: 0
+[ 1642.117345] eth0: ax88772b - Link status is: 1
+[ 1867.211717] usb 2-1.3: new low speed USB device number 5 using tegra-ehci
+[ 1867.356700] usb 2-1.3: New USB device found, idVendor=1a2c, idProduct=0c21
+[ 1867.356730] usb 2-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 1867.356754] usb 2-1.3: Product: USB Keyboard
+[ 1867.356771] usb 2-1.3: Manufacturer: USB
+[ 1867.367171] input: USB USB Keyboard as /devices/platform/tegra-ehci.2/usb2/2-1/2-1.3/2-1.3:1.0/input/input4
+[ 1867.368242] generic-usb 0003:1A2C:0C21.0004: input,hidraw1: USB HID v1.10 Keyboard [USB USB Keyboard] on usb-tegra-ehci.2-1.3/input0
+[ 1867.375850] input: USB USB Keyboard as /devices/platform/tegra-ehci.2/usb2/2-1/2-1.3/2-1.3:1.1/input/input5
+[ 1867.376694] generic-usb 0003:1A2C:0C21.0005: input,hidraw2: USB HID v1.10 Mouse [USB USB Keyboard] on usb-tegra-ehci.2-1.3/input1

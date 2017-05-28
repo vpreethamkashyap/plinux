@@ -1,0 +1,16 @@
+set term png size 600,400
+set output "../plot/ecgplot_8p_00.png"
+set multiplot layout 2,1 
+set tmargin 1
+set grid
+#set title "Channel 1"
+#unset xtics
+#unset ytics
+#set grid noxtics noytics
+plot '../data/ecgplot_firstch00' with lines notitle
+#set title "Channel 2"
+#unset xtics
+#unset ytics
+plot '../data/ecgplot_secch00' with lines notitle
+unset multiplot
+

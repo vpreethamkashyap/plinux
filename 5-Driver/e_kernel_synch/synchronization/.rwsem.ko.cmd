@@ -1,0 +1,1 @@
+cmd_/root/ElkiTemplates/Sources/Driver/Synchronization/rwsem.ko := arm-linux-gnueabihf-ld -EL -r  -T /root/ElkiTemplates/Kernel/linux-3.12.9/scripts/module-common.lds --build-id  -o /root/ElkiTemplates/Sources/Driver/Synchronization/rwsem.ko /root/ElkiTemplates/Sources/Driver/Synchronization/rwsem.o /root/ElkiTemplates/Sources/Driver/Synchronization/rwsem.mod.o
