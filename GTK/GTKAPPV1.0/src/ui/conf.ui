@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <!-- interface-requires gtk+ 3.0 -->
+  <object class="GtkWindow" id="ConfWindow">
+    <property name="width_request">800</property>
+    <property name="height_request">600</property>
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="title" translatable="yes">ConfWindow</property>
+    <property name="window_position">center-always</property>
+    <property name="hide_titlebar_when_maximized">True</property>
+    <property name="skip_taskbar_hint">True</property>
+    <signal name="destroy" handler="destroy" swapped="no"/>
+    <child>
+      <object class="GtkAlignment" id="alignment1">
+        <property name="width_request">798</property>
+        <property name="height_request">570</property>
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <child>
+          <object class="GtkFixed" id="fixed1">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <child>
+              <object class="GtkImage" id="image1">
+                <property name="width_request">100</property>
+                <property name="height_request">80</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="stock">gtk-missing-image</property>
+              </object>
+            </child>
+            <child>
+              <object class="GtkButton" id="config">
+                <property name="label" translatable="yes">config</property>
+                <property name="use_action_appearance">False</property>
+                <property name="width_request">140</property>
+                <property name="height_request">48</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+                <property name="use_action_appearance">False</property>
+              </object>
+              <packing>
+                <property name="x">240</property>
+                <property name="y">525</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="mode">
+                <property name="label" translatable="yes">Mode</property>
+                <property name="use_action_appearance">False</property>
+                <property name="width_request">140</property>
+                <property name="height_request">48</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+                <property name="action_name">GoToModeScreen</property>
+                <property name="use_action_appearance">False</property>
+              </object>
+              <packing>
+                <property name="x">430</property>
+                <property name="y">525</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="help">
+                <property name="label" translatable="yes">Help</property>
+                <property name="use_action_appearance">False</property>
+                <property name="width_request">140</property>
+                <property name="height_request">48</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+                <property name="action_name">GoToHelpScreen</property>
+                <property name="use_action_appearance">False</property>
+                <property name="image_position">bottom</property>
+              </object>
+              <packing>
+                <property name="x">620</property>
+                <property name="y">525</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="setting">
+                <property name="label" translatable="yes">Setting</property>
+                <property name="use_action_appearance">False</property>
+                <property name="width_request">140</property>
+                <property name="height_request">48</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+                <property name="use_action_appearance">False</property>
+              </object>
+              <packing>
+                <property name="x">50</property>
+                <property name="y">525</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="b1">
+                <property name="label" translatable="yes">Configure System</property>
+                <property name="use_action_appearance">False</property>
+                <property name="width_request">166</property>
+                <property name="height_request">30</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+                <property name="use_action_appearance">False</property>
+              </object>
+              <packing>
+                <property name="x">23</property>
+                <property name="y">23</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="back">
+                <property name="label" translatable="yes">Back</property>
+                <property name="use_action_appearance">False</property>
+                <property name="width_request">100</property>
+                <property name="height_request">50</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+                <property name="action_name">GoToMainScreen</property>
+                <property name="use_action_appearance">False</property>
+                <property name="image_position">bottom</property>
+              </object>
+              <packing>
+                <property name="x">670</property>
+                <property name="y">30</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="label4">
+                <property name="width_request">118</property>
+                <property name="height_request">80</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="xpad">3</property>
+                <property name="ypad">1</property>
+                <property name="label" translatable="yes">1 User can here add or delete the configuration
+
+2 Click on add button to add new Configuartion
+
+3 Click on delete button to delete Configuartion
+
+
+</property>
+                <attributes>
+                  <attribute name="font-desc" value="Sans 9"/>
+                </attributes>
+              </object>
+              <packing>
+                <property name="x">233</property>
+                <property name="y">69</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="label1">
+                <property name="width_request">76</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="xpad">3</property>
+                <property name="ypad">1</property>
+                <property name="label" translatable="yes"> Click on Button to Add new configuration
+
+</property>
+              </object>
+              <packing>
+                <property name="x">57</property>
+                <property name="y">270</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="label2">
+                <property name="width_request">43</property>
+                <property name="height_request">80</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="xpad">3</property>
+                <property name="ypad">1</property>
+                <property name="label" translatable="yes"> Click on Button to Delete any configuration</property>
+              </object>
+              <packing>
+                <property name="x">410</property>
+                <property name="y">243</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="add">
+                <property name="label" translatable="yes">Add New Conf</property>
+                <property name="use_action_appearance">False</property>
+                <property name="width_request">102</property>
+                <property name="height_request">63</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+                <property name="action_name">GoToConfigAddScreen</property>
+                <property name="use_action_appearance">False</property>
+              </object>
+              <packing>
+                <property name="x">153</property>
+                <property name="y">322</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="delete">
+                <property name="label" translatable="yes">Delete Conf</property>
+                <property name="use_action_appearance">False</property>
+                <property name="width_request">102</property>
+                <property name="height_request">63</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+                <property name="action_name">GoToConfigDeleteScreen</property>
+                <property name="use_action_appearance">False</property>
+              </object>
+              <packing>
+                <property name="x">509</property>
+                <property name="y">317</property>
+              </packing>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>

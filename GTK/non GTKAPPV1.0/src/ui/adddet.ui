@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <!-- interface-requires gtk+ 3.0 -->
+  <object class="GtkWindow" id="AddDetailWindow">
+    <property name="width_request">800</property>
+    <property name="height_request">600</property>
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="title" translatable="yes">AddDetailWindow</property>
+    <property name="window_position">center-always</property>
+    <property name="hide_titlebar_when_maximized">True</property>
+    <property name="skip_taskbar_hint">True</property>
+    <signal name="destroy" handler="destroy" swapped="no"/>
+    <child>
+      <object class="GtkAlignment" id="alignment1">
+        <property name="width_request">798</property>
+        <property name="height_request">570</property>
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <child>
+          <object class="GtkFixed" id="fixed1">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <child>
+              <object class="GtkImage" id="image1">
+                <property name="width_request">100</property>
+                <property name="height_request">80</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="stock">gtk-missing-image</property>
+              </object>
+            </child>
+            <child>
+              <object class="GtkButton" id="b1">
+                <property name="label" translatable="yes">Add Details in File</property>
+                <property name="use_action_appearance">False</property>
+                <property name="width_request">166</property>
+                <property name="height_request">30</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+                <property name="use_action_appearance">False</property>
+              </object>
+              <packing>
+                <property name="x">23</property>
+                <property name="y">23</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="back">
+                <property name="label" translatable="yes">Back</property>
+                <property name="use_action_appearance">False</property>
+                <property name="width_request">100</property>
+                <property name="height_request">50</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+                <property name="action_name">QuitAddDetailWindow</property>
+                <property name="use_action_appearance">False</property>
+                <property name="image_position">bottom</property>
+              </object>
+              <packing>
+                <property name="x">670</property>
+                <property name="y">30</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="label4">
+                <property name="width_request">118</property>
+                <property name="height_request">80</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="xpad">3</property>
+                <property name="ypad">1</property>
+                <property name="label" translatable="yes">1 Click on Add Buttons
+
+2 Add Details
+
+</property>
+                <attributes>
+                  <attribute name="font-desc" value="Sans 9"/>
+                </attributes>
+              </object>
+              <packing>
+                <property name="x">233</property>
+                <property name="y">34</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="label1">
+                <property name="width_request">76</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="xpad">3</property>
+                <property name="ypad">1</property>
+                <property name="label" translatable="yes"> Click on Button to Add deails in File
+</property>
+              </object>
+              <packing>
+                <property name="x">480</property>
+                <property name="y">157</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="add0">
+                <property name="label" translatable="yes">Add</property>
+                <property name="use_action_appearance">False</property>
+                <property name="width_request">70</property>
+                <property name="height_request">30</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+                <property name="action_name">AddDetail_InFile0</property>
+                <property name="use_action_appearance">False</property>
+              </object>
+              <packing>
+                <property name="x">400</property>
+                <property name="y">155</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="add1">
+                <property name="label" translatable="yes">Add</property>
+                <property name="use_action_appearance">False</property>
+                <property name="width_request">70</property>
+                <property name="height_request">30</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+                <property name="action_name">AddDetail_InFile1</property>
+                <property name="use_action_appearance">False</property>
+              </object>
+              <packing>
+                <property name="x">400</property>
+                <property name="y">241</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="add2">
+                <property name="label" translatable="yes">Add</property>
+                <property name="use_action_appearance">False</property>
+                <property name="width_request">70</property>
+                <property name="height_request">30</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+                <property name="action_name">AddDetail_InFile2</property>
+                <property name="use_action_appearance">False</property>
+              </object>
+              <packing>
+                <property name="x">400</property>
+                <property name="y">331</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="label2">
+                <property name="width_request">100</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="xpad">3</property>
+                <property name="ypad">1</property>
+                <property name="label" translatable="yes"> Click on Button to Add deails in File
+</property>
+              </object>
+              <packing>
+                <property name="x">480</property>
+                <property name="y">241</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="label3">
+                <property name="width_request">100</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="xpad">3</property>
+                <property name="ypad">1</property>
+                <property name="label" translatable="yes"> Click on Button to Add deails in File
+
+</property>
+              </object>
+              <packing>
+                <property name="x">480</property>
+                <property name="y">332</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkEntry" id="entry0">
+                <property name="width_request">155</property>
+                <property name="height_request">32</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="events">GDK_EXPOSURE_MASK | GDK_POINTER_MOTION_MASK | GDK_POINTER_MOTION_HINT_MASK | GDK_BUTTON_MOTION_MASK | GDK_BUTTON1_MOTION_MASK | GDK_BUTTON2_MOTION_MASK | GDK_BUTTON3_MOTION_MASK | GDK_BUTTON_PRESS_MASK | GDK_BUTTON_RELEASE_MASK | GDK_KEY_PRESS_MASK | GDK_KEY_RELEASE_MASK | GDK_ENTER_NOTIFY_MASK | GDK_LEAVE_NOTIFY_MASK | GDK_FOCUS_CHANGE_MASK | GDK_STRUCTURE_MASK | GDK_PROPERTY_CHANGE_MASK | GDK_VISIBILITY_NOTIFY_MASK | GDK_PROXIMITY_IN_MASK | GDK_PROXIMITY_OUT_MASK | GDK_SUBSTRUCTURE_MASK | GDK_SCROLL_MASK | GDK_TOUCH_MASK | GDK_SMOOTH_SCROLL_MASK</property>
+                <property name="max_length">15</property>
+                <property name="invisible_char">•</property>
+                <property name="width_chars">0</property>
+                <property name="xalign">0.20000000298023224</property>
+                <property name="invisible_char_set">True</property>
+              </object>
+              <packing>
+                <property name="x">215</property>
+                <property name="y">153</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkEntry" id="entry1">
+                <property name="width_request">155</property>
+                <property name="height_request">32</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="events">GDK_EXPOSURE_MASK | GDK_POINTER_MOTION_MASK | GDK_POINTER_MOTION_HINT_MASK | GDK_BUTTON_MOTION_MASK | GDK_BUTTON1_MOTION_MASK | GDK_BUTTON2_MOTION_MASK | GDK_BUTTON3_MOTION_MASK | GDK_BUTTON_PRESS_MASK | GDK_BUTTON_RELEASE_MASK | GDK_KEY_PRESS_MASK | GDK_KEY_RELEASE_MASK | GDK_ENTER_NOTIFY_MASK | GDK_LEAVE_NOTIFY_MASK | GDK_FOCUS_CHANGE_MASK | GDK_STRUCTURE_MASK | GDK_PROPERTY_CHANGE_MASK | GDK_VISIBILITY_NOTIFY_MASK | GDK_PROXIMITY_IN_MASK | GDK_PROXIMITY_OUT_MASK | GDK_SUBSTRUCTURE_MASK | GDK_SCROLL_MASK | GDK_TOUCH_MASK | GDK_SMOOTH_SCROLL_MASK</property>
+                <property name="max_length">12</property>
+                <property name="invisible_char">•</property>
+                <property name="width_chars">0</property>
+                <property name="xalign">0.20000000298023224</property>
+                <property name="invisible_char_set">True</property>
+              </object>
+              <packing>
+                <property name="x">215</property>
+                <property name="y">237</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkEntry" id="entry2">
+                <property name="width_request">155</property>
+                <property name="height_request">32</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="events">GDK_EXPOSURE_MASK | GDK_POINTER_MOTION_MASK | GDK_POINTER_MOTION_HINT_MASK | GDK_BUTTON_MOTION_MASK | GDK_BUTTON1_MOTION_MASK | GDK_BUTTON2_MOTION_MASK | GDK_BUTTON3_MOTION_MASK | GDK_BUTTON_PRESS_MASK | GDK_BUTTON_RELEASE_MASK | GDK_KEY_PRESS_MASK | GDK_KEY_RELEASE_MASK | GDK_ENTER_NOTIFY_MASK | GDK_LEAVE_NOTIFY_MASK | GDK_FOCUS_CHANGE_MASK | GDK_STRUCTURE_MASK | GDK_PROPERTY_CHANGE_MASK | GDK_VISIBILITY_NOTIFY_MASK | GDK_PROXIMITY_IN_MASK | GDK_PROXIMITY_OUT_MASK | GDK_SUBSTRUCTURE_MASK | GDK_SCROLL_MASK | GDK_TOUCH_MASK | GDK_SMOOTH_SCROLL_MASK</property>
+                <property name="max_length">12</property>
+                <property name="invisible_char">•</property>
+                <property name="width_chars">0</property>
+                <property name="xalign">0.20000000298023224</property>
+                <property name="invisible_char_set">True</property>
+              </object>
+              <packing>
+                <property name="x">215</property>
+                <property name="y">328</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="l1">
+                <property name="width_request">100</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="xpad">3</property>
+                <property name="ypad">1</property>
+                <property name="label" translatable="yes"> Enter Data</property>
+              </object>
+              <packing>
+                <property name="x">215</property>
+                <property name="y">136</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="l2">
+                <property name="width_request">100</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="xpad">3</property>
+                <property name="ypad">1</property>
+                <property name="label" translatable="yes"> Enter Data</property>
+              </object>
+              <packing>
+                <property name="x">215</property>
+                <property name="y">220</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="l3">
+                <property name="width_request">125</property>
+                <property name="height_request">19</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="xpad">3</property>
+                <property name="ypad">1</property>
+                <property name="label" translatable="yes"> Enter Data</property>
+              </object>
+              <packing>
+                <property name="x">196</property>
+                <property name="y">310</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="label5">
+                <property name="width_request">102</property>
+                <property name="height_request">30</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="xpad">3</property>
+                <property name="ypad">1</property>
+                <property name="label" translatable="yes">Name</property>
+              </object>
+              <packing>
+                <property name="x">73</property>
+                <property name="y">156</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="label6">
+                <property name="width_request">100</property>
+                <property name="height_request">32</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="xpad">3</property>
+                <property name="ypad">1</property>
+                <property name="label" translatable="yes">Manufacture</property>
+              </object>
+              <packing>
+                <property name="x">76</property>
+                <property name="y">236</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="label7">
+                <property name="width_request">100</property>
+                <property name="height_request">23</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="xpad">3</property>
+                <property name="ypad">1</property>
+                <property name="label" translatable="yes">Geo Location</property>
+              </object>
+              <packing>
+                <property name="x">77</property>
+                <property name="y">327</property>
+              </packing>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>

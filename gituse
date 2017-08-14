@@ -1,0 +1,17 @@
+tsp@tsp-Inspiron-5558:~/tlinux/notes.git$ git add .
+
+tsp@tsp-Inspiron-5558:~/tlinux/notes.git$ git commit -m "new files for my new branch"
+
+tsp@tsp-Inspiron-5558:~/tlinux/notes.git$ git push origin master
+
+
+Clone the remote repository on to your PC.
+git clone user@example.com:myproject.git
+Checkout the branch to which you would like to add those files.
+cd myproject
+git checkout -b master
+Move the files into your project directory, then add & commit them.
+git add .
+git commit -m "new files for my new branch"
+You'll probably want to push, too.
+git push origin master

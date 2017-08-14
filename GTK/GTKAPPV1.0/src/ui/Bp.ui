@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <!-- interface-requires gtk+ 3.0 -->
+  <object class="GtkWindow" id="BpWindow">
+    <property name="width_request">320</property>
+    <property name="height_request">240</property>
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="title" translatable="yes">window</property>
+    <property name="resizable">False</property>
+    <property name="default_width">320</property>
+    <property name="default_height">240</property>
+    <property name="opacity">0.88</property>
+    <signal name="destroy" handler="destroy" swapped="no"/>
+    <child>
+      <object class="GtkFixed" id="fixed1">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <child>
+          <object class="GtkBox" id="box1">
+            <property name="width_request">50</property>
+            <property name="height_request">20</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="orientation">vertical</property>
+            <child>
+              <object class="GtkImage" id="image1">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="stock">gtk-missing-image</property>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">0</property>
+              </packing>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="GtkButton" id="But">
+            <property name="label" translatable="yes">Wellth BP Test</property>
+            <property name="use_action_appearance">False</property>
+            <property name="width_request">179</property>
+            <property name="height_request">25</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="use_action_appearance">False</property>
+          </object>
+          <packing>
+            <property name="x">33</property>
+            <property name="y">20</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="button1">
+            <property name="label" translatable="yes">Systolic </property>
+            <property name="use_action_appearance">False</property>
+            <property name="width_request">130</property>
+            <property name="height_request">25</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="use_action_appearance">False</property>
+          </object>
+          <packing>
+            <property name="x">50</property>
+            <property name="y">70</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="button2">
+            <property name="label" translatable="yes">Diastolic</property>
+            <property name="use_action_appearance">False</property>
+            <property name="width_request">130</property>
+            <property name="height_request">25</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="use_action_appearance">False</property>
+          </object>
+          <packing>
+            <property name="x">50</property>
+            <property name="y">116</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="button3">
+            <property name="label" translatable="yes">Pulse Rate</property>
+            <property name="use_action_appearance">False</property>
+            <property name="width_request">130</property>
+            <property name="height_request">25</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="use_action_appearance">False</property>
+          </object>
+          <packing>
+            <property name="x">50</property>
+            <property name="y">157</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="Start">
+            <property name="label" translatable="yes">Start</property>
+            <property name="use_action_appearance">False</property>
+            <property name="width_request">97</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="action_name">StartBmiTest</property>
+            <property name="use_action_appearance">False</property>
+          </object>
+          <packing>
+            <property name="x">59</property>
+            <property name="y">205</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkEntry" id="entry1">
+            <property name="width_request">95</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="invisible_char">•</property>
+            <property name="width_chars">0</property>
+          </object>
+          <packing>
+            <property name="x">181</property>
+            <property name="y">73</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkEntry" id="entry2">
+            <property name="width_request">89</property>
+            <property name="height_request">5</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="invisible_char">•</property>
+            <property name="width_chars">0</property>
+            <property name="invisible_char_set">True</property>
+          </object>
+          <packing>
+            <property name="x">184</property>
+            <property name="y">118</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkEntry" id="entry3">
+            <property name="width_request">90</property>
+            <property name="height_request">21</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="invisible_char">•</property>
+            <property name="width_chars">0</property>
+            <property name="invisible_char_set">True</property>
+          </object>
+          <packing>
+            <property name="x">185</property>
+            <property name="y">159</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="GoBack">
+            <property name="label" translatable="yes">Cancel</property>
+            <property name="use_action_appearance">False</property>
+            <property name="width_request">99</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="action_name">QuitBpWindow</property>
+            <property name="use_action_appearance">False</property>
+          </object>
+          <packing>
+            <property name="x">167</property>
+            <property name="y">208</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkEntry" id="entry4">
+            <property name="width_request">83</property>
+            <property name="height_request">20</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="editable">False</property>
+            <property name="invisible_char">•</property>
+            <property name="width_chars">0</property>
+          </object>
+          <packing>
+            <property name="x">229</property>
+            <property name="y">20</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
