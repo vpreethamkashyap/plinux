@@ -93,6 +93,24 @@ static struct file_operations char_dev_fops =
  * 						cdev_alloc();
  * 						cdev_init();
  * 						cdev_add();
+
+int register_chrdev_region(dev_t from, unsigned count, const char *name)
+
+ * register_chrdev_region() - register a range of device numbers
+ * @from: the first in the desired range of device numbers; must include
+ *        the major number.
+ * @count: the number of consecutive device numbers required
+ * @name: the name of the device or driver.
+ *
+ * Return value is zero on success, a negative error code on failure.
+
+cdev_alloc() - allocate a cdev structure
+ *
+ * Allocates and returns a cdev structure, or NULL on failure.
+
+
+struct cdev *cdev_alloc(void)
+
  ********************************************************************************/
 static int __init my_module_init(void)
 {
@@ -108,6 +126,8 @@ static int __init my_module_init(void)
 		return -1;
  	}
  	
+
+
 	cdev_init(c_cdev,&char_dev_fops);
 	ret	= cdev_add(c_cdev,mydev,count);
 	
@@ -116,6 +136,9 @@ static int __init my_module_init(void)
 		printk("Error registering device driver\n");
 		return ret;
 	}
+
+	printk(KERN_INFO"\nDevice Registered with this owner %s\n",c_cdev->owner->name);
+
 	printk(KERN_INFO"\nDevice Registered %s\n",CHAR_DEV_NAME); 	
 	printk (KERN_INFO " char_driver_static Major number = %d, Minor number = %d\n", MAJOR (mydev),MINOR (mydev));
 	memset(char_device_buf,'\0',MAX_LENGTH);
