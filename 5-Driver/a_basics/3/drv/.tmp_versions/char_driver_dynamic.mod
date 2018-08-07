@@ -1,2 +1,3 @@
-/home/tsp/tlinux/mylinux/Tools/6-Driver/1_basics/3/drv/char_driver_dynamic.ko
-/home/tsp/tlinux/mylinux/Tools/6-Driver/1_basics/3/drv/char_driver_dynamic.o
+/home/preetham/plinux/5-Driver/a_basics/3/drv/char_driver_dynamic.ko
+/home/preetham/plinux/5-Driver/a_basics/3/drv/char_driver_dynamic.o
+

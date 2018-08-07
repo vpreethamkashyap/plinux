@@ -1,0 +1,1 @@
+cmd_/home/preetham/plinux/5-Driver/a_basics/p2/gpio_led_driver.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o /home/preetham/plinux/5-Driver/a_basics/p2/gpio_led_driver.ko /home/preetham/plinux/5-Driver/a_basics/p2/gpio_led_driver.o /home/preetham/plinux/5-Driver/a_basics/p2/gpio_led_driver.mod.o

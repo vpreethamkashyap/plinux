@@ -53,7 +53,7 @@ static int char_dev_release(struct inode *inode, struct file *file)
  ********************************************************************************/
 static ssize_t char_dev_write(struct file *file, const char *buf, size_t lbuf, loff_t *ppos)
 {
-	int nbytes = lbuf - copy_from_user (char_device_buf, buf, lbuf);
+	int nbytes = lbuf - raw_copy_from_user (char_device_buf, buf, lbuf);
 	*ppos += nbytes;
 	printk (KERN_INFO "\n Rec'vd data from app %s , nbytes=%d\n",char_device_buf,nbytes);
 	return nbytes;
@@ -65,7 +65,7 @@ static ssize_t char_dev_write(struct file *file, const char *buf, size_t lbuf, l
  ********************************************************************************/
 static ssize_t char_dev_read(struct file *file, char *buf, size_t lbuf, loff_t *ppos)
 {
-	int nbytes = lbuf - copy_to_user (buf, char_device_buf, lbuf);
+	int nbytes = lbuf - raw_copy_to_user (buf, char_device_buf, lbuf);
 	*ppos += nbytes;
 	printk (KERN_INFO "\n sent data to app %s , nbytes=%d\n",buf,nbytes);
 	return nbytes;

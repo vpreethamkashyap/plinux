@@ -16,7 +16,7 @@
 
 #include <linux/gpio.h>
 
-static u8 gpio_sw = 72;
+static u8 gpio_sw = 60;
 static int irq_line;
 
 static irqreturn_t button_irq_handler(int irq, void *data)

@@ -4,7 +4,7 @@ ifeq ($(FOO),ARM)
 ifeq ($(KERNELRELEASE),)
 $(info ************  Make file ARM step 2 ************)
 $(info ***********************************************)
-	KERNEL_SOURCE := /home/tsp/tlinux/mylinux/Tools/Kernel/linux-4.4
+	KERNEL_SOURCE := /home/preetham/beagleboneblack/linux
 	PWD := $(shell pwd)
 default:
 	$(MAKE) -C $(KERNEL_SOURCE) SUBDIRS=$(PWD) modules ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf-
@@ -24,7 +24,7 @@ else
 $(info ***********************************************)
 $(info ************  Make file X86 step 1 ************)
 $(info ***********************************************)		
-	obj-m := char_driver_static.o
+	obj-m := first_char_driver.o
 	KERNEL_SOURCE= /lib/modules/$(shell uname -r)/build	
 	PWD := $(shell pwd)
 default:
@@ -33,6 +33,3 @@ endif
 
 clean:
 	$(MAKE) -C $(KERNEL_SOURCE) SUBDIRS=$(PWD) clean
-
-
-

@@ -45,15 +45,17 @@ static ssize_t char_dev_read(struct file *f, char __user *buf, size_t len, loff_
        
 	if (*off == 0)
 	{
-		if (copy_to_user(buf, &character_value, 1))
+		if (raw_copy_to_user(buf, &character_value, 1))
 		{
 			return -EFAULT;
 		}
-		*off += 1;
+		//*off += 1;
+		printk(KERN_INFO "char_drv_read offset is null \n");
 		return 1;
 	}
 	else
 	{
+		printk(KERN_INFO "char_drv_read offset is not null \n");
 		return 0;
 	}
 }
@@ -63,10 +65,11 @@ static ssize_t char_dev_read(struct file *f, char __user *buf, size_t len, loff_
  ********************************************************************************/
 static ssize_t char_dev_write(struct file *f, const char __user *buf, size_t len, loff_t *off)
 {
-	if (copy_from_user(&character_value, buf, 1))
+	if (raw_copy_from_user(&character_value, buf, 1))
 	{
 	 	return -EFAULT;
 	}	
+	printk(KERN_INFO "char_dev_write done \n");
 	return len;
 }
 
@@ -107,22 +110,22 @@ static int __init my_module_init(void)
 		unregister_chrdev_region (mydev, count);
 		return -1;
  	}
-	cdev_init(&c_dev, &char_dev_fops);
-	if ((ret = cdev_add(&c_dev, mydev, MINOR_CNT)) < 0)
+	cdev_init(c_dev, &char_dev_fops);
+	if ((ret = cdev_add(c_dev, mydev, MINOR_CNT)) < 0)
 	{
 		unregister_chrdev_region(mydev, MINOR_CNT);
 		return ret;
 	}
 	if (IS_ERR(cl = class_create(THIS_MODULE, "char")))
 	{
-		cdev_del(&c_dev);
+		cdev_del(c_dev);
 		unregister_chrdev_region(mydev, MINOR_CNT);
 		return PTR_ERR(cl);
 	}
 	if (IS_ERR(dev_ret = device_create(cl, NULL, mydev, NULL, "mychar%d", FIRST_MINOR)))
 	{
 		class_destroy(cl);
-		cdev_del(&c_dev);
+		cdev_del(c_dev);
 		unregister_chrdev_region(mydev, MINOR_CNT);
 		return PTR_ERR(dev_ret);
 	}
@@ -137,7 +140,7 @@ static void __exit my_module_exit(void)
 {
 	device_destroy(cl, mydev);
 	class_destroy(cl);
-	cdev_del(&c_dev);
+	cdev_del(c_dev);
 	unregister_chrdev_region(mydev, MINOR_CNT);
 }
 

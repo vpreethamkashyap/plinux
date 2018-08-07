@@ -1,0 +1,1 @@
+cmd_/home/preetham/plinux/5-Driver/a_basics/p3/gpio_button_driver.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o /home/preetham/plinux/5-Driver/a_basics/p3/gpio_button_driver.ko /home/preetham/plinux/5-Driver/a_basics/p3/gpio_button_driver.o /home/preetham/plinux/5-Driver/a_basics/p3/gpio_button_driver.mod.o

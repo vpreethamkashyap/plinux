@@ -1,10 +1,10 @@
 # If called directly from the command line, invoke the kernel build system.
 ifeq ($(KERNELRELEASE),)
 
-	KERNEL_SOURCE := /home/tsp/mylinux/sys/ElkiTemplates/Kernel/linux-3.12.9
+	KERNEL_SOURCE := /home/preetham/beagleboneblack/linux
 	PWD := $(shell pwd)
 default:
-	$(MAKE) -C $(KERNEL_SOURCE) SUBDIRS=$(PWD) modules ARCH=arm CROSS_COMPILE=arm-linux-gnueabi-
+	$(MAKE) -C $(KERNEL_SOURCE) SUBDIRS=$(PWD) modules ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf-
 
 clean:
 	$(MAKE) -C $(KERNEL_SOURCE) SUBDIRS=$(PWD) clean

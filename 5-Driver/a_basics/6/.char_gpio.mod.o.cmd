@@ -1,8 +1,8 @@
-cmd_/home/tsp/tlinux/mylinux/Tools/1-Driver/1_basics/6/char_gpio.mod.o := arm-linux-gnueabihf-gcc -Wp,-MD,/home/tsp/tlinux/mylinux/Tools/1-Driver/1_basics/6/.char_gpio.mod.o.d  -nostdinc -isystem /usr/lib/gcc-cross/arm-linux-gnueabihf/5/include -I./arch/arm/include -Iarch/arm/include/generated/uapi -Iarch/arm/include/generated  -Iinclude -I./arch/arm/include/uapi -Iarch/arm/include/generated/uapi -I./include/uapi -Iinclude/generated/uapi -include ./include/linux/kconfig.h -D__KERNEL__ -mlittle-endian -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -std=gnu89 -fno-dwarf2-cfi-asm -fno-omit-frame-pointer -mapcs -mno-sched-prolog -fno-ipa-sra -mabi=aapcs-linux -mno-thumb-interwork -mfpu=vfp -funwind-tables -marm -D__LINUX_ARM_ARCH__=7 -march=armv7-a -msoft-float -Uarm -fno-delete-null-pointer-checks -Wno-maybe-uninitialized -O2 --param=allow-store-data-races=0 -Wframe-larger-than=1024 -fstack-protector-strong -Wno-unused-but-set-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-var-tracking-assignments -pg -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack -Werror=implicit-int -Werror=strict-prototypes -Werror=date-time -Werror=incompatible-pointer-types -DCC_HAVE_ASM_GOTO  -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(char_gpio.mod)"  -D"KBUILD_MODNAME=KBUILD_STR(char_gpio)" -DMODULE  -c -o /home/tsp/tlinux/mylinux/Tools/1-Driver/1_basics/6/char_gpio.mod.o /home/tsp/tlinux/mylinux/Tools/1-Driver/1_basics/6/char_gpio.mod.c
+cmd_/home/preetham/plinux/5-Driver/a_basics/6/char_gpio.mod.o := arm-linux-gnueabihf-gcc -Wp,-MD,/home/preetham/plinux/5-Driver/a_basics/6/.char_gpio.mod.o.d  -nostdinc -isystem /usr/lib/gcc-cross/arm-linux-gnueabihf/7/include -I./arch/arm/include -Iarch/arm/include/generated/uapi -Iarch/arm/include/generated  -Iinclude -I./arch/arm/include/uapi -Iarch/arm/include/generated/uapi -I./include/uapi -Iinclude/generated/uapi -include ./include/linux/kconfig.h -D__KERNEL__ -mlittle-endian -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -std=gnu89 -fno-PIE -fno-dwarf2-cfi-asm -fno-omit-frame-pointer -mapcs -mno-sched-prolog -fno-ipa-sra -mabi=aapcs-linux -mno-thumb-interwork -mfpu=vfp -funwind-tables -marm -D__LINUX_ARM_ARCH__=7 -march=armv7-a -msoft-float -Uarm -fno-delete-null-pointer-checks -Wno-maybe-uninitialized -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-int-in-bool-context -O2 --param=allow-store-data-races=0 -DCC_HAVE_ASM_GOTO -Wframe-larger-than=1024 -fstack-protector-strong -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-var-tracking-assignments -pg -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=implicit-int -Werror=strict-prototypes -Werror=date-time -Werror=incompatible-pointer-types  -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(char_gpio.mod)"  -D"KBUILD_MODNAME=KBUILD_STR(char_gpio)" -DMODULE  -c -o /home/preetham/plinux/5-Driver/a_basics/6/char_gpio.mod.o /home/preetham/plinux/5-Driver/a_basics/6/char_gpio.mod.c
 
-source_/home/tsp/tlinux/mylinux/Tools/1-Driver/1_basics/6/char_gpio.mod.o := /home/tsp/tlinux/mylinux/Tools/1-Driver/1_basics/6/char_gpio.mod.c
+source_/home/preetham/plinux/5-Driver/a_basics/6/char_gpio.mod.o := /home/preetham/plinux/5-Driver/a_basics/6/char_gpio.mod.c
 
-deps_/home/tsp/tlinux/mylinux/Tools/1-Driver/1_basics/6/char_gpio.mod.o := \
+deps_/home/preetham/plinux/5-Driver/a_basics/6/char_gpio.mod.o := \
     $(wildcard include/config/module/unload.h) \
   include/linux/module.h \
     $(wildcard include/config/modules.h) \
@@ -63,7 +63,7 @@ deps_/home/tsp/tlinux/mylinux/Tools/1-Driver/1_basics/6/char_gpio.mod.o := \
     $(wildcard include/config/mmu.h) \
     $(wildcard include/config/prove/locking.h) \
     $(wildcard include/config/panic/timeout.h) \
-  /usr/lib/gcc-cross/arm-linux-gnueabihf/5/include/stdarg.h \
+  /usr/lib/gcc-cross/arm-linux-gnueabihf/7/include/stdarg.h \
   include/linux/linkage.h \
   include/linux/stringify.h \
   include/linux/export.h \
@@ -209,12 +209,8 @@ deps_/home/tsp/tlinux/mylinux/Tools/1-Driver/1_basics/6/char_gpio.mod.o := \
   include/linux/lockdep.h \
     $(wildcard include/config/lockdep.h) \
     $(wildcard include/config/lock/stat.h) \
-  include/linux/rtmutex.h \
-    $(wildcard include/config/debug/mutexes.h) \
-    $(wildcard include/config/debug/rt/mutexes.h) \
-  include/linux/rbtree.h \
-  include/linux/spinlock_types_rt.h \
-  include/linux/rwlock_types_rt.h \
+  include/linux/spinlock_types_nort.h \
+  include/linux/rwlock_types.h \
   arch/arm/include/asm/spinlock.h \
   include/linux/prefetch.h \
   arch/arm/include/asm/processor.h \
@@ -223,7 +219,7 @@ deps_/home/tsp/tlinux/mylinux/Tools/1-Driver/1_basics/6/char_gpio.mod.o := \
   arch/arm/include/asm/hw_breakpoint.h \
   arch/arm/include/asm/unified.h \
     $(wildcard include/config/arm/asm/unified.h) \
-  include/linux/rwlock_rt.h \
+  include/linux/rwlock.h \
   include/linux/spinlock_api_smp.h \
     $(wildcard include/config/inline/spin/lock.h) \
     $(wildcard include/config/inline/spin/lock/bh.h) \
@@ -235,7 +231,33 @@ deps_/home/tsp/tlinux/mylinux/Tools/1-Driver/1_basics/6/char_gpio.mod.o := \
     $(wildcard include/config/inline/spin/unlock/bh.h) \
     $(wildcard include/config/inline/spin/unlock/irq.h) \
     $(wildcard include/config/inline/spin/unlock/irqrestore.h) \
-  include/linux/spinlock_rt.h \
+  include/linux/rwlock_api_smp.h \
+    $(wildcard include/config/inline/read/lock.h) \
+    $(wildcard include/config/inline/write/lock.h) \
+    $(wildcard include/config/inline/read/lock/bh.h) \
+    $(wildcard include/config/inline/write/lock/bh.h) \
+    $(wildcard include/config/inline/read/lock/irq.h) \
+    $(wildcard include/config/inline/write/lock/irq.h) \
+    $(wildcard include/config/inline/read/lock/irqsave.h) \
+    $(wildcard include/config/inline/write/lock/irqsave.h) \
+    $(wildcard include/config/inline/read/trylock.h) \
+    $(wildcard include/config/inline/write/trylock.h) \
+    $(wildcard include/config/inline/read/unlock.h) \
+    $(wildcard include/config/inline/write/unlock.h) \
+    $(wildcard include/config/inline/read/unlock/bh.h) \
+    $(wildcard include/config/inline/write/unlock/bh.h) \
+    $(wildcard include/config/inline/read/unlock/irq.h) \
+    $(wildcard include/config/inline/write/unlock/irq.h) \
+    $(wildcard include/config/inline/read/unlock/irqrestore.h) \
+    $(wildcard include/config/inline/write/unlock/irqrestore.h) \
+  include/linux/atomic.h \
+    $(wildcard include/config/generic/atomic64.h) \
+  arch/arm/include/asm/atomic.h \
+  arch/arm/include/asm/cmpxchg.h \
+    $(wildcard include/config/cpu/sa110.h) \
+    $(wildcard include/config/cpu/v6.h) \
+  include/asm-generic/cmpxchg-local.h \
+  include/asm-generic/atomic-long.h \
   include/linux/math64.h \
     $(wildcard include/config/arch/supports/int128.h) \
   include/linux/time64.h \
@@ -279,14 +301,6 @@ deps_/home/tsp/tlinux/mylinux/Tools/1-Driver/1_basics/6/char_gpio.mod.o := \
   arch/arm/include/generated/asm/current.h \
   include/asm-generic/current.h \
   include/uapi/linux/wait.h \
-  include/linux/atomic.h \
-    $(wildcard include/config/generic/atomic64.h) \
-  arch/arm/include/asm/atomic.h \
-  arch/arm/include/asm/cmpxchg.h \
-    $(wildcard include/config/cpu/sa110.h) \
-    $(wildcard include/config/cpu/v6.h) \
-  include/asm-generic/cmpxchg-local.h \
-  include/asm-generic/atomic-long.h \
   include/linux/threads.h \
     $(wildcard include/config/nr/cpus.h) \
     $(wildcard include/config/base/small.h) \
@@ -315,13 +329,14 @@ deps_/home/tsp/tlinux/mylinux/Tools/1-Driver/1_basics/6/char_gpio.mod.o := \
   include/uapi/asm-generic/errno.h \
   include/uapi/asm-generic/errno-base.h \
   include/linux/mutex.h \
+    $(wildcard include/config/debug/mutexes.h) \
     $(wildcard include/config/mutex/spin/on/owner.h) \
   include/linux/osq_lock.h \
-  include/linux/mutex_rt.h \
   include/linux/rwsem.h \
     $(wildcard include/config/rwsem/spin/on/owner.h) \
     $(wildcard include/config/rwsem/generic/spinlock.h) \
-  include/linux/rwsem_rt.h \
+  arch/arm/include/generated/asm/rwsem.h \
+  include/asm-generic/rwsem.h \
   include/linux/srcu.h \
   include/linux/rcupdate.h \
     $(wildcard include/config/tiny/rcu.h) \
@@ -368,6 +383,7 @@ deps_/home/tsp/tlinux/mylinux/Tools/1-Driver/1_basics/6/char_gpio.mod.o := \
     $(wildcard include/config/no/hz/common.h) \
   include/linux/sysctl.h \
     $(wildcard include/config/sysctl.h) \
+  include/linux/rbtree.h \
   include/uapi/linux/sysctl.h \
   include/linux/topology.h \
     $(wildcard include/config/use/percpu/numa/node/id.h) \
@@ -384,6 +400,7 @@ deps_/home/tsp/tlinux/mylinux/Tools/1-Driver/1_basics/6/char_gpio.mod.o := \
   arch/arm/include/asm/percpu.h \
   include/asm-generic/percpu.h \
   include/linux/percpu-defs.h \
+    $(wildcard include/config/page/table/isolation.h) \
     $(wildcard include/config/debug/force/weak/per/cpu.h) \
   arch/arm/include/asm/topology.h \
     $(wildcard include/config/arm/cpu/topology.h) \
@@ -424,6 +441,6 @@ deps_/home/tsp/tlinux/mylinux/Tools/1-Driver/1_basics/6/char_gpio.mod.o := \
   include/linux/vermagic.h \
   include/generated/utsrelease.h \
 
-/home/tsp/tlinux/mylinux/Tools/1-Driver/1_basics/6/char_gpio.mod.o: $(deps_/home/tsp/tlinux/mylinux/Tools/1-Driver/1_basics/6/char_gpio.mod.o)
+/home/preetham/plinux/5-Driver/a_basics/6/char_gpio.mod.o: $(deps_/home/preetham/plinux/5-Driver/a_basics/6/char_gpio.mod.o)
 
-$(deps_/home/tsp/tlinux/mylinux/Tools/1-Driver/1_basics/6/char_gpio.mod.o):
+$(deps_/home/preetham/plinux/5-Driver/a_basics/6/char_gpio.mod.o):

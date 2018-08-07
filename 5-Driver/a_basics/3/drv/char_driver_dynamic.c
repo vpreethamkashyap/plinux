@@ -8,12 +8,15 @@
 #include <asm/current.h>
 #include <linux/slab.h>
 
-#define CHAR_DEV_NAME 					"char_driver_dynamic"
+#define CHAR_DEV_NAME 					"char_driver_dynamic_new"
 #define MAX_LENGTH 						4000
 #define SUCCESS 						0
+#define FIRST_MINOR 0
+#define MINOR_CNT 1
 
 static char *char_device_buf;
 struct cdev *c_cdev;
+static struct class *cl;
 dev_t mydev;
 
 /*********************************************************************************
@@ -49,7 +52,7 @@ static ssize_t char_dev_write(struct file *file,const char *buf,size_t lbuf,loff
 	printk(KERN_INFO "Rec'vd from App data");
 	
 	/** to, from ,how many bytes  **/
-	nbytes = lbuf - copy_from_user( char_device_buf + *ppos, buf, lbuf ); 
+	nbytes = lbuf - raw_copy_from_user( char_device_buf + *ppos, buf, lbuf ); 
 	*ppos += nbytes;
 	printk(KERN_INFO "%s of length %d \n",char_device_buf, nbytes);
 	return nbytes;
@@ -64,7 +67,8 @@ static ssize_t char_dev_write(struct file *file,const char *buf,size_t lbuf,loff
  ********************************************************************************/
 static ssize_t char_dev_read(struct file *file, char *buf, size_t lbuf, loff_t *ppos)
 {
-	int nbytes = lbuf - copy_to_user (buf, char_device_buf, lbuf);
+	printk(KERN_INFO "lbuf %d \n ",lbuf);
+	int nbytes = lbuf - raw_copy_to_user (buf, char_device_buf, lbuf);
 	*ppos += nbytes;
 	printk (KERN_INFO "\n sent data to app %s , nbytes=%d\n",buf,nbytes);
 	return nbytes;
@@ -96,6 +100,8 @@ static __init int my_module_init(void)
 {
 	int ret,count=1;
 
+	struct device *dev_ret;
+
 	if (alloc_chrdev_region (&mydev, 0, count, CHAR_DEV_NAME) < 0) 
 	{
 		printk (KERN_ERR "failed to reserve major/minor range\n");
@@ -119,6 +125,20 @@ static __init int my_module_init(void)
 		return -1;
 	}
 	
+	if (IS_ERR(cl = class_create(THIS_MODULE, "char")))
+	{
+		cdev_del(c_cdev);
+		unregister_chrdev_region(mydev, MINOR_CNT);
+		return PTR_ERR(cl);
+	}
+	if (IS_ERR(dev_ret = device_create(cl, NULL, mydev, NULL, "tchar%d", FIRST_MINOR)))
+	{
+		class_destroy(cl);
+		cdev_del(c_cdev);
+		unregister_chrdev_region(mydev, MINOR_CNT);
+		return PTR_ERR(dev_ret);
+	}
+
 	printk(KERN_INFO"\n Device Registered: %s\n",CHAR_DEV_NAME);
 	printk (KERN_INFO " char_drv_dynamic Major number = %d, Minor number = %d\n", MAJOR (mydev),MINOR (mydev));
 	char_device_buf =(char *)kmalloc(MAX_LENGTH,GFP_KERNEL);

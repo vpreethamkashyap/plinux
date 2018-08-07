@@ -4,7 +4,7 @@ ifeq ($(FOO),ARM)
 ifeq ($(KERNELRELEASE),)
 $(info ************  Make file ARM step 2 ************)
 $(info ***********************************************)
-	KERNEL_SOURCE := /home/tsp/tlinux/Boards/board-BBB/BBB-workpro/linux
+	KERNEL_SOURCE := /home/preetham/beagleboneblack/linux
 	PWD := $(shell pwd)
 default:
 	$(MAKE) -C $(KERNEL_SOURCE) SUBDIRS=$(PWD) modules ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf-

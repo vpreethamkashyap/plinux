@@ -42,7 +42,7 @@ static int char_dev_release(struct inode *i, struct file *f)
  ********************************************************************************/
 static ssize_t char_dev_read(struct file *f, char __user *buf, size_t len, loff_t *off)
 {
-	if(gpio_get_value(54))
+	if(gpio_get_value(53))
 	{
 		character_value = '1';
 	}
@@ -79,13 +79,15 @@ static ssize_t char_dev_write(struct file *f, const char __user *buf, size_t len
 
 	if(character_value == '0')
 	{
-		gpio_set_value(54,0);
+		gpio_set_value(53,0);
 	}
 	else
 	{
-		gpio_set_value(54,1);
+		gpio_set_value(53,1);
 	}
 	return len;
+
+	//53-32 = 21
 }
 
 /*********************************************************************************
